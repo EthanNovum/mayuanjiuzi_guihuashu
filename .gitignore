@@ -6,5 +6,9 @@ dist/
 wheels/
 *.egg-info
 
+pdfs/
+
+
 # Virtual environments
 .venv
+.claude
