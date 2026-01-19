@@ -1,4 +1,5 @@
 import argparse
+import json
 import os
 import re
 from typing import Dict, List
@@ -34,6 +35,45 @@ def iter_md_files(input_dir: str) -> List[str]:
     return files
 
 
+def iter_json_files(input_dir: str) -> List[str]:
+    if not os.path.isdir(input_dir):
+        raise FileNotFoundError(f"input directory not found: {input_dir}")
+    files = []
+    for filename in sorted(os.listdir(input_dir)):
+        if not filename.lower().endswith(".json"):
+            continue
+        path = os.path.join(input_dir, filename)
+        if os.path.isfile(path):
+            files.append(path)
+    if not files:
+        raise ValueError(f"no json files found in {input_dir}")
+    return files
+
+
+def extract_markdown(payload: dict, source: str) -> str:
+    result = payload.get("result")
+    if isinstance(result, dict):
+        markdown = result.get("markdown")
+        if isinstance(markdown, str) and markdown.strip():
+            return markdown
+    raise ValueError(f"no markdown content found in {source}")
+
+
+def export_markdown_dir(input_dir: str, output_dir: str) -> Dict[str, List[str]]:
+    os.makedirs(output_dir, exist_ok=True)
+    processed: List[str] = []
+    for path in iter_json_files(input_dir):
+        with open(path, "r", encoding="utf-8") as f:
+            payload = json.load(f)
+        markdown = extract_markdown(payload, path)
+        output_name = f"{os.path.splitext(os.path.basename(path))[0]}.md"
+        output_path = os.path.join(output_dir, output_name)
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(markdown)
+        processed.append(output_path)
+    return {"processed": processed}
+
+
 def clean_markdown_dir(input_dir: str, output_dir: str) -> Dict[str, List[str]]:
     os.makedirs(output_dir, exist_ok=True)
     processed: List[str] = []
@@ -63,7 +103,33 @@ def main() -> None:
         default=None,
         help="Output directory for cleaned files (default: in-place)",
     )
+    parser.add_argument(
+        "--export-json",
+        action="store_true",
+        help="Export markdown files from JSON results before cleaning",
+    )
+    parser.add_argument(
+        "--export-only",
+        action="store_true",
+        help="Only export markdown from JSON and skip cleaning",
+    )
+    parser.add_argument(
+        "--json-dir",
+        default=os.path.join("pdf_result", "json"),
+        help="Directory containing JSON files (default: pdf_result/json)",
+    )
+    parser.add_argument(
+        "--md-output-dir",
+        default=os.path.join("pdf_result", "md"),
+        help="Directory to write exported markdown files (default: pdf_result/md)",
+    )
     args = parser.parse_args()
+
+    if args.export_json:
+        export_result = export_markdown_dir(args.json_dir, args.md_output_dir)
+        print(export_result)
+        if args.export_only:
+            return
 
     output_dir = args.output_dir or args.input_dir
     result = clean_markdown_dir(args.input_dir, output_dir)
