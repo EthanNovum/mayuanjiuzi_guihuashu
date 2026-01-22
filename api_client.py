@@ -445,6 +445,8 @@ def process_single_file(
     prompt: str,
     filename: str,
     content: str,
+    prompt_name: str = "",
+    prompt_path: str = "",
 ) -> dict:
     """Process a single file with a single client."""
     try:
@@ -456,6 +458,8 @@ def process_single_file(
             result["filename"] = filename
             result["provider"] = client.provider
             result["model"] = client.model
+            result["prompt_name"] = prompt_name
+            result["prompt_path"] = prompt_path
             if not result.get("student_name"):
                 result["student_name"] = derive_student_name(filename)
             result["thinking"] = thought_text or ""
@@ -466,6 +470,8 @@ def process_single_file(
                 "filename": filename,
                 "provider": client.provider,
                 "model": client.model,
+                "prompt_name": prompt_name,
+                "prompt_path": prompt_path,
                 "student_name": derive_student_name(filename),
                 "thinking": thought_text or "",
             }
@@ -474,6 +480,8 @@ def process_single_file(
             "filename": filename,
             "provider": client.provider,
             "model": client.model,
+            "prompt_name": prompt_name,
+            "prompt_path": prompt_path,
             "student_name": derive_student_name(filename),
             "error": str(e),
         }
@@ -484,15 +492,17 @@ def process_file_with_clients(
     prompt: str,
     filename: str,
     content: str,
+    prompt_name: str = "",
+    prompt_path: str = "",
 ) -> list[dict]:
     """Process a single file with multiple clients in parallel."""
     if len(clients) == 1:
-        return [process_single_file(clients[0], prompt, filename, content)]
+        return [process_single_file(clients[0], prompt, filename, content, prompt_name, prompt_path)]
 
     results = []
     with ThreadPoolExecutor(max_workers=len(clients)) as executor:
         futures = {
-            executor.submit(process_single_file, client, prompt, filename, content): client
+            executor.submit(process_single_file, client, prompt, filename, content, prompt_name, prompt_path): client
             for client in clients
         }
         for future in as_completed(futures):
@@ -525,7 +535,7 @@ def main() -> None:
     parser.add_argument(
         "--prompt",
         default="prompts/prompt_mayuan_0108.txt",
-        help="Path to prompt file",
+        help="Path to prompt file(s). Supports multiple prompts separated by comma (e.g., prompts/p1.txt,prompts/p2.txt)",
     )
     parser.add_argument(
         "--env",
@@ -562,24 +572,42 @@ def main() -> None:
     print(f"Providers: {', '.join(c.provider for c in clients)}")
     print(f"Models: {', '.join(f'{c.provider}:{c.model}' for c in clients)}")
 
-    prompt_path = load_prompt_path(env_values, args.prompt)
-    base_prompt = load_prompt(prompt_path)
-    preview = base_prompt.strip().replace("\n", " ")
-    preview = preview[:200] + ("..." if len(preview) > 200 else "")
-    print(f"Prompt preview ({prompt_path}): {preview}")
+    # Support multiple prompts separated by comma
+    prompt_arg = load_prompt_path(env_values, args.prompt)
+    prompt_paths = [p.strip() for p in prompt_arg.split(",") if p.strip()]
+
+    if not prompt_paths:
+        raise ValueError("No prompt files specified")
+
+    # Load all prompts
+    prompts: list[tuple[str, str]] = []  # (path, content)
+    for prompt_path in prompt_paths:
+        prompt_content = load_prompt(prompt_path)
+        prompts.append((prompt_path, prompt_content))
+        preview = prompt_content.strip().replace("\n", " ")
+        preview = preview[:200] + ("..." if len(preview) > 200 else "")
+        print(f"Prompt loaded ({prompt_path}): {preview}")
 
     md_items = load_markdown_files(args.mds)
     results: list[dict] = []
 
-    for i, (filename, content) in enumerate(md_items, 1):
-        print(f"[{i}/{len(md_items)}] Processing {filename}...")
-        file_results = process_file_with_clients(clients, base_prompt, filename, content)
-        for r in file_results:
-            if "error" in r:
-                print(f"  -> {r['provider']}: Error - {r['error']}")
-            else:
-                print(f"  -> {r['provider']}: OK")
-            results.append(r)
+    total_tasks = len(md_items) * len(prompts)
+    task_num = 0
+
+    for prompt_path, base_prompt in prompts:
+        prompt_name = os.path.splitext(os.path.basename(prompt_path))[0]
+        print(f"\n=== Using prompt: {prompt_name} ===")
+
+        for i, (filename, content) in enumerate(md_items, 1):
+            task_num += 1
+            print(f"[{task_num}/{total_tasks}] Processing {filename} with {prompt_name}...")
+            file_results = process_file_with_clients(clients, base_prompt, filename, content, prompt_name, prompt_path)
+            for r in file_results:
+                if "error" in r:
+                    print(f"  -> {r['provider']}: Error - {r['error']}")
+                else:
+                    print(f"  -> {r['provider']}: OK")
+                results.append(r)
 
     output_path = save_results(results, args.output_dir)
     print(f"\nResults saved to: {output_path}")

@@ -8,15 +8,35 @@ from typing import Dict, List
 _MD_IMAGE_INLINE_RE = re.compile(r"!\[[^\]]*]\([^)]+\)")
 _MD_IMAGE_REF_RE = re.compile(r"!\[[^\]]*]\[[^\]]+\]")
 _HTML_IMG_RE = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
-_HTML_TAG_RE = re.compile(r"</?[^>]+>")
+# Match HTML comments and extract content: <!-- text -->
+_HTML_COMMENT_RE = re.compile(r"<!--\s*(.*?)\s*-->", re.DOTALL)
+# Match other HTML tags (not comments)
+_HTML_TAG_RE = re.compile(r"<(?!!--)/?[^>]+>")
+
+
+def _extract_alt_text(match: re.Match) -> str:
+    """Extract alt text from markdown image syntax ![alt](url)"""
+    full_match = match.group(0)
+    alt_match = re.search(r"!\[([^\]]*)\]", full_match)
+    if alt_match:
+        return alt_match.group(1)
+    return ""
+
+
+def _extract_comment_text(match: re.Match) -> str:
+    """Extract text content from HTML comment <!-- text -->"""
+    return match.group(1)
 
 
 def clean_markdown_text(text: str) -> str:
-    text = _MD_IMAGE_INLINE_RE.sub("", text)
-    text = _MD_IMAGE_REF_RE.sub("", text)
+    # Extract text from HTML comments (e.g., <!-- 心理学 --> becomes 心理学)
+    text = _HTML_COMMENT_RE.sub(_extract_comment_text, text)
+    text = _MD_IMAGE_INLINE_RE.sub(_extract_alt_text, text)
+    text = _MD_IMAGE_REF_RE.sub(_extract_alt_text, text)
     text = _HTML_IMG_RE.sub("", text)
     text = _HTML_TAG_RE.sub("", text)
-    text = re.sub(r"[\s]+", "",text)
+    # Normalize whitespace: collapse multiple spaces/newlines into single space, then strip
+    text = re.sub(r"\s+", " ", text).strip()
     return text
 
 

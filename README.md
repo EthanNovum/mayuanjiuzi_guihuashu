@@ -8,9 +8,8 @@ mayuanjiuzi_guihuashu
 - `trim_pdf.py`：批量裁剪 PDF，删除首页和末两页，保留中间内容。
 - `ocr_pdf.py`：调用 TextIn OCR 将 PDF 转 JSON，并生成 Markdown（支持直接把已有 JSON 转成 Markdown）。
 - `clean_md.py`：清理 Markdown 中的图片和 HTML 标签，并去掉多余空白。
-- `gemini_client.py`：读取提示词和 Markdown 内容，调用 Gemini 生成 JSON 评分结果，写入 `result.jsonl`。
-- `export_result.py`：把 `result.jsonl` 导出为 `result.csv`。
-- `main.py`：示例入口，目前只打印提示信息。
+- `api_client.py`：多 LLM 提供商客户端，支持 Gemini、OpenAI、Claude、DeepSeek、Qwen、Doubao、Kimi。支持多个 prompt 文件批量评分。
+- `export_result.py`：把评分结果 JSON 导出为 `result.csv`。
 - `test.py`：调试用的长字符串样例，便于本地快速验证文本处理。
 
 目录说明
@@ -19,8 +18,8 @@ mayuanjiuzi_guihuashu
 - `pdf_result/json/`：OCR 输出的 JSON 文件。
 - `pdf_result/md/`：OCR 输出的 Markdown 文件。
 - `mds/`：用于评分的 Markdown 文件目录（可手动整理或由 OCR 输出拷贝）。
-- `prompts/`：评分提示词，默认使用 `prompts/prompt_v2.txt`。
-- `result.jsonl`：Gemini 评分输出（逐行 JSON）。
+- `prompts/`：评分提示词目录。
+- `results/`：评分结果 JSON 输出目录。
 - `result.csv`：评分结果 CSV 汇总。
 
 依赖与配置
@@ -30,7 +29,12 @@ mayuanjiuzi_guihuashu
 - 需要配置以下环境变量（建议放在 `.env`）：
   - `TEXTIN_APP_ID` / `TEXTIN_SECRET_CODE`：TextIn OCR 账号
   - `GEMINI_API_KEY`：Gemini API Key
-  - `MODEL`：可选，Gemini 模型名称（默认 `gemini-2.5-flash`）
+  - `OPENAI_API_KEY`：OpenAI API Key（可选）
+  - `CLAUDE_API_KEY`：Claude API Key（可选）
+  - `DEEPSEEK_API_KEY`：DeepSeek API Key（可选）
+  - `QWEN_API_KEY`：Qwen API Key（可选）
+  - `DOUBAO_API_KEY`：Doubao API Key（可选）
+  - `KIMI_API_KEY`：Kimi API Key（可选）
 
 使用流程（建议顺序）
 -------------------
@@ -52,14 +56,24 @@ mayuanjiuzi_guihuashu
    ```
    生成更干净的 Markdown 放到 `mds/`。
 
-4. 调用 Gemini 评分
+4. 调用 LLM 评分
    ```bash
-   python gemini_client.py --env .env --mds mds --prompt prompts/prompt_v2.txt --output result.jsonl
+   # 单个 prompt
+   python api_client.py --env .env --mds mds --prompt prompts/prompt_v2.txt
+
+   # 多个 prompt（用逗号分隔）
+   python api_client.py --env .env --mds mds --prompt prompts/prompt_v1.txt,prompts/prompt_v2.txt,prompts/prompt_v3.txt
+
+   python api_client.py --providers gemini --mds mds --prompt prompts/prompt_mayuan_7_1a.txt,prompts/prompt_mayuan_7_1b.txt,prompts/prompt_mayuan_7_2a.txt,prompts/prompt_mayuan_7_2b.txt
+
+   # 指定多个 provider
+   python api_client.py --env .env --mds mds --prompt prompts/prompt_v2.txt --providers gemini,deepseek
    ```
+   结果输出到 `results/` 目录。
 
 5. 导出 CSV
    ```bash
-   python export_result.py --input result.jsonl --output result.csv
+   python export_result.py --input results/result_xxx.json --output result.csv
    ```
 
 脚本说明（细节）
@@ -74,12 +88,14 @@ mayuanjiuzi_guihuashu
 - `clean_md.py`：
   - 去除 Markdown 图片、引用图片和 HTML 标签。
   - 去除所有空白字符，适合做纯文本评分输入。
-- `gemini_client.py`：
-  - 遍历 `mds/` 下所有 `.md` 文件。
-  - 拼接提示词 + 规划书内容，并调用 Gemini。
-  - 支持从返回文本中提取 JSON，并补充 `filename`、`student_name` 字段。
+- `api_client.py`：
+  - 支持多个 LLM 提供商：gemini, openai, claude, deepseek, qwen, doubao, kimi。
+  - 支持多个 prompt 文件，用逗号分隔。
+  - 遍历 `mds/` 下所有 `.md` 文件，对每个文件使用每个 prompt 进行评分。
+  - 结果包含 `prompt_name`、`prompt_path` 字段，便于区分不同 prompt 的评分结果。
+  - 支持从返回文本中提取 JSON，并补充 `filename`、`student_name`、`provider`、`model` 字段。
 - `export_result.py`：
-  - 解析 JSONL，自动合并列表字段为多行文本。
+  - 解析 JSON，自动合并列表字段为多行文本。
   - 默认字段：`filename`、`student_name`、`score`、`strengths`、`gaps`、`suggestions`。
 
 备注
