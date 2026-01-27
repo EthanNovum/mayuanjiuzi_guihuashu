@@ -6,7 +6,10 @@ from typing import Any
 
 
 def init_session_state():
-    """初始化 Session State"""
+    """初始化 Session State，并从持久化存储加载数据"""
+    # 延迟导入避免循环依赖
+    from services.storage_service import load_processed_markdowns, load_scoring_results, load_history
+
     defaults = {
         # API 配置
         "api_config": {
@@ -43,12 +46,35 @@ def init_session_state():
             "dpi": 144,
             "parse_mode": "auto",
             "default_providers": ["gemini"],
-        }
+        },
+
+        # 标记是否已从存储加载
+        "_storage_loaded": False,
     }
 
     for key, value in defaults.items():
         if key not in st.session_state:
             st.session_state[key] = value
+
+    # 从持久化存储加载数据（仅首次）
+    if not st.session_state.get("_storage_loaded"):
+        try:
+            stored_markdowns = load_processed_markdowns()
+            if stored_markdowns:
+                st.session_state.processed_markdowns = stored_markdowns
+
+            stored_results = load_scoring_results()
+            if stored_results:
+                st.session_state.scoring_results = stored_results
+
+            stored_history = load_history()
+            if stored_history:
+                st.session_state.history = stored_history
+
+            st.session_state._storage_loaded = True
+        except Exception:
+            # 如果加载失败，使用默认空值
+            st.session_state._storage_loaded = True
 
 
 def get_state(key: str, default: Any = None) -> Any:

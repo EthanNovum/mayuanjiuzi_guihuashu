@@ -19,6 +19,7 @@ from services.scoring_service import (
     load_prompt_file,
     score_batch
 )
+from services.storage_service import save_scoring_results, add_history_entry
 
 st.set_page_config(
     page_title="智能评分 - 规划书评分系统",
@@ -220,9 +221,19 @@ with tab1:
 
             progress.complete("评分完成！")
 
-            # 保存结果
+            # 保存结果到 session
             existing_results = st.session_state.get("scoring_results", [])
             st.session_state.scoring_results = existing_results + results
+
+            # 持久化保存到文件
+            save_scoring_results(results, append=True)
+            add_history_entry("scoring", {
+                "total": len(results),
+                "success": len([r for r in results if not r.get("error")]),
+                "providers": selected_providers,
+                "prompt_name": prompt_name,
+                "files": [f.get("filename") for f in files_to_score]
+            })
 
             # 显示结果
             st.divider()

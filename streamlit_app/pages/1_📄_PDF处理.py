@@ -14,6 +14,7 @@ from components.file_uploader import file_uploader_with_validation, display_file
 from components.progress_tracker import ProgressTracker
 from services.pdf_service import process_pdf_file
 from services.text_service import clean_markdown_text
+from services.storage_service import save_processed_markdowns, add_history_entry
 
 # 页面配置
 st.set_page_config(
@@ -159,6 +160,14 @@ if uploaded_files:
 
         # 保存结果到 session
         st.session_state.processed_markdowns = results
+
+        # 持久化保存到文件
+        save_processed_markdowns(results)
+        add_history_entry("pdf_processing", {
+            "total": len(results),
+            "success": len([r for r in results if r.get("status") == "success"]),
+            "files": [r.get("filename") for r in results]
+        })
 
         # 显示结果摘要
         st.divider()
