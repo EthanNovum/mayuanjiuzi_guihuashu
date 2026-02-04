@@ -1,0 +1,61 @@
+[
+  {
+    "profile": "一位将古典学（Classics）与现代视觉艺术（Anime/Digital Art）深度融合的跨学科探索者。申请形象定位为“古典文明的现代重构者”，通过二次元艺术、版画和创意写作（同人小说）赋予Ovid、Cicero等古典文本以新的生命力，同时具备强烈的社会人文关怀，利用艺术特长为边缘群体（阿富汗女孩）赋能。",
+    "level": "前10名",
+    "suggestions": [
+      "基础信息缺失严重：申请方向（Major）和申请地区完全空白，这是规划书的大忌，必须明确填写入‘Classics’、‘Comparative Literature’或‘Visual Arts’等方向。",
+      "活动描述过于草率，缺乏执行细节：例如‘写书’活动中提到‘theme自己定’、‘有一种同人小说的感觉’，这属于头脑风暴而非成熟规划。需要明确书籍的主题大纲、篇幅、目标受众以及具体的出版或发表渠道（不仅仅是Amazon，是否考虑投稿给文学杂志或举办作品展）。",
+      "标化成绩有效性预警：TOEFL成绩显示为2021年6月，对于2026年入学的申请者来说已经过期，虽然SAT 1560和美高背景可能申请豁免，但必须确认是否需要重考，以免因疏忽影响申请。",
+      "挖掘AESOP志愿活动的深度：‘教阿富汗女孩画画’是一个极具亮点的活动，目前描述仅为‘Most of it will just be drawing’，严重低估了其价值。建议升级为：开发一套专门针对战乱地区儿童的艺术疗愈课程，或者策划一场‘阿富汗女孩眼中的世界’线上/线下画展，并进行慈善义卖，将单纯的支教转化为具有国际影响力的社会活动。",
+      "学术研究需进一步拔高：TCR投稿获得B+说明学术写作还有提升空间。针对Top 10的申请目标，建议寻找更高阶的导师进行打磨，争取在The Concord Review或其他高含金量人文社科期刊上发表，或者将研究成果转化为更直观的视觉散文（Visual Essay）发表。",
+      "古典学与二次元结合的深化：‘Classics figures二次创作’是一个非常新颖的切入点，但不能止步于‘画画’。建议结合Digital Humanities（数字人文）的概念，比如制作一个交互式网页，用现代视觉语言解构古典神话的谱系，这样能更好地体现‘Reinvent’的概念。"
+    ],
+    "clearness_and_consistency_evaluation": "申请方向和地区未填写，属于重大失误。虽然从活动列表中可以清晰推导出‘古典学+艺术’的主线，且活动与该隐含方向的一致性较高，但核心信息的缺失导致无法给予高分。",
+    "clearness_and_consistency_score": 70,
+    "detail_and_executability_evaluation": "方案的详细度和可执行性较差。大量活动描述停留在‘可以考虑’、‘有一种感觉’的构思阶段，缺乏具体的实施步骤、时间节点和明确的产出标准。例如‘写一本书’完全没有具体的执行计划，难以落地。",
+    "detail_and_executability_score": 50,
+    "depth_and_intensity_evaluation": "学生本身的硬件条件（SAT 1560，Concord Academy背景）非常优秀，但规划方案目前的深度未能充分匹配这一层级。现有的研究项目（Eureka, TCR）是很好的基础，但规划中缺乏进一步挑战高难度学术产出的安排。AESOP项目潜力巨大但目前规划深度不足。",
+    "depth_and_intensity_score": 70,
+    "noviceness__evaluation": "新颖度极高。将严肃传统的‘古典学’与流行文化的‘二次元/动漫风格’结合，本身就具有很强的反差感和记忆点。同时，关注阿富汗女孩的艺术教育这一活动在全球视野和人文关怀上都非常独特，极具区分度。",
+    "noviceness_score": 90,
+    "fitness_evaluation": "方案整体气质非常符合Concord Academy这类顶尖文理兼修美高的学生特点。SAT 1560的分数也支撑了冲击藤校的野心。虽然方案细节粗糙，但方向选择与学生背景（艺术特长+古典学兴趣）高度契合。",
+    "fitness_score": 80,
+    "final_score": 70,
+    "filename": "70分_planbook__邵翌能.md",
+    "provider": "gemini",
+    "model": "gemini-3-pro-preview",
+    "prompt_name": "prompt_mayuan_7_1b",
+    "prompt_path": "prompts/prompt_mayuan_7_1b.txt",
+    "student_name": "邵翌能",
+    "thinking": "**My Evaluation of the Student's Planning Book**\n\nAlright, let's dive into this \"Planning Book\" from a student at Concord Academy. My initial impression? It's a bit rough around the edges, but the potential is definitely there.\n\nFirst, I need to get my head around what I'm looking for. I'm evaluating this based on Clearness, Detail, Depth, Noviceness, Fitness, and Liberal Values. Got it. Now, the student isn't named in the text itself, so I'll just refer to them as \"the student\".\n\nImmediately, the \"Application Direction\" is *literally* blank. Red flag! However, when I look closer at the activities, it seems their direction is pretty clear: Classics with a Visual Arts or Creative Writing bent. A really unique combination too – this student is clearly trying to find a fresh take on their interests.\n\nNext up, Detail and Executability. This is where things get a little hazy. The descriptions feel more like brainstorming notes than a concrete plan. \"Can consider printmaking...\" and \"Maybe Ovid...\" are vague. There's not enough concrete planning here for execution, which is concerning.\n\nDepth and Intensity – the student has serious potential, and it's backed up with a 1560 SAT and Concord Academy standing. The classics research is solid, and teaching Latin is a great activity. Their Scholastic Gold Key is pretty good, but for this level I would expect more. I see the foundation is good, but the plan needs a spark.\n\nNoviceness? I'm intrigued. Classics mixed with Anime and Digital Art? Teaching Afghan girls how to draw through an NGO? That's genuinely innovative, and really tells a story. That gives a big boost to their score.\n\nThe plan *fits* the student perfectly. They are at CA, a top school, and they have an obvious interest in the Humanities. However, for a Top 10 school, this plan feels a little loose; this student needs a little more prestige.\n\nLiberal Values get a high score. They're working with Afghan girls, showing social responsibility and an understanding of global issues.\n\nOkay, let's crunch the numbers. The weighted scores give us a total of ~72, which I'll round to **70**.\n\nSo, what's my overall take? This student presents as a cross-disciplinary scholar-artist, merging Classical Studies with Visual Arts. They're a \"Modern Interpreter of Antiquity,\" which is a good persona.\n\nHere's the feedback:\n*   Fix the basics immediately. Fill in those blank sections.\n*   \"Classics figures re-creation\" needs a concrete project plan. Aim for some more prestige, like publishing a journal or curated exhibition.\n*   The research needs a step up. Aim for a journal or more advanced work.\n*   The volunteer work is the anchor. Make a curriculum, and document everything.\n*   Important: The TOEFL from 2021 is a serious concern. It's likely expired, so they need to check and retake it.\n\nMy final thought? This student has a lot going for them, but this planning document needs a major polish and a clear execution plan. With some focused effort, they can turn their interests into a compelling application."
+  },
+  {
+    "profile": "主线为生物学/医学预科方向，辅以圆号艺术特长和网球运动特长。试图通过‘轮椅网球公益’和‘圆号辅助装置改造’将个人兴趣与社会关怀（残障群体关注）及工程思维相结合，打造具备人文关怀的理工科申请形象。",
+    "level": "20-30名",
+    "suggestions": [
+      "科研课题急需升级：待办事项中提到的‘洗衣除菌实验’对于平和双语11年级、目标生物/医学方向的学生来说，学术深度严重不足，像初中生水平。建议结合‘神经科学社’的背景，转向认知神经科学、生物信息学或更微观的分子生物学课题，以匹配Top 30的申请难度。",
+      "乐器改造项目需落地细节：‘圆号乐器改造’是一个非常新颖且能体现跨学科能力（生物力学+工程）的好点子，但目前描述仅停留在‘咨询师傅’层面。建议细化为‘基于Arduino的气流传感器辅助装置’或‘针对肺活量不足人群的3D打印吹嘴改良’，并制定明确的原型机制作时间表。",
+      "公益活动需增强执行力：‘轮椅网球’是非常好的切入点，符合Liberal Values，但目前仅有‘尝试联系’的描述。建议尽快确定合作的残障人士协会或NGO，策划具体的‘融合运动会’或‘募捐赛’，并确保有影像资料留存，否则容易流于形式。",
+      "完善规划书细节：方案中存在大量空白（如元培计划的具体内容、古典音乐社的规划理由、已完成活动的描述等），导致无法判断过往经历的含金量。必须补充这些细节，特别是元培计划作为已完成的科研，需要详细描述产出。",
+      "竞赛备考需具体化：虽然列出了USABO、BBO、UKChO等高含金量竞赛，但缺乏具体的备考路径（如刷题计划、培训课程）。鉴于学生目前托福105、SAT 1440的基础，需要平衡标化刷分与竞赛备考的时间，建议在甘特图中明确标出竞赛集训周。"
+    ],
+    "clearness_and_consistency_evaluation": "申请方向明确为生物/医学，活动安排大体围绕此方向。但申请形象的描述缺失（仅有标题），且‘洗衣实验’与高端生物申请形象不符，逻辑上存在脱节。",
+    "clearness_and_consistency_score": 70,
+    "detail_and_executability_evaluation": "方案中存在大量空白项（如活动描述、规划理由），严重影响可执行性的判断。‘乐器改造’和‘轮椅网球’的想法很好，但缺乏具体的执行步骤、合作方和时间节点，落地难度大。",
+    "detail_and_executability_score": 60,
+    "depth_and_intensity_evaluation": "竞赛选择（USABO, UKChO）具有一定强度，但科研部分（洗衣实验）深度过低，无法支撑Top 30生物专业的申请要求。圆号5级在特长中属于入门级，需依靠‘改造项目’来提升深度，但目前该项目深度未知。",
+    "depth_and_intensity_score": 60,
+    "noviceness__evaluation": "‘圆号辅助装置改造’和‘轮椅网球赛事’在生物/医学申请者中属于非常有新意的活动，能够很好地将个人特长与社会责任结合，避免了同质化。这是本方案最大的亮点。",
+    "noviceness_score": 80,
+    "fitness_evaluation": "学生来自平和双语，标化成绩尚可，但规划方案中的科研深度（洗衣实验）远低于学生应有的水平和学校资源所能提供的平台，未能充分挖掘学生潜力。",
+    "fitness_score": 70,
+    "final_score": 70,
+    "filename": "70分_planbook__顾笑冉.md",
+    "provider": "gemini",
+    "model": "gemini-3-pro-preview",
+    "prompt_name": "prompt_mayuan_7_1b",
+    "prompt_path": "prompts/prompt_mayuan_7_1b.txt",
+    "student_name": "顾笑冉",
+    "thinking": "**My Assessment of 小冉's Planning Book**\n\nAlright, let's break this down. As a senior expert, I'm analyzing this planning document with a keen eye. The request is straightforward: evaluate this \"Planning Book\" for a student named 小冉, focusing on specific criteria and outputting a JSON report. My initial thought is the student's background is important, currently in Grade 10 or 11, likely aiming for Biology/Pre-med in the US or UK, based on the timeline and future plans.\n\nI'm starting by analyzing the scoring dimensions. I need to give this plan a score based on Clearness, Detail, Depth, Novelty, Fitness, and Liberal Values. I'll need to weigh each dimension accordingly, keeping the 25%, 25%, 15%, 15%, 10%, and 10% weights. So first, the student's profile: 小冉. I need to infer from the text what I can, so, Shanghai Pinghe Bilingual School and/or Shanghai Xuhui High School are mentioned. Looks like the target is the US and UK. The academic scores are solid, but could be higher.\n\nThen, there's the student's current activities: Neuroscience Club, Sudoku Club, Tennis Club, and Classical Music (French Horn), including a Coursera course, Yuanpei Project, and school band experience. Some plans are listed, such as wheelchair tennis and instrument modification. Also there are mentions of competitions: CCC/CCO (Chemistry), UKChO (Chemistry), USABO (Biology) and BBO (Biology).\n\nThe \"Clearness and Consistency\" are good, the goals are clear, but the \"Application Image Description\" is empty; I think this really hurts the score. The connection between certain activities, like \"Laundry sterilization\" and neuroscience needs further exploration. The \"Horn modification\" sounds interesting, but it needs to be more clearly linked to bio-mechanics or medical devices, if the student is aiming for a Bio major. I'm thinking a score of 70 for this dimension.\n\n\"Detail and Executability\" is the next dimension. The competitions are standard, but the preparation plan is missing. Activities such as \"Wheelchair tennis\" and \"Horn modification\" have ideas but are weak on implementation. Research, specifically \"Laundry sterilization,\" is too basic for a student of this level. I'm finding quite a few empty fields here. So, 60.\n\n\"Depth and Intensity.\" The student is attempting some serious competitions. However, the \"Laundry\" experiment is weak. The \"Yuanpei\" project is missing details. Co-founding the Sudoku club and planning the wheelchair tennis are good starts, but not enough in depth. I'm going with 60 here.\n\n\"Noviceness.\" The Bio/Pre-med track is common, but the student's unique angle is the \"Horn modification.\" I think this could boost the score from the standard 50 or 60. So, I will go with 70.\n\n\"Fitness.\" The school is good, and TOEFL/SAT scores are solid, but not top-tier. The plans are disjointed from the current status and I feel the research is too weak. A 70.\n\n\"Liberal Values.\" The wheelchair tennis and Horn modification are great aspects of social responsibility, which is important. This is a solid 90.\n\nNow, let's crunch the numbers. I'll multiply each score by its percentage weight, add them up, and round to the nearest whole number. I'm getting a score of 70.\n\nI need to draft some suggestions. The student's profile is clear: Biology/Pre-med with a focus on music (Horn) and tennis, integrating social responsibility (disability support) and engineering (instrument modification) into the profile. Pinghe and the scores suggest the student is Top 30-50, but with this plan, aiming for Top 20-30.\n\nThe biggest suggestion is to improve the \"Laundry Sterilization\" research. It needs an upgrade to a more molecular or neuroscience-related topic. The Horn project also needs more specific technical details. I need to suggest a mentor or specific course to support the goal. Wheelchair tennis needs a concrete partner and a timeline. The book has many empty sections that need narratives. The competition prep needs more details for the UKChO/BBO.\n\nFinally, I need to generate the JSON output, keeping the suggested profile, level, and suggestions for improvements in mind, following the provided format. I need to make sure this JSON report is clean, well-formatted, and accurate. The profile should be concise, the level should be defined, and the suggestions must be actionable. With the JSON ready, I'll need to double-check everything, making sure no markdown is present"
+  }
+]

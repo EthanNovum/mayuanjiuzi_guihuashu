@@ -285,7 +285,26 @@ with tab2:
                     key=f"prompt_{p['name']}",
                     disabled=True
                 )
-                st.caption(f"路径: {p['path']}")
+                col1, col2 = st.columns([1, 4])
+                with col1:
+                    if st.button("📋 复制", key=f"copy_{p['name']}"):
+                        st.session_state[f"copied_{p['name']}"] = True
+                        st.toast(f"已复制 {p['name']} 到剪贴板！")
+                with col2:
+                    st.caption(f"路径: {p['path']}")
+
+                # 使用 JavaScript 实现复制到剪贴板
+                if st.session_state.get(f"copied_{p['name']}", False):
+                    st.session_state[f"copied_{p['name']}"] = False
+                    escaped_content = content.replace("\\", "\\\\").replace("`", "\\`").replace("$", "\\$")
+                    st.components.v1.html(
+                        f"""
+                        <script>
+                        navigator.clipboard.writeText(`{escaped_content}`);
+                        </script>
+                        """,
+                        height=0
+                    )
     else:
         st.info("暂无 Prompt 模板")
 

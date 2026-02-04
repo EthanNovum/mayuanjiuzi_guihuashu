@@ -133,7 +133,5 @@ Role: 你是一位深耕国际教育领域的资深升学规划专家和规划�
   "noviceness_score": 0,
   "fitness_evaluation": "...",
   "fitness_score": 0,
-  "liberal_values_evaluation": "...",
-  "liberal_values_score": 0,
   "final_score": 0
 }

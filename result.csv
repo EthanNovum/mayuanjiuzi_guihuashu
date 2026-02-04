@@ -1,541 +1,298 @@
-filename,student_name,provider,model,score,clearness_and_consistency,detail_and_executable,depth_and_intensity,noviceness,fitness,liberal_arts_values,strengths,gaps,profile,planning,suggestions,level,clearness_and_consistency_evaluation,clearness_and_consistency_score,detail_and_executable_evaluation,detail_and_executable_score,depth_and_intensity_evaluation,depth_and_intensity_score,noviceness__evaluation,noviceness_score,fitness_evaluation,fitness_score,liberal_values_evaluation,liberal_values_score,thinking,noviceness_evaluation
-100分 planbook__曹安帛.md,曹安帛,gemini,gemini-3-pro-preview,90,,,,,,,,,“神经编码破译者”与“节奏治愈师”的复合形象。该学生以极具辨识度的打击乐（马林巴琴）特长为核心，巧妙地将其与神经科学、心理学深度交叉，探索音乐对大脑认知（如Levitin Effect）及神经可塑性的影响。同时，辅以性别研究视角（女性打击乐手平权），构建了一个既有科学硬度又有艺术人文温度的立体形象。,,"科研项目的落地与产出需具体化：'Music & Brain Club'中使用便携式EEG设备记录脑波是一个极佳的创意，但高中生独立完成数据分析和解读存在难度。建议寻找相关的PhD或大学导师进行指导，并明确最终产出不仅仅是'社团活动'，而应该是一篇可投稿的科研论文或学术海报（Poster），以坐实'神经科学'的学术深度。
-强化性别研究的学术维度：目前的性别视角主要体现在活动层面（Her Rhythm, Girls Percussion Workshop），建议在John Locke或Scholastic写作比赛中，有意识地选择与'性别与艺术'或'女性心理学'相关的题目进行写作，将这一副线的学术含金量提升，形成'活动+学术'的双重支撑。
-夏校组合的战略平衡：既然已经拿到了Juilliard这一顶尖艺术夏校的录取，证明了艺术实力，那么在后续的学术夏校（UChicago/Brown/Harvard）选择中，必须优先考虑高强度的神经科学/生物实验室项目（Lab-based），而非泛泛的心理学入门课，以确保理工科背景的硬度能匹配Top 20的要求。
-竞赛梯队的风险管理：规划中提到的IPSYO含金量尚在积累期，不能作为唯一的学科竞赛支柱。建议将重心向Brain Bee（脑科学大赛）和HOSA（行为健康/生物方向）倾斜，这两个比赛的认可度更成熟，更能证明其在理科方面的硬实力。
-活动执行的聚焦：11年级规划了多个Founder/Leader角色的活动（成立新社团、举办音乐会、做科研），工作量巨大。建议将'Music Therapy Community Service'与'Her Rhythm'音乐会的部分环节打通，例如音乐会的收入捐赠给阿尔兹海默症机构，或者音乐会的曲目直接用于疗愈项目，通过资源整合减少精力分散。",前20名,申请方向（心理学/神经科学+音乐疗愈）非常明确，且未超过5个。申请形象“Music as Neurological Codebreaker”极具画面感和聚焦度，完美串联了学生的打击乐特长与学术兴趣。所有规划的活动（从脑波社团到女性打击乐工坊）都紧紧围绕这一主线和副线展开，逻辑闭环非常严密。,100,活动描述的具体程度非常高，远超一般规划书。例如在音乐治疗中明确提到了“针对自闭症儿童用彩色灯光标记音高”、“针对阿兹海默患者编排60年代Motown节奏”，在科研社团中提到了具体的设备“Muse头环”和研究对象。这些细节表明规划是经过深思熟虑且具有极高可落地性的。,90,整体强度很高。Juilliard夏校保证了艺术线的顶尖水准；Brain Bee和John Locke保证了学术竞赛的难度。科研方面试图利用EEG进行实证研究，具有较高的学术野心。唯一的扣分点在于高中生自发组织神经科学研究的科学严谨性较难把控，需要强有力的外部指导才能达到预期的深度。,80,新颖度极高。将“打击乐/马林巴琴”与“神经科学”结合本身就很少见，再叠加“女性打击乐手（打破性别刻板印象）”这一维度，使得该学生在心理学/神经科学申请池中具有极强的区分度。相比于普通的心理社团或医院志愿者，她的活动设计让人眼前一亮。,100,方案与学生背景高度适配。学生本身在美高，有长期的乐团经验和打击乐特长，利用这一优势来撬动竞争激烈的神经科学申请是非常聪明的策略。目标设定为SAT 1500+和Top 20院校，与规划的活动强度和深度是匹配的。,90,完美契合。关注亚裔心理健康（种族）、女性打击乐手地位（性别平权）、阿兹海默与自闭症群体（弱势群体关怀），这些内容完全符合美国顶尖大学推崇的Liberal Arts价值观和社会责任感。,100,"**Evaluation of Amber's College Planning Book**
+filename,student_name,provider,model,score,clearness_and_consistency,detail_and_executable,depth_and_intensity,noviceness,fitness,liberal_arts_values,strengths,gaps,profile,planning,suggestions,level,clearness_and_consistency_evaluation,clearness_and_consistency_score,detail_and_executability_evaluation,detail_and_executability_score,depth_and_intensity_evaluation,depth_and_intensity_score,noviceness__evaluation,noviceness_score,fitness_evaluation,fitness_score,liberal_values_evaluation,liberal_values_score,final_score,prompt_name,prompt_path,thinking
+唐睿锶.md,唐睿锶,deepseek,deepseek-reasoner,,,,,,,,,,对历史学、心理学/人类发展和设计有初步兴趣的探索者，但申请形象模糊，缺乏具体描述和独特标签。,,"申请形象描述过于简略（'有点早'），需结合学生背景（如成都外国语学校、转轨国际部经历、喜欢画画等）塑造更具体、有深度的形象，例如探索'设计思维在历史叙事或心理学应用中的角色'。
+活动规划分散，缺乏主线串联，建议聚焦一个核心方向（如以'历史与心理学的交叉研究'或'设计驱动的人文关怀'为主线），整合活动，确保与申请方向强关联。
+活动描述过于笼统，需增加可执行细节，例如明确'PBL 360fusion数字化设计原型开发'的具体主题、步骤、预期成果，或'黑暗跑团'的公益目标、参与方式。
+学生当前能力（TOEFL 75，基础较弱）与规划中高难度竞赛（如数学建模、HOSA）可能不适配，建议优先提升标化成绩，并设计更循序渐进的入门级活动，如小型历史研究项目或心理学观察实验。
+补充与申请方向相关的深度活动，如历史档案整理、心理学社区服务或设计作品集开发，以体现学术深耕和成果产出。",30-40名,申请方向有三个（未超限），但申请形象描述模糊（'有点早'），活动规划（如历史、心理学、设计类活动）缺乏清晰关联和主次区分，整体支撑不足。,70,活动数量在甘特图中较多（如黑暗跑团、个人策展、数字化设计等），但描述极其笼统，缺乏具体开展细节、话题聚焦或步骤安排，可执行性差；已完成活动仅列出兴趣，无实质内容。,60,活动规划（如志愿者、手工社、数字化设计）缺乏学术深度和成果产出描述，未体现对细分领域的深耕或领导力；竞赛安排有难度但未与深度活动结合，整体强度不足。,60,申请方向组合（历史、心理学、设计）有一定新意，设计方向相对小众，但未形成明确的辅线或个人特色标签交叉关联；活动话题（如黑暗跑团、个人策展）较常规，形式创新有限。,70,规划未充分联系学生背景（如成都地区、转轨经历），且活动深度和竞赛难度（如数学建模、HOSA）与学生当前能力（TOEFL 75，基础弱）不适配，可能超出其执行能力，申请层级推断为30-40名，但规划强度未适度降低。,60,规划中未出现政治不正确内容，但缺乏对社会人文情怀的积极体现（如黑暗跑团、志愿者活动未描述公益价值或包容性理念）。,70,60,prompt_mayuan_7_1b,prompts/prompt_mayuan_7_1b.txt,"首先，我需要根据提供的规划书内容，评估学生的升学规划方案。规划书是关于一位名叫睿锶的学生，当前处于9年级或10年级（因为只有9年级成绩记录，且规划从2025年开始，可能是10年级）。申请方向是历史学、心理学/人类发展、设计，申请地区是美国。
+
+现在，按照六个核心评分维度进行评估：
+
+1. **清晰性和一致性 (clearness_and_consistency) - 权重25%**
+   - 申请方向：有三个专业（历史学、心理学/人类发展、设计），不超过5个，所以没有超限。但申请形象描述中写“有点早”，这表明申请形象不明确。申请方向选择理由也很简略，只提到TOEFL 80+、在学微积分BC、喜欢画画等，没有深入解释为什么选择这些专业。
+   - 申请形象描述：直接写“有点早”，非常模糊，没有具体描述。
+   - 活动、竞赛、夏校规划：从甘特图和待办事项看，活动包括黑暗跑团、个人策展、PBL、数字化设计、数字媒体作品、graphic novel、志愿者、手工社等；竞赛包括上海市青少年科技创新大赛、数学建模竞赛、HOSA、美国艺术与写作奖等；夏校未计划。这些活动看似多样，但与申请方向的关联不清晰。例如，历史学方向的活动有博物馆挖掘机、校史整理，心理学方向有Pets Club、心理学概念了解，设计方向有数字化设计、graphic novel。但整体规划思路不够聚焦，主次不分明。
+   - 根据细则：申请方向和申请形象均未明确填写（申请形象写“有点早”，相当于未明确），所以本维度上限90分。从活动规划中分析，方向有多个，但关联性不强，支撑不足。
+   - 评分：考虑到上限90分，且规划散乱，给70分。
+
+2. **详细度和可执行性 (detail_and_executability) - 权重25%**
+   - 活动数量：在甘特图中，活动条目包括黑暗跑团、个人策展、PBL、数字化设计、数字媒体作品、graphic novel、志愿者、手工社等，数量可能达到8个以上，但描述非常简略。例如，在“已完成活动”中，只有“学生个人兴趣”列了油画、国际象棋、心理学阅读，但没有细节；“学生刚转轨国际部，目前暂未有活动参与”说明已完成活动很少。
+   - 计划中活动：在甘特图中有多个活动，但描述缺乏细节。例如，“PBL 360fusion数字化设计原型开发product design”没有具体描述如何开展；“数字媒体作品-Video,Digital & Interactive Media”也模糊。
+   - 竞赛和夏校：竞赛有列出，但夏校未计划。
+   - 低分警示：活动条目数不足4个？从文本看，已完成的只有两个条目（个人兴趣和未参与），但计划中活动在甘特图中有多个，所以总条目数可能够。但描述几乎都过于笼统，缺乏细节。
+   - 评分：活动描述缺乏具体细节，可执行性差，给60分。
 
-Okay, so I'm stepping into the role of a senior college counseling expert here. The task is clear: I need to act as a seasoned professional and evaluate Amber's planning book for her US college application, using these specific criteria and providing a structured JSON output. Let's see...
+3. **深度和强度 (depth_and_intensity) - 权重15%**
+   - 申请形象设计：没有深度，写“有点早”。
+   - 课外活动规划：活动如黑暗跑团、志愿者等，可能缺乏学术深度；设计类活动如数字化设计，但没有具体内容显示深耕；心理学活动如Pets Club，但描述简单。
+   - 竞赛规划：包括数学建模、HOSA等，有一定难度，但未体现成果产出或领导力。
+   - 评估的是规划方案是否帮学生拔高，而不是学生现有条件。学生现有条件一般（TOEFL 75，刚转轨），规划方案没有显示出在深度和强度上的显著提升。
+   - 评分：活动规划深度不足，给60分。
 
-First, I need to understand what's in front of me. I've got Amber, a rising 11th-grader at Langley High, with an impressive background: Asian, female, a percussionist with a strong academic interest in psychology, neuroscience, music therapy, and gender studies. The ""Music as Neurological Codebreaker"" persona is interesting – connecting art and science, percussion and neuroscience. It sounds quite unique.
+4. **新颖度 (noviceness) - 权重15%**
+   - 申请形象：没有具体形象，所以无法判断新意。
+   - 课外活动规划：活动如黑暗跑团、个人策展、数字化设计等，在话题和形式上可能有一些新意，但不够独特。例如，黑暗跑团可能与公益相关，但设计类活动较常见。
+   - 申请方向：历史学、心理学、设计，其中设计相对小众，但心理学和历史学较常见。整体方向组合有一定新意，但未形成交叉关联。
+   - 细则：申请方向中，设计相对小众，但心理学和历史学较大众。没有明确的辅线或个人特色标签交叉关联。
+   - 评分：新颖度一般，给70分。
 
-Now, let's break down the information, starting with evaluating each of the six dimensions.
+5. **与学生背景、能力、目标的适配度 (fitness) - 权重10%**
+   - 学生背景：来自成都外国语学校，TOEFL 75，刚转轨国际部，兴趣包括画画、心理学阅读。申请方向选择理由中提到这些，但未深入联系背景。
+   - 能力：TOEFL 75表明英语能力一般，规划中活动如数字化设计、竞赛如数学建模，可能与学生当前能力不适配，因为学生还在学习英语和微积分BC。
+   - 申请层级：学生现有成绩（TOEFL 75，9年级成绩未具体）较低，可能申请30-40名或更低的学校。规划方案中的活动深度和强度可能过高，与学生能力不适配。例如，规划了多个高难度竞赛和活动，但学生基础较弱。
+   - 适配度：规划未充分考虑学生当前能力，可能过于雄心勃勃。
+   - 评分：适配度较差，给60分。
+
+6. **理念和价值观 (liberal values) - 权重10%**
+   - 规划中有社会人文情怀的体现吗？例如，黑暗跑团可能涉及公益，志愿者活动，但没有明确描述。没有出现政治不正确的内容。
+   - 但整体缺乏对liberal价值观的积极体现。
+   - 评分：由于没有负面内容，但也没有积极体现，给70分。
+
+现在，计算加权平均分：
+- clearness_and_consistency: 70 * 0.25 = 17.5
+- detail_and_executability: 60 * 0.25 = 15
+- depth_and_intensity: 60 * 0.15 = 9
+- noviceness: 70 * 0.15 = 10.5
+- fitness: 60 * 0.10 = 6
+- liberal_values: 70 * 0.10 = 7
+总分 = 17.5 + 15 + 9 + 10.5 + 6 + 7 = 65
+
+但总分需要在[50,60,70,80,90,100]中选择最接近的。65最接近60或70？65更接近70？但根据评分规则，加权平均后取整到最接近的分数。65介于60和70之间，但更接近70？实际上，加权平均是65，在评分范围内没有65，所以选择最接近的。60是60，70是70，65距离60是5，距离70是5，相等。但通常取整到较高或较低？示例中都是整数，这里可能需要取整。看高分示例1总分计算：加权平均应该是(100*0.25 + 100*0.25 + 90*0.15 + 90*0.15 + 100*0.10 + 100*0.10) = 25 + 25 + 13.5 + 13.5 + 10 + 10 = 97，但final_score是100，说明可能取整到最接近的。97更接近100。所以对于65，更接近60？65离60差5，离70差5，一样。但考虑到评分是50的倍数，可能向下取整到60，因为70是下一个级别。为了保守，我选择60。
+
+但让我重新计算：加权平均分是65，在[50,60,70,80,90,100]中，60和70都是5的差距。但通常在这种评分中，可能取较低的，因为分数是离散的。参考低分示例1，总分计算：各项分数50,50,50,50,70,60，权重相同，加权平均约55，final_score是50？低分示例1没有给出总分，但根据分数，加权平均大约(50+50+50+50+70+60)/6 = 55，但final_score在输出中是？低分示例1的JSON输出没有提供，但看示例，它直接给分数。在高分示例1中，final_score是100。我需要根据规则计算。
+
+规则说：计算加权平均分，然后在[50,60,70,80,90,100]范围内选择最接近的。对于65，最接近的是60或70，但距离相同。我检查高分示例2：分数都是100，加权平均100，final_score 100。所以对于65，我选择60，因为60是更低的选项。
+
+在输出格式中，final_score必须是这些值之一。所以我选择60。
+
+现在，输出其他部分：
+
+- 申请形象profile：总结学生的申请形象。从规划书看，申请形象描述为“有点早”，但根据方向，可以总结为对历史、心理学和设计有初步兴趣的探索者，但形象模糊。
+- 申请层级level：学生申请学校的排名。基于学生当前能力（TOEFL 75，刚转轨），可能目标是30-40名或更低。但规划中未明确，所以推断为30-40名。
+- 改进建议suggestions：给出具体建议。例如：
+  - 申请形象不明确，需要进一步细化，例如结合背景（成都、转轨经历）塑造独特故事。
+  - 活动规划太散，应聚焦于一个主线，例如以“设计思维在历史或心理学中的应用”串联活动。
+  - 增加活动的具体细节，确保可执行，例如明确数字化设计项目的主题、步骤。
+  - 考虑学生当前能力，降低活动强度，先打好基础，如提高标化成绩。
+  - 补充与申请方向相关的深度活动，如历史研究项目或心理学实验。
+
+评估和分数：
+- clearness_and_consistency: 评价：申请方向有三个，但申请形象模糊，活动规划缺乏聚焦，支撑不足。分数70。
+- detail_and_executability: 评价：活动数量尚可，但描述过于笼统，缺乏可执行细节。分数60。
+- depth_and_intensity: 评价：活动规划缺乏学术深度和成果产出，未体现深耕。分数60。
+- noviceness: 评价：方向组合有一定新意，但未形成交叉关联，活动较常规。分数70。
+- fitness: 评价：规划与学生当前能力（TOEFL 75，基础弱）不适配，活动强度可能过高。分数60。
+- liberal_values: 评价：无负面内容，但未积极体现社会人文情怀。分数70。
+
+总分final_score: 60。
+
+现在，构建JSON输出。"
+张子梵.md,张子梵,deepseek,deepseek-reasoner,,,,,,,,,,展现出‘科学工具+人文洞察’的跨学科申请形象：一名在数理学科有优势的学生，对人文地理有浓厚兴趣，正在探索GIS工具，并尝试通过地图与数据分析来理解社会与历史的演变，如地理条件如何影响历史格局并与当代政治事件联系。,,"需要大幅充实和具体化课外活动规划。当前计划中的活动（如GIS小项目）描述过于笼统，应明确项目主题（例如：分析武汉城市扩张与绿地变化的时空关系）、数据来源、分析方法和预期产出（如制作交互地图、撰写分析报告）。
+竞赛列表过于宽泛且与主线关联度不一。应聚焦于与地理学/GIS强相关的竞赛（如国际地球科学奥林匹克、Young Geographer of the Year），并为其规划具体的备赛或研究项目。对于其他竞赛（如数学建模、演讲），需明确解释其如何服务于地理数据分析能力的提升，或考虑精简。
+夏校规划单薄。除布朗BELL外，应增加与地理学、环境科学或城市规划直接相关的夏校选项（如Clark University的Geography Research Program或相关大学的暑期研究项目），以体现持续的学术探索深度。
+申请形象中提到的‘思考地理与政治/历史关系’尚未在具体活动中落地。建议设计一个独立研究项目，例如利用GIS和历史数据，量化分析美国‘阳光地带’人口迁移与选举格局变化的关联，将宏观思考转化为具体的学术实践。
+待办事项和甘特图中的活动（如潮汕民间故事收集、大成桌游社公众号）与申请主线关联较弱。需重新审视这些活动，要么明确它们如何丰富‘人文洞察’或‘社区联结’的副线，要么将时间精力集中于更核心的地理相关活动上。",20-30名,申请方向（地理学）高度聚焦，申请形象（科学工具+人文洞察）描述清晰。但具体规划（活动、竞赛、夏校）与申请形象的关联支撑不足，活动规划过于单薄且笼统，竞赛选择略显发散，导致整体规划思路的清晰度和一致性受到影响。,70,方案严重缺乏细节和可执行性。课外活动仅列出2个计划中活动，且描述极其笼统（如‘做一个GIS小项目’），完全没有具体内容、步骤或产出。竞赛和夏校列表多为名称罗列或赛事介绍，缺乏学生将如何具体参与、开展什么项目的描述。整体规划难以落地。,60,申请形象设计有一定深度，体现了跨学科思考。但具体活动规划完全未展开，无法评估其深度和强度。竞赛列表中包含一些高难度项目（如数学建模、AMC），但更多体现的是理科能力，与地理学人文社科面的深度结合规划不足。整体规划未展现出明确的学术深耕路径。,70,申请方向（地理学）在中国大陆申请者中相对小众，可获得加分。申请形象‘理科生深入人文地理’的组合有一定新意，避免了单纯对地理的学术热情描述。但具体活动规划的缺失，使得这种新颖度停留在概念层面，缺乏独特、有趣的落地形式来支撑。,80,申请形象与学生表现出的数理优势和对人文地理的兴趣基本适配。竞赛规划中的数理部分与学生理科背景相符。然而，规划的整体深度和活动丰富度，与潜在的前30名大学申请要求相比可能显得薄弱。若学生标化成绩优异，则需要更强有力的活动规划来匹配申请层级。,80,规划中未出现政治不正确的内容。申请形象中体现的对社会、历史格局的关怀，以及计划申请环境领导力夏校（BELL），符合liberal价值观中对社会与环境的关注。但尚未有更深入或具体的社会人文情怀活动体现。,80,70,prompt_mayuan_7_1b,prompts/prompt_mayuan_7_1b.txt,"好的，用户给了一份升学规划书，需要我作为升学规划专家来深度解析和打分。这个学生叫子梵，他的规划书内容我看了几遍，得好好分析一下。
+
+嗯，用户可能是规划师培训师，或者是高级规划师，需要评估这份规划书的质量。深层需求应该是想看看规划师为学生做的方案是否专业、有深度，能不能真正帮助学生申请到好学校。
+
+学生现在应该是10年级，因为甘特图从2025年1月开始，当前是9月，规划书里也提到了10年级的活动和竞赛。申请年份可能是2027年秋季入学，因为规划时间线拉得比较长。
+
+让我先总结一下学生的申请形象。规划书里说子梵展现出将理科训练与人文视角结合的独特形象，在数理学科有优势，对人文地理感兴趣，正在探索GIS工具，想通过地图和数据分析理解社会历史演变。他思考地理条件如何影响美国南部种植园与族裔分布，以及这些历史格局与当代政治事件的联系。这种“科学工具+人文洞察”的特质确实挺有特点的。
+
+申请层级方面，学生来自武汉英中，9年级成绩单已上传，标化考试还在准备中，TOEFL和SAT都还没考。从在校成绩看应该是学术能力不错的学生，但标化成绩未知。考虑到地理学在中国大陆学生中相对小众，如果标化成绩能达标，申请前30名的学校是有可能的，但需要更具体的成绩来判断。目前信息有限，我暂且评估为20-30名这个区间吧。
+
+现在开始按照六个维度来仔细评估。
+
+首先是清晰性和一致性，权重25%。申请方向只填了地理学一个专业，这很聚焦。申请形象描述也很清晰，就是“科学工具+人文洞察”的跨学科思维。但问题是，活动、竞赛、夏校的规划与这个形象的关联度不够强。活动部分只有两个计划中的活动，而且描述很笼统，比如“国庆前做一个GIS小项目熟练掌握GIS”，完全没有具体内容。竞赛列表虽然多，但除了国际地球科学奥林匹克竞赛和Young Geographer of the Year竞赛，其他如WSDA演讲比赛、各种写作比赛、数学建模比赛、物理碗、AMC等，与地理学主线的关联都不直接。夏校只计划申请布朗环境领导力实验室，这与地理学相关，但数量太少。总体来看，申请方向和形象明确，但具体规划支撑不足，清晰性一般。按照评分标准，申请方向明确但具体规划不够清晰，我打算给70分。
+
+然后是详细度和可执行性，权重25%。这是问题最大的部分。课外活动列表里只有两个计划中的活动，而且描述极其笼统，完全没有具体内容、话题、步骤。竞赛列表虽然有多个条目，但大多数只是竞赛介绍，缺乏学生具体如何参与、做什么项目的描述。夏校也只有一个计划申请，缺乏细节。整个规划严重缺乏可落地的细节。按照评分标准，活动条目数远不足4个，描述过于笼统，完全无细节，这属于低分警示情况。学生是10年级，规划时间还长，可以适度放宽，但当前方案确实太单薄了。我考虑给60分。
 
-First up: *Clearness and Consistency*. Right from the start, Amber's direction is clear – psychology/neuroscience with a music therapy focus. The persona, ""Music as Neurological Codebreaker,"" is exceptionally well-defined and ties everything together. The activities seem spot-on in supporting this narrative, which is solid, even at a high level. A score of 90 to 100 for this is where I'm at. I'll go with 100 because the dual focus on ""Music + Neuro"" is just very well articulated.
+深度和强度方面，权重15%。申请形象设计有一定深度，体现了跨学科思考。但具体规划中，活动缺乏深度描述，竞赛列表虽然包含一些高难度比赛如数学建模、物理碗、AMC等，但这些更多体现的是理科能力，与地理学人文社科面的深度结合不够。夏校BELL与环境领导力相关，但单一夏校难以体现持续的学术深度。规划方案没有在深度和强度上给出明确的拔高路径。我评估为70分。
 
-Next, *Detail and Executability*. I need to see more than just activity titles; I need specifics. Okay, the descriptions are there. ""Music Therapy Community Service"" has target groups and methods (""colored lights for pitch, Motown rhythms""). The ""Music & Brain Club"" mentions EEG. It's good, so 90 seems fair.
+新颖度权重15%。申请方向地理学在中国大陆学生中属于相对小众的选择，按照规则可以获得不超过10分的加分。申请形象“理科工具+人文地理洞察”也有一定新意，避免了单纯对地理学的学术热情描述。但具体活动规划缺乏独特、有趣的落地形式，大多数竞赛选择较为常规。综合来看，专业方向小众有加分，形象设计有一定新意，但活动规划新颖度不足。考虑到小众专业加分和形象设计，我打算给80分。
 
-Then, we have *Depth and Intensity*. Using EEG headbands is a solid attempt at depth. Juilliard is high intensity. The research, I note, *needs* to result in a *tangible* output – a paper or poster presentation. It seems implied but should be emphasized more. Let's give it a *strong* rating of 90.
+适配度权重10%。申请形象中提到了学生经常思考地理学与政治/历史事件的关系，并尝试通过GIS分析，这体现了与学生兴趣和思维特点的适配。学生有数理学科优势，竞赛规划中包含了大量数学、物理竞赛，这与他“理科训练”的背景适配。但规划的整体深度强度，特别是活动部分的匮乏，与申请前30名大学的潜在要求可能不匹配。如果学生标化成绩出色，当前规划的软实力部分可能显得薄弱。总体是基本适配但强度有待加强。我评估为80分。
 
-Next, *Noviceness*. A female percussionist focusing on the neuroscience of music? That's definitely unique. The ""Her Rhythm"" project with its gender studies component adds another interesting layer and helps differentiate her from other ""Music Therapy"" applicants. This is high novelty. A score of 100, no doubt.
+理念和价值观权重10%。申请形象和规划中没有出现政治不正确的内容。规划中提到的思考历史格局与当代政治的联系、对环境领导力的关注（通过BELL夏校），总体上符合liberal价值观。但也没有特别突出的社会人文情怀体现。我考虑给80分。
 
-On to *Fitness*. The student is at a US High School. This plan leverages her existing talent (drums) to boost her academic interest (neuro). Targeting Ivy/Top 20 programs (implied by Juilliard and high-level competitions) is ambitious, but this profile *could* succeed if executed well. Let's give this one a score of 90, as it's a good fit.
+关于加权平均分，我来计算一下：清晰性70*0.25=17.5，详细度60*0.25=15，深度70*0.15=10.5，新颖度80*0.15=12，适配度80*0.10=8，价值观80*0.10=8，总和是17.5+15+10.5+12+8+8=71分。最接近的整十分数是70分，所以最终总分70分。
 
-Finally, *Liberal Values*. The ""Her Rhythm"" project aligns with gender equality, the Asian Students' Mental Health Club focuses on minority care, and the music therapy supports vulnerable groups. Perfect alignment with US college values. 100.
+改进建议方面，我想到几点。一是要大幅充实课外活动规划，特别是与地理学/GIS直接相关的项目。不能只停留在“做一个GIS小项目”这样笼统的描述，要具体化。二是要梳理竞赛列表，聚焦与主线强相关的竞赛，比如国际地球科学奥赛、Young Geographer of the Year，其他竞赛要么删除，要么明确解释与地理学分析技能的关联。三是要增加夏校选择，除了BELL，还可以考虑地理学、环境科学、城市规划等相关夏校，体现持续的学术探索。四是要深化申请形象中“人文洞察”的部分，具体化想研究的地理-历史-政治交叉话题，并设计相应的研究或活动来体现。五是要在近期待办事项中明确GIS小项目的具体主题、数据来源、分析方法和预期产出。
 
-Alright, let's calculate the total score based on the given weights. Initially, it came out to 93.5, which rounds to 90. So, I will be a little more critical. I will make a few quick tweaks.
+总体来说，这个规划有了不错的起点和形象设计，但血肉严重不足，需要尽快填充具体、可执行、有深度的活动内容。"
+张珏尧.md,张珏尧,deepseek,deepseek-reasoner,,,,,,,,,,一个对天文、物理和人文社科都有浓厚兴趣的energetic female leader，通过天文摄影、星空导师项目和科幻社活动，展现好奇心、领导力，并致力于将科学知识应用于社会福祉（如旅游业发展）。,,"申请方向太多（超过5个专业），不够聚焦，建议缩减到3-4个，例如聚焦在天体物理学和创意写作或媒体研究的交叉领域。
+计划中活动（如Social Justice、Research or Competitions）描述过于笼统，需要具体化，例如明确研究主题或社会正义项目的具体行动和预期产出。
+需要加强学术主线的深度，建议补充更多科研型活动或竞赛，如天文奥赛或量化研究项目，以支撑高申请层级的学术要求。
+在申请形象或方向选择理由中，应更明确地联系学生背景（如中国学生、女性身份等），以增强独特性和适配度。
+整合副线与主线，例如将科幻社创作更紧密地与天体物理结合，创作基于科学理论的科幻作品，形成交叉叙事，提升新颖度和深度。",10-20名,申请方向超过5个专业，太散不够聚焦；申请形象描述较笼统，与多个方向关联但不够具体；活动规划有主线（天文）但支撑不够集中，整体清晰性和一致性中等。,60,活动数量足够（11个条目），但许多描述过于笼统，尤其计划中活动细节缺失；进行中活动如星空导师有较好细节，但整体可执行性有待提高。,70,部分活动有深度和强度，如星空导师项目体现领导力和影响力，科幻社有学术结合；但其他活动如滑雪、长笛练习深度有限；整体规划在拔高深度方面中等。,70,申请形象结合天文与人文元素有一定新意；活动如星空导师将天文与旅游业结合较独特；申请方向中天体物理学等在中国学生中相对小众，且形象辅线与主线有交叉关联，新颖度较好。,80,规划未明确联系学生背景，但活动深度较高（如YSPA夏校），可能适配高申请层级（前20名）；基于目标标化分数，适配度中等，但背景联系不足。,70,星空导师项目帮助当地发展旅游业，体现社会关怀；科幻社涉及哲学、社会正义，有人文思考；无政治不正确内容，价值观正面。,80,70,prompt_mayuan_7_1b,prompts/prompt_mayuan_7_1b.txt,"首先，我需要分析这个学生的规划书。学生是Beryl，从内容来看，她似乎是9年级或10年级学生，因为规划从2023年延伸到2028年，当前时间是2025年8月。
 
-So, here's the *revised* breakdown:
+### 核心评分维度评估：
 
-*   Clearness: 100
-*   Detail: 90
-*   Depth: 80 (The research needs more work)
-*   Noviceness: 90 (Needs more depth of evidence)
-*   Fitness: 90
-*   Values: 100
+#### 1. 清晰性和一致性 (clearness_and_consistency) - 权重25%
+- **申请方向**：列出了多个专业：媒体研究、哲学、天体物理学、创意写作、动画/动画设计、大气科学、地球物理学。这超过了5个专业，所以方向太散，不够聚焦。
+- **申请形象描述**：描述为“聪明、充满好奇心、...energetic female leader，对理工科和人文、社科都有全面的阅读、思考和学习动力...以天文为当地的tourism做出贡献的thoughtful policy learner and designer类的形象。” 这比较笼统，虽然提到了天文和领导力，但整体形象不够清晰，与多个方向关联但不够具体。
+- **活动、竞赛、夏校的整体规划**：活动包括滑雪、长笛练习、明安图天文摄影、星空导师、奇点科幻社等。这些活动与天文、写作、媒体有一定关联，但主线不够突出。天文摄影和星空导师支持天体物理学，科幻社支持创意写作和媒体，但整体思路分散。
+- **细则**：申请方向超过5个，应被认定为不够清晰。根据规则，如果申请方向、形象未明确填写，本维度上限90分，但这里填写了，只是太散。从活动中能分析出一些方向，但关联性不够强。
+- **评分**：方向太散，形象描述不够具体，活动支撑有限。给分在50-70分之间。参考低分示例1（50分）和低分示例2（60分），这个更接近低分示例2但稍差，所以给60分。
 
-Calculation: 25 + 22.5 + 12 + 13.5 + 9 + 10 = 92.
-
-So, the overall score is 90.
-
-And now for some suggestions. *Research Output* is the key. The music and brain club needs more, like a poster or paper. *Gender Studies Integration:* Make sure that area is strongly supported by reading and/or writing. *Summer School: The* summer school chosen should maximize the neuro side. *IPSYO:* Don't rely on it as a primary measure.
-
-Now the output. Level: Top 20/Ivy.
-
-Here's the JSON.",
-40分 planbook__梁慈垣.md,梁慈垣,gemini,gemini-3-pro-preview,60,,,,,,,,,处于探索期的理工强基型选手。学生拥有极佳的理科标化基础（AP微积分BC、物理C、CSA均为5分），但在申请形象上目前呈现“大杂烩”状态，活动线索横跨工程（ISSDC）、社科（CTB智慧停车、模拟政协）与计算机（UI设计），缺乏核心主线串联，尚未形成具有辨识度的个人IP。,,"核心主线亟待确立：学生的AP成绩强烈指向理工科（CS/工程/应用数学），目前的“方向未定”状态需尽快结束。建议尝试以“智慧城市/城市计算”为跨学科切入点，将CS/工程能力（雏鹰计划、AP课程）作为工具，去解决社会治理问题（CTB智慧停车、模拟政协），从而将目前散乱的活动串成一条逻辑通顺的“技术+社会关怀”主线。
-拒绝填充式规划，提升可执行度：竞赛规划部分大量复制粘贴了ISSDC和CTB的官方背景介绍，这对学生毫无指导意义。规划书必须明确学生在接下来的赛季中具体承担什么角色（如ISSDC中具体的自动化结构编程任务），以及针对CTB项目的具体研究方法论（如具体使用什么统计模型分析停车数据）。
-活动需去同质化并增加深度：目前的活动组合（CTB、ISSDC、模拟政协）是典型的“老三样”，缺乏新意。建议在“雏鹰计划”的UI设计基础上，真正开发一个可交互的APP原型或数据可视化平台，或者在统计学海报比赛中利用AP微积分/统计学知识进行高阶数据挖掘，产出具有学术深度的成果，而非仅停留在“参与”层面。
-补充夏校与科研规划：目前夏校板块完全空白。鉴于学生优秀的理科标化，强烈建议在10年级暑假规划高含金量的理工科夏校（如Ross数学营、SUMaC的预备项目，或Pioneer等有产出的科研项目），这对于冲击Top 30院校至关重要。",20-30名,申请方向未明确，导致申请形象模糊。活动列表呈现“理科+社科”的简单堆砌，缺乏深层的逻辑关联。虽然处于10年级探索期可以理解，但作为规划书，未能提供聚焦的探索路径，导致主线缺失。,40,标化考试规划较为详细，有明确的时间和分数目标。但核心的竞赛与活动规划部分质量极低，大量篇幅用于复制粘贴项目官方介绍（如ISSDC和CTB的冗长说明），缺乏针对该学生的具体执行步骤、角色分配和产出要求，落地性差。,40,学生的标化成绩（AP多门5分）显示了很好的学术深度潜力，但目前的活动规划（如简单的海报制作、基础的UI设计）深度不足，未能匹配其学术能力。活动多停留在“参加了”的层面，缺乏体现领导力或学术成果的深度规划。,60,活动组合（CTB、ISSDC、模拟政协）和选题（智慧停车）均属于非常大众化、同质化严重的领域，缺乏让人眼前一亮的创新点。在同类申请者中很难体现区分度。,40,方案承认了学生目前的探索状态，且标化目标的设定符合学生目前的学术基础。但整体规划未能充分利用学生在理科方面的显著优势（AP全5分），活动安排略显保守和常规，与学生冲击Top 30的潜质相比，规划强度略显不足。,70,活动内容涉及社会民生（智慧停车）和政治参与（模拟政协），体现了良好的社会责任感和公民意识，符合通识教育的价值观。,80,"**Here's how I'm approaching this evaluation report:**
-
-Alright, I'm diving in. The request is clear: I'm a Senior College Planning Expert, and my job is to evaluate this student's ""Planning Book"" using a defined framework. The data dump is in, and it's organized, so that's a good start. I'm evaluating based on those six dimensions and specific output format requirements - JSON only, with the `profile`, `level`, `suggestions`, and scores for each dimension, plus a weighted total score.
-
-First, I need to analyze this student. Right away, I see the student is in 10th grade, judging from the activity dates. They're aiming for a US News Top 30-40 school, but let me check their *actual* profile. Okay, AP scores are pretty impressive: 5s in Calc BC, CS A, and Macro, and a 4 in Physics C. But the TOEFL is a mid-90s, not the target 100+. The SAT is at a 1400 target. Given the AP strengths and the slightly weaker TOEFL, I'm thinking a *realistic* target is Top 20-30 schools. The prompt says *output* this level, so I will select the range and add a note about the TOEFL weakness. The major is undecided, which is fine for a 10th grader, but we'll flag that as it affects the evaluation.
-
-Now, let's go into the plan itself.
-
-*   **Clearness and Consistency:** The plan mentions that the direction is not yet determined, so the ""Application Image"" is not clear. The activities are all over the place: STEM and social science. The prompt says a score of ""max 80"" if the direction is unfilled. I'm marking it down hard because of this lack of clarity. It's a jumble. The activities just don't hang together.
-*   **Detail and Executability:** The plan has *some* good details on standardized test planning, which gets it some points. But the ""competition"" section is basically a giant copy-paste of what the competitions *are*, not what the student *will do*. That’s filler, and it’s a big problem. I will drop this score. The plan needs a lot more specifics about the student's *actual* role in these activities.
-*   **Depth and Intensity:** The AP scores are very good. That’s academic depth. But the activities are standard, ""entry-level"" things. No evidence of deep engagement, any unique work, or standout achievements. For a Top 30 school, this is average.
-*   **Noviceness:** ""Three Musketeers"" of generic Chinese applicant activities are here: CTB, ISSDC, Model CPPCC. ""Smart Parking"" is a cliché. Nothing original here. It’s lacking in any distinction.
-*   **Fitness:** The AP scores show a strong STEM base, but the activities don’t leverage that enough yet. The student's ""undecided"" stance fits a 10th grader, which I will acknowledge. It’s fitting, for now.
-*   **Liberal Values:** It includes concern for social issues, with no red flags. It looks fine in this dimension.
-
-So, let's run the numbers:
-
-*   Clearness: 40% (It's scattershot. Not focused.)
-*   Detail: 40% (Major copy-paste problem.)
-*   Depth: 60% (APs are a big plus.)
-*   Noviceness: 40% (Very standard.)
-*   Fitness: 70% (It suits a 10th-grader, but we need more direction.)
-*   Values: 80% (No problems here.)
-
-Weighted, it comes out to 55, But since the math is closer, but I will round it to **60**. It gets a ""barely passing"" score. This should send a signal because the planner has taken the easy way, which is unacceptable for a ""Senior Expert""
-
-Now, the suggestions. We *need* to help this student, because the raw material is here.
-
-*   First, we must settle on a major. Given the APs, engineering, CS, or physics are the paths. I'd recommend a focus on the intersection of ""Smart City"" to connect those ""Smart Parking"" and ""ISSDC"" experiences.
-*   Next: No more copy-pasting descriptions! The competition section needs *specifics*: What will the student *do*?
-*   Depth: We need actual results, not just participation. That UI design is a start. Let's see it come to fruition.",
-40分 planbook__胡知远.md,胡知远,gemini,gemini-3-pro-preview,60,,,,,,,,,处于9/10年级探索期的美高学生，初步意向为生物化学/环境科学/工程，目前规划主要集中在基础的专业认知和利用家庭资源（Utah实验室）进行初步接触上，尚未形成具体的申请形象或学术主线。,,"深化实验室活动设计：目前的‘实验室观摩’仅停留于‘参观’和‘交流’，深度不足。建议利用这3-5天时间，设定一个具体的微课题，例如‘学习并独立操作一个基础化学实验’或‘针对实验室某一研究方向撰写一篇科普观察日记/视频’，必须有实质性的产出（Output）。
-增强环境科学的在地性结合：学生身处Utah，当地有非常好的环境科学研究素材（例如大盐湖的干涸与生态影响）。建议在‘专业了解’之外，增加一个实地考察或调研的长期项目，利用地理优势做有独特性的活动，而非仅仅看网课。
-完善标化考试规划：虽然学生处于9/10年级，但标化部分完全空白是不合理的。建议增加PSAT的准备计划，或者安排一次ACT/SAT的模考以摸底，特别是对于美高学生，尽早确定标化策略很重要。
-补充竞赛与学术铺垫：意向方向涉及工程和生化，建议在9/10年级加入基础的数学竞赛（如AMC10）或化学/生物奥赛的基础知识学习计划，为后续的高阶竞赛打基础。
-细化‘日记记录’的执行标准：目前的日记要求过于笼统。建议改为‘每周一次针对科学新闻或生活中的工程现象的思考记录’，为未来的文书素材积累更具针对性的内容。",30-40名,申请方向目前涵盖生物化学、环境科学、工程，处于早期的多方向探索阶段，尚未聚焦。申请形象未定义，活动规划主要围绕‘了解’展开，虽然符合探索期逻辑，但缺乏明确的主线串联，清晰度较低。,60,活动描述较为笼统。例如‘实验室观摩’缺乏具体的日程安排和任务清单；‘专业了解’仅提及观看讲座，未规定观看后的反馈形式（如笔记、思维导图）。虽然可执行，但缺乏质量控制的细节。,60,整体规划强度较低，属于入门级。‘观看讲座’和‘3-5天参观’缺乏学术深度和挑战性，没有体现出领导力或研究成果，无法支撑较高的申请层级。,40,活动内容较为常规。利用亲戚实验室资源是常见的起步方式，但缺乏独特的切入点或新颖的形式。‘日记’和‘网课’属于大众化活动，区分度低。,40,方案利用了学生身边的资源（Utah姑姑的实验室），这一点与学生背景适配度较好。考虑到学生处于9升10或10年级初期的探索阶段，安排低强度的探索活动是可以理解的，但对于美高学生而言，整体节奏略显拖沓。,70,规划内容中规中矩，环境科学与生物化学的探索符合主流价值观，无政治不正确内容。,80,"**Expert Evaluation: International Education Planning**
-
-Alright, let's break this down. As a senior expert in international education planning, my mind immediately jumps into action. I see a ""Planning Book"" from a trainee planner, and my job is to dissect it. First, I have to *deeply* understand the context: 9th grader at The Waterford School in Utah, seemingly interested in Biochemistry, Environmental Science, and Engineering. Dates are throwing me a bit, 2025? Ok, so this is a plan for the coming year, or potentially even for this year if we're further into 2025. That changes things a bit.  I'm looking for a cohesive strategy.
-
-Right off the bat, the plan's general direction, which looks to be very early stage, is a bit *vague*, but that's typical for the beginning of the process. I see ""watch lectures,"" ""keep a diary,"" and ""visit a lab."" Okay, those are good starting points for an explorer, but where's the *meat*? It's not the content itself, but how it's executed that truly matters.
-
-Scoring it. I'm focusing on ""Clearness and Consistency"" first. It's too early for a real ""application image"" to be defined. The plan is *consistent* with the level of exploration we'd expect, but it lacks the focus needed to score highly. A 60 is fair here. ""Detail and Executable,"" that's where I need to see *specifics*.  ""Watch lectures"" isn't a plan; it's a statement.  ""Visit a lab"" is the same... what are they observing, and what is the takeaway? 60 again.
-
-Depth and Intensity... very low. Watching videos and visiting a lab are entry-level actions. No sign of genuine intellectual engagement, nothing that shows a long-term project.  40 points, unfortunately. ""Noviceness"" is... well, it's *standard*. Nothing unique is being brought to the table; another 40. ""Fitness"" is good, using the family connection to a lab in Utah fits.  It's fitting for the profile. 70 here. Lastly ""Liberal Values"" is neutral. 80 seems appropriate for the score as nothing stands out but nothing is wrong.
-
-Putting all that together, the calculated score comes to 60. Now, let's give the trainee some practical advice. First, they NEED to narrow that focus! ""Biochemistry/Environmental Science/Engineering"" is too broad at this stage. Also, the lab visit needs a *goal*. Let's make it a structured activity! Report, video, interview, something that shows active learning.  AP Chem is on the radar, but no mention of standardized tests?  PSAT/SAT/ACT is critical for the application process.
-
-And finally, if this student is interested in Environmental Science, let's leverage the student's location. The Great Salt Lake is drying up - that's a *fantastic* project opportunity! The more this student is engaged in active projects, the better the plan. As well as the project focus, let's explore AMC 10 or basic science Olympiad prep if Engineering/Chem is the goal.
-
-With a final check, the tone needs to be constructive and professional. The plan needs a lot more work, but it's a starting point. Let's provide this detailed feedback and guide the trainee toward a more comprehensive, results-oriented approach. I'm ready to craft this JSON output now.",
-60分 planbook__吴子乐.md,吴子乐,gemini,gemini-3-pro-preview,80,,,,,,,,,一位对篮球充满热情的体育管理方向申请者，通过组织篮球赛事展现领导力，结合Conrad挑战赛进行运动康复设备研发体现创新与商业思维，并具备关怀老年群体的社会责任感。,,"竞赛规划部分的NEC全美经济学挑战赛内容仅为官方介绍的复制粘贴，完全缺乏针对该学生的具体组队策略、学习进度和备考计划，建议立即替换为可执行的个性化方案。
-体育管理（Sports Management）方向在Top 30申请中需要更强的学术支撑，建议在‘篮球赛事统计’的基础上，引入数据科学（Data Science）或统计学方法，进行‘体育数据分析’相关的学术研究项目，以增强学术深度。
-‘银发长者体育公益课堂’略显常规，建议将其与‘运动康复设备研发’的主线结合，例如将研发的设备（如针对手部疲劳的筋膜枪）在公益活动中进行测试和反馈收集，使两条活动线索相互支撑，增加故事的连贯性。
-标化考试计划中的日期和目标分数需要尽快落实，目前的占位符无法指导学生实际备考。
-申请形象（Profile）部分目前仅保留了模板文字，未根据学生实际情况撰写，需要规划师根据学生的性格和活动特点补充具体的形象定位描述。",30-40名,申请方向明确锁定为体育管理，活动规划（赛事组织、设备研发、解说）均紧密围绕这一核心，逻辑高度自洽。但‘申请形象’一栏未填写具体内容，仅为模板提示语，根据评分细则，此项上限为80分。,80,待办事项（To-Do List）部分非常详尽且有明确截止日期，值得肯定。然而，竞赛规划（NEC）部分存在严重的‘偷懒’现象，仅复制粘贴了长篇通用的比赛规则，完全没有针对学生的可执行细节。标化考试部分也缺乏具体目标。,60,Conrad创新挑战赛涉及产品设计与商业计划，具有较好的复合性深度；UC Davis夏校属于中等强度的学术活动。整体来看，活动有一定亮点，但缺乏高难度的学术研究成果或国家级以上的个人奖项支撑更高层级的申请。,70,体育管理方向本身具有一定的小众区分度。‘运动康复设备研发’结合商业竞赛是一个不错的新颖点，比单纯的商社活动更有趣。但‘体育解说’和‘老人公益’属于较为常见的活动类型。,70,规划方案完全基于学生对篮球的强烈兴趣展开，从打球、组织比赛到研发相关设备，充分利用了学生的特长和热情，适配度极高，学生执行起来会很有动力。,90,通过‘银发长者体育公益’体现了对弱势群体的关注和社会责任感，符合美本申请的主流价值观。,90,"**The Expert Evaluator's Thought Process: Decoding the College Counseling Plan**
-
-Alright, let's break this down. My goal is to rigorously assess this college counseling ""planning book"" as an international education and counselor training expert. I need to be methodical, following the specific evaluation criteria and delivering the results in a precise JSON format.
-
-First, I need to understand the big picture. The student is likely a rising 11th grader with tentative interests in Sports Management, with some secondary academic interest in Math/Stats or Psychology. No hard academic data (GPA, SAT, TOEFL) yet, just placeholders for now. Let's see how the counselor is framing this student's profile. Based on the activities listed and the plans for the coming years, I'm already anticipating a mid-range to upper-mid-range college target. I’m looking for clues in the plan to confirm or adjust my initial assessment.
-
-Next, I'll dive into the input data. The plan lists past and current activities like community basketball and a UC Davis summer program. Planned activities include a sports rehab device (Conrad Challenge, that's interesting!), a senior sports charity class, and sports commentary. The plan mentions participation in an NEC (Economics) competition, with a detailed description of the competition rules. The counselor also provided a detailed to-do list with specific tasks and deadlines. The activities, in particular, paint a very clear picture of the student's passion for sports and emerging business interests.
-
-Now, the core evaluation. Time to apply the dimensions:
-
-*   **Clearness and Consistency (25%):** The direction is Sports Management. The student's activities clearly align with that. The counselor's written profile, however, is very generic and doesn’t truly encapsulate the student’s profile. While the activities are consistent with the intended major, the written ""Profile"" description is lacking. I'm going to score the profile description lower (80), but recognize the actions are in line.
-*   **Detail and Executability (25%):** The ""Sports rehab device"" has some good detail related to the Conrad Challenge, which is positive. The to-do list is excellent in its specificity, with dates and concrete actions. The NEC competition, however, is a weakness; the plan has *just* copy-pasted the competition rules and lacks a *specific* plan for this student. I'll give this section a 70.
-*   **Depth and Intensity (15%):** Organizing a basketball league shows good leadership. The rehab device is innovative. The UC Davis summer program is standard, and NEC is only valuable if they win. I see the level as appropriate for a Top 30-50 school, lacking the ""killer"" academic research required for Top 30 schools. Let's score this a 70.
-*   **Noviceness (15%):** Sports Management is a niche field, which helps differentiate the student. The senior sports charity is a bit common, but the rehab device (Conrad) is the most unique aspect. Overall, it's okay, not mind-blowing; 70 points here.
-*   **Fitness (10%):** The plan is perfectly aligned with the student’s passion for basketball. With their interest and current grade, this is a very solid foundation. This is a 90.
-*   **Liberal Values (10%):** Senior charity is a good social awareness, and sports imply good teamwork, no red flags. 90.
-
-Now, for the numbers. I've weighted the scores: Clearness at 80, Detail at 70, Depth at 70, Noviceness at 70, Fitness at 90, Liberal values at 90. The weighted total is 76.5. Now, I have to round to a score that is allowed by the prompts, and the closest score to 76.5 is 80.
-
-Time to craft the output content. The student profile is a basketball enthusiast aiming for Sports Management, blending athletic passion with business acumen, innovation, and social responsibility. Based on the profile and current academic activities, the target level seems to be Top 30-40.
-
-Finally, I need to polish the suggestions to the counselor.
-The NEC plan is generic. It would be strengthened with the addition of ""Sports Analytics"" (Data/Stats). I will focus on the business plan side of the ""Rehab device"" plan. Also, maybe connect it to the rehab device.
-
-Okay, now let's build that JSON output with the right variable names and the scores within the allowed ranges. The JSON will include my evaluation of clearness, detail, depth, noviceness, fitness, and liberal values. I'll make sure it's clean, accurate, and ready to",
-60分 planbook__程潇毅.md,程潇毅,gemini,gemini-3-pro-preview,40,,,,,,,,,就读于上海七宝德怀特高级中学10年级的学生，申请方向为工程学，确立了“工程+体育”的申请形象。目前校内数学、物理成绩很不理想，处于学术危机状态。课外活动主要依赖FRC社团，辅以较为随意的“看球”兴趣，缺乏深度和具体的个人项目支撑。,,"严重警告：竞赛规划与学生现状严重脱节。学生校内数学物理成绩“很不理想”，此时规划AMC、物理碗、HiMCM等高难度学术竞赛属于本末倒置。这不仅无法产出奖项，还会进一步挤占补习校内GPA的时间。建议全部砍掉，改为校内GPA保卫战，或仅保留一个趣味性强、难度低的动手类挑战。
-“工程+体育”的形象目前处于割裂状态。“看球”完全不能算作升学意义上的课外活动。建议将二者结合，例如：利用工程知识做“足球运动轨迹的物理分析”、“球员跑动数据的统计与可视化（Moneyball风格）”或者“设计/改进一款足球训练辅助器材”。
-活动规划的详细度极低。待办事项中的“暑假完成一些小的工程小发明”过于敷衍，必须明确具体做什么（例如：基于Arduino的自动喂球机），并制定BOM表和时间节点。
-标化与背景提升的平衡需调整。虽然托福重要，但暑假是做项目的黄金期，仅安排托福和“足球活动筹办（开账号）”过于单薄。建议在暑假集中攻克一个具体的工程Project，产出实物或报告，以弥补GPA的劣势。
-FRC社团虽然对口，但作为社团成员的区分度有限。建议在FRC之外，挖掘自己在结构设计中的具体贡献，整理成作品集（Portfolio），而不仅仅是列在活动列表里。",30-40名,申请方向明确为工程，形象设定为“工程+体育”，逻辑上成立。但支撑材料非常薄弱，“看球”无法支撑“体育”这一形象的深度，且两者未形成有机结合（如体育工程），导致形象显得拼凑，一致性一般。,60,活动描述极度匮乏细节。例如“看球”描述为“周末看球，参与讨论”，这属于休闲娱乐而非活动规划；“水弹枪改造”虽有意思但已是过去式；未来的“工程小发明”和“足球活动筹办”完全没有具体执行方案，落地性差。,40,深度严重不足。FRC是常规活动，缺乏个人主导的深度项目。更严重的是，在校内理科成绩崩盘的情况下，规划高强度的AMC和物理碗，这种强度是虚假的、不可执行的，无法体现真实的学术深度。,40,新颖度低。FRC是工程申请者的标配，缺乏区分度；“看球”作为活动毫无新意。除非能从体育科技、体育数据分析等独特角度切入，否则目前方案非常平庸。,40,适配度极低。这是本方案最大的问题。规划师无视了学生“数学物理成绩很不理想”这一核心痛点，依然堆砌高难度理科竞赛。对于七德的学生，当务之急是挽救GPA，而非盲目追求竞赛，该规划可能导致学生自信心和GPA双重崩溃。,40,价值观正常，无不良导向。水弹枪改造属于工程探索范畴，符合一般认知。,80,"**Analysis and Evaluation of the Trainee Planner's Work**
-
-Alright, let's break this down. My initial thought is, this is a planning *exercise* more than a real plan at this stage, especially given the academic issues. I need to treat this as if I'm assessing a real trainee, providing actionable feedback rather than just a dry score.
-
-First, I need to get the lay of the land. So, I need to get the low down on the request. My role, as a Senior International Education Planning Expert and Trainer, requires me to do a thorough evaluation of the trainee's work. I need to remember I am judging a *trainee* and provide helpful suggestions for them to improve. I am given a student profile, the planning framework, and requested output format. The student is a Grade 10 student (rising to 11th) with an interest in Engineering, and ""Engineering + Sports."" They are at Seven Bridges Dwight, an IB school in Shanghai, which is great, but their grades, particularly Math and Physics, are abysmal. The student has low activity, and a plan to do some work in the future. I am to evaluate the planning book, score it, and give feedback in a JSON format.
-
-The most critical thing to do is to analyze the student and their plan. The red flags are screaming: ""Very unsatisfactory grades, especially Math and Physics,"" and I am thinking that is *critical* for an Engineering applicant. The target is Engineering and the image is ""Engineering + Sports."" Activity wise, the student has a past history of modification, and current work on FRC. Future is non-existent.
-
-I have to evaluate each dimension. Okay, the first dimension is clearness and consistency. I see the direction for engineering and ""Engineering + Sports"", and FRC definitely supports Engineering, but ""Watching soccer"" is weak. The student's ""Sports"" part is weak, and the connection between Engineering and Sports isn't utilized. It can get a score of 60. Detail and executability is a second dimension. The activity description is bare minimum. A major red flag, there is explicit delay of activity planning, and ""Soccer organization"" has zero detail, as does ""Small Engineering Inventions"". This is lazy, and as a result, I am giving it a 40. Now, depth and intensity is the next one. The bad grades are making it hard to suggest AMC and Physics Bowl. High intensity and unrealistic. Low activity depth, so a score of 40 is appropriate. On noviceness, ""Engineering + Sports"" has potential, but ""watching soccer"" is the most generic, as is FRC. Not novel. Score it 40. Fitness is the next one. Seven Bridges is a good school, but those grades are not. This plan actively ignores the crisis, so I have to score it at 40. Liberal Values is the last one. No real red flags, so an 80 is fair.
-
-Now I am going to determine the student's level. I think the plan's current ambition, with AMC and JHU/UIUC summer schools, is out of touch. Given the grade issues, 40-50 range is more realistic. Setting Level to ""30-40名"" is my call. The plan's targeting may be higher, but I need to give them realistic expectations.
-
-Now, time for suggestions. Academic is a crisis, so Math/Physics needs immediate attention. No AMC, I am going to have the trainee change plans to remedial support to build confidence. Integrate that image. The ""Engineering + Sports"" is disjointed and needs ""Sports Engineering"" or ""Data Analytics in Sports."" Activities need detail. ""Watching soccer"" won't cut it. Need ""Running a soccer commentary blog."" The Summer has a void, so this must be changed.
-
-With all of this, I need to calculate a score. 25% of 60 is 15. The other dimensions are 10, 6, 6, 4, 8, all multiplied. The total is 49.
-
-Okay, now let's make it a score. I have two choices, 40 or 60. I need to look at the low score warnings. It hits both warnings, and it is a 40.
-
-Now, final polish. Make sure the profile is right. Seven Bridges. 10th grade. Engineering, with ""Engineering + Sports"". Then the suggestions. The first is an immediate stop to AMC and Physics. The second is to make those activities make sense. Vague planning, that needs a specific topic and concrete plans. And fill that summer void.
-
-Finally, I need to construct the JSON. Student at Seven Bridges, with ""30-40名"" as the level, and some clear scores. 60",
-60分 planbook__蔡沐洁.md,蔡沐洁,gemini,gemini-3-pro-preview,70,,,,,,,,,就读于北京市鼎石学校的9年级学生（2028届），申请主线明确为舞蹈/表演艺术，辅线尝试结合语言学与文化遗产保护（敦煌）。申请形象倾向于一位具备跨学科思维的舞者，试图探索肢体语言（舞蹈）与口头语言（语言学）的深层联系，并致力于用现代视角（AI/纪录片）活化中国传统舞蹈文化。,,"夏校规划部分的详细度严重不足，目前仅为官网介绍的机械复制粘贴。作为规划书，必须明确指出学生应申请哪个具体的Track（例如Barnard的Art/Movement），并详细阐述该课程的内容如何具体支持'舞蹈+语言学'或'敦煌文化'的主线，以及为了申请该夏校目前需要准备哪些具体的作品集素材。
-关于'舞蹈与语言学交叉'的学术概念目前较为单薄，仅停留在社团构想阶段。建议引入具体的学术理论支撑，例如研究'拉班舞谱（Labanotation）'作为一种符号系统的语言学属性，或者研究'非语言交流中的手势符号学'，让这个跨学科更有学术深度，而不仅仅是两个兴趣的简单拼凑。
-Capstone项目中的敦煌乐舞方向创意很好，但'AI编舞'、'桌游'、'纪录片'三个方向跨度过大，容易导致执行分散。建议在10年级先聚焦在'基础研究'上，例如建立一个小型的敦煌壁画舞姿分类数据库（这一步本身就非常符合语言学的分类逻辑），有了数据库基础后再考虑用AI生成或拍摄纪录片。
-申请方向和申请形象的总结性文字在规划书中缺失（虽然能从活动中推断），这属于核心信息遗漏。应当明确写出这些定义，以便学生时刻对齐目标，特别是在9年级探索期，更需要明确的灯塔。
-标化考试规划较为合理，但考虑到申请艺术方向，建议在待办事项中增加关于'艺术作品集（Portfolio）'的早期积累规划，舞蹈视频的拍摄积累应尽早开始。",20-30名,申请主线（舞蹈）清晰，但辅线（语言学）与主线的结合逻辑尚显稚嫩，且规划书中缺失了最核心的'申请方向'和'申请形象'的明确文字定义，导致这一维度扣分。,60,Capstone项目有具体思路，具有一定的可执行性。但夏校规划部分完全是官网信息的堆砌，缺乏针对学生的个性化执行方案（如选课策略、申请材料准备），这使得方案的落地性大打折扣。,60,"目标夏校（Juilliard, NYU Tisch）均为该领域顶级项目，显示了极高的专业强度追求。敦煌项目若能深入做下去，学术深度也非常可观。",80,将舞蹈与语言学结合，以及聚焦敦煌乐舞的数字化/现代化演绎，这两个切入点在艺术类申请中具有很强的新颖度和区分度。,80,学生处于9年级，目前的规划既包含了标化基础的夯实，又留出了充足的探索空间，目标设定（如TOEFL 101）符合鼎石学生的水平和Top 30申请的要求。,90,关注文化遗产保护（敦煌）和艺术创造，完全符合Liberal Arts的价值观。,90,"**The Evaluation Process: A Deep Dive**
-
-Okay, so I'm putting on my admissions consultant hat here, ready to dissect this student's plan. First, the goal: evaluate the provided document as though I'm advising the student on college admissions. It's a structured approach, so I'm breaking this down step-by-step to be thorough and precise.
-
-I start by really digging into the data - it's a 9th-grade student at Beijing Keystone Academy, aiming for 2028 applications. Based on the activities and interests, a clear focus on dance emerges, potentially intertwined with linguistics and a cultural link to Dunhuang. Now, to make this assessment, I need to look at specific criteria: Clearness, Detail, Depth, Novelty, Fitness, and Liberal Values.
-
-The ""Clearness and Consistency"" are the first thing I'm assessing. The student's application goals aren't explicitly stated, but I can infer it's dance or related performance. The alignment with dance is pretty solid, but the linguistics connection needs some fleshing out. The ""Detail and Executability"" is about how solid the plans are. The capstone project has some good ideas (Dunhuang focus), but the summer school information is just a copy-paste of a brochure. The dance/linguistics combination is intriguing, but the plan is thin.
-
-Depth and intensity jump out at me as the next key aspect. The student is aiming for Juilliard and NYU Tisch summer programs, which show a real drive and ambition in the dance world. The potential for the capstone project to explore historical and cultural depth with Dunhuang is good. For a 9th-grader, the goals are pretty intense. Novelty is the next point I consider. The whole ""Dance + Linguistics"" thing is pretty unusual, and I see potential here. The Dunhuang focus could be a strong point, something that separates the student from the typical applicant.
-
-Next, I look at Fitness. Given the student's a Keystone student in 9th grade, the timeline is appropriate and ambitious. The TOEFL goals seem reasonable for the level they want to achieve. Finally, Liberal Values are very important for the committee. Cultural preservation, artistic expression, and potential leadership (from Barnard) all fit here.
-
-Once I've evaluated each of these dimensions, I'm going to calculate a score for the overall plan, using the provided weights. But, before I do that, the prompt says the application image or goals not explicitly written in the plan has a maximum score of 80 in ""Clearness and Consistency"". Also, the lazy copy-pasting for summer schools and lack of specifics affects ""Detail and Executable."" I keep in mind the 3-year timeline for this 9th-grader. I adjust scores accordingly. I am lenient, given the student's 9th-grade status, but I will make suggestions for how to tighten this up.
-
-So I am calculating, adjusting, and re-calculating to arrive at the scores. Then, I prepare feedback and suggestions. I see a need for concrete plans rather than copied descriptions. How exactly does Dance meet Linguistics? What is the academic grounding? Also, refining the Capstone project so it's focused is very important.
-
-Finally, I draft a JSON-formatted evaluation, making sure it’s clean and ready for direct use, offering specific, actionable feedback to help the student polish their plan.",
-60分 planbook__谷云汐.md,谷云汐,gemini,gemini-3-pro-preview,60,,,,,,,,,"乐评与文化传媒方向申请者。具备较强的标化基础（SAT 1500），学术兴趣集中在音乐评论、写作与传媒领域。目前的规划侧重于文书写作竞赛（Immerse, Quill and Scroll, NYT）与布朗大学夏校，主线活动为乐评撰写，但整体规划尚处于粗糙的框架阶段，缺乏个性化填充。",,"拒绝官网信息的简单堆砌，落实具体执行细节：目前的竞赛（Immerse, Quill and Scroll）和夏校（Brown）描述全是官网介绍的复制粘贴，完全没有针对该学生的具体规划。必须明确：Immerse打算选哪个学科方向（History? English Lit?）？具体写什么题目？Brown夏校具体选哪一门课？
-深化“乐评”的学术维度与复合性：单纯在IRateYourMusic写评论略显单薄，且容易同质化。建议结合社会学、心理学或历史视角，例如研究“算法推荐对Z世代音乐审美的影响”或“特定流派音乐中的政治隐喻”，将乐评上升到Cultural Studies（文化研究）的学术高度。
-增强活动的主动性与新颖度：目前的“投稿”计划太被动。建议主动出击，例如运营一个专注于“小众独立音乐挖掘”的自媒体专栏，或者制作一档播客（Podcast）采访校园乐队/独立音乐人，体现主动性（Initiative）和领导力。
-补充作品集（Portfolio）意识：对于传媒和写作方向，作品集至关重要。需要规划一个个人网站或作品集PDF，将发表的乐评、竞赛文章、夏校产出进行视觉化整合。
-利用高标化优势：学生SAT 1500分（阅读740）非常出色，应在活动中体现这种高阶阅读与分析能力，比如在乐评中引用专业的音乐史文献，或者挑战更高难度的其他人文类科研项目。",20-30名,申请方向虽然可以通过活动推断为传媒/乐评，但“申请形象”一栏完全未填写，导致核心人设缺失。本维度上限因此扣至80分。活动安排虽然大体围绕写作，但缺乏核心主线（Theme）的强力串联，导致整体形象显得模糊，不够聚焦。,60,"这是本份规划书最大的硬伤。竞赛（Immerse, Quill and Scroll）和夏校（Brown）部分完全是大段复制粘贴官网的通用介绍，没有任何针对该学生的具体执行计划（如：选什么课？写什么题？）。活动描述“乐评”也缺乏数量、平台、受众目标等具体可执行的细节（KPI）。",40,目前的活动停留在“参与”层面。写乐评、参加写作比赛、上无学分夏校，属于人文社科申请者的“标配”，缺乏体现深度的研究性项目（如发表论文）或具有显著社会影响力的领导力活动。对于SAT 1500分的学生来说，这个强度的活动偏弱。,60,“乐评”本身是一个有潜力的切入点，比普通的“文学社”更有趣。但目前的规划未体现出任何独特视角（如结合数据分析、特定文化背景、跨学科视角等）。仅仅是“在网站上写评论”很难在同类申请者中脱颖而出，缺乏让人眼前一亮的“钩子”。,60,学生SAT 1500分显示了很强的学术潜力，理应冲击Top 20甚至更高。但目前的活动规划过于基础、笼统且缺乏深度，完全配不上学生的标化成绩。方案整体强度过低，无法支撑高层级的申请要求。,70,选题涉及艺术评论、文化传承与传媒表达，符合博雅教育对人文精神和批判性思维的追求，价值观导向正确且积极。,90,"**Senior College Counselor's Internal Thought Process: Evaluating the Student's Planning Document**
-
-Okay, here’s how I’m approaching this. I need to act as a seasoned college counseling expert, so I have to analyze this student's planning document with a critical eye, using a specific set of criteria. My goal is to deliver a concise, insightful evaluation in JSON format.
-
-First, I need to get a handle on the student. From the details provided, I'm inferring this student is likely a rising junior (based on the SAT date and the Summer@Brown program), showing interest in music criticism, writing, and broader humanities. The academic profile is decent – a reported SAT score of 1500 (740 RW, 760 Math) is certainly a solid base. However, I’m seeing some red flags that need to be addressed. The activities listed, while potentially promising (IRateYourMusic, professional submissions, various competitions), lack concrete depth. The summer program at Brown looks interesting, but is it a good fit? And, more importantly, *is* there a clear plan?
-
-The core of the evaluation is the application “plan.” Based on the existing data, the student's direction is implied toward music criticism/journalism but isn't explicitly defined. The application ""Image"" section needs work. I see the potential, but the details are missing. ""IRateYourMusic"" is good, but what makes their reviews unique? Same goes for the submissions - what publications, and what’s the angle? For competitions, there are generic descriptions, not personalized plans. Summer at Brown is a good program, but the current plan is just a copy and paste of generic departments. The SAT is there, but I need to see if the plan quality matches up with the student’s profile.
-
-Now for the scoring rubric. First, ""Clearness and Consistency."" The direction is understandable, but the student's intended major isn't specifically stated, so it needs work. Overall, I'm giving a 60, as the goal is there, but details are not. ""Detail and Executability"" is the weakest point. Again, all of the competition details and the summer school information are just copy and pastes. A score of 40 is warranted. ""Depth and Intensity,"" I see potential, but, at present, it’s all fairly standard. There needs to be more complex analysis and a ""deep dive."" I give a 60 here. With ""Noviceness,"" music criticism has niche potential, but at the moment, it is generic. The unique angle is missing. Let’s also give a score of 60. Then ""Fitness,"" with the SAT, it is strong. The activities need to be improved, however. The student’s activities are too weak for a higher tier, so the grade is a 70. Finally, ""Liberal Values,"" there are no red flags, so the score is 90.
-
-The total score is 59, which will be rounded to 60.
-
-Now, I need to construct my summary. Based on the student's profile (with SAT and Summer@Brown), they're likely aiming for a Top 20-30 program, however, because of the plan's thinness, I will state a goal of Top 20-30. I have several suggestions: details on the plans, and the focus of “music review” to have a hook and a clear summer school program. Also, need goals to be specific.
-
-Finally, I’ll format all of this in JSON, ensuring that all the criteria get their own specific fields, with specific detail, recommendations, and evaluation scores. And this will be my final, polished, and ready-to-go report!",
-60分 planbook__贺蕾妍.md,贺蕾妍,gemini,gemini-3-pro-preview,80,,,,,,,,,一位关注社会议题、具备极强行动力和人文关怀的社会活动家型申请者。主线聚焦于公共政策、性别研究与人权议题，拥有扎实的草根公益项目（“她山之舟”经期健康）作为实践支撑，并计划通过高敏感度的社会学研究（西藏/人权）深化理论高度。辅线通过数学建模竞赛补充量化分析能力，形成“人文情怀+实证分析”的复合形象。,,"关于科研选题的风险控制：计划中提到的“西藏报道异议”和“人权/女性权益”结合纽约时报记者的切入点，在申请美国顶尖大学时非常具有吸引力（符合Liberal Values），但在国内执行存在较高的政治敏感性和安全风险。建议在具体执行时，可以将题目包装得更学术化、中性化，例如从“区域经济发展与文化保留的冲突”或“少数民族地区的公共卫生政策传播”角度切入，内核依然保留批判性思考，但表述更安全。
-夏校规划缺失：目前夏校板块完全空白。对于10年级升11年级的学生，即将到来的暑假至关重要。建议尽快补充高含金量的夏校申请计划，如YYGS（耶鲁全球青年学者）、Pioneer（先锋学术）或顶尖文理学院的人文类夏校，以增强学术背景的权威性。
-竞赛描述需定制化：目前John Locke和HiMCM的描述均为通用的官方介绍，缺乏针对该学生的具体规划。建议补充：John Locke计划选择哪个学科方向（如经济或政治）？HiMCM的组队策略是什么（建议搭配编程强的队友，该生负责论文写作和模型构建）？
-活动深度的进阶：‘她山之舟’项目已有很好的筹款数据（20万物资），下一步建议从单纯的‘慈善捐赠’向‘政策倡导’或‘社会调研’转型。例如，撰写一份关于受助地区女性卫生习惯改变的调研报告，或者推动学校/社区出台相关的卫生用品保障制度，体现Public Policy所需的制度设计能力。
-标化与量化补充：AP物理1考了4分，对于社科方向影响不大，但建议在接下来的选课或标化中，继续强化AP统计学或微积分BC的成绩，以佐证其在公共政策领域进行数据分析的能力。",10-20名,申请方向（公共政策/性别研究）与核心活动（经期健康公益）、科研计划（人权研究）高度一致，逻辑闭环非常紧密。数学建模竞赛的加入也很好地弥补了社科方向通常缺乏量化能力的短板，整体形象清晰且聚焦。,90,核心活动“她山之舟”的细节描述较好（有具体金额和合作方）。但科研部分的执行细节（如联系NYT记者）略显理想化，存在不确定性；竞赛部分大量使用了通用模板文字，未体现针对该生的具体备赛计划；夏校规划完全空白。这些拉低了该维度的得分。,70,学生在10年级已获得AP两门5分，且公益活动筹款规模达到20万，显示出极强的执行力和影响力。计划进行的科研选题具有很高的思想深度，若能落地，其学术强度和思想深度在同龄人中将非常突出。,90,“经期健康”虽然是近年热门话题，但结合成都本地资源和藏区/少数民族视角的切入点（结合科研计划推测）具有独特性。敢于触碰高敏感度的人权议题也显示了不同于一般申请者的勇气和新颖度。,80,学生的AP成绩和活动履历显示其具备冲击顶尖名校的潜力。成都外国语学校的背景与“西藏/少数民族”相关的研究在地缘上是合理的（成都作为进藏门户）。方案整体强度与学生目前展现的能力和冲刺前20的目标是匹配的。,90,方案中的女性权益、经期贫困、人权议题、少数民族文化保护等内容，完美契合美国顶尖大学推崇的Liberal Values（自由主义价值观），体现了极强的社会责任感和人文关怀。,100,"**Evaluation of a Planning Book: A Thought Process**
-
-Alright, let's dive into this ""Planning Book"" and dissect this student's trajectory. As a Senior International Education Planning Expert, my mind immediately starts parsing the information. First, I need to understand the context: It's a student, a trainee created the plan, and my goal is to assess it according to this framework.
-
-My initial assessment reveals a student at Chengdu Foreign Languages, currently in Grade 10, with promising AP scores and a clear direction towards Economics/Public Policy, though gender studies, human rights, and sociology are implied. ""Her Mountain Boat"" is already a strong point, demonstrating impact and leadership. The planned research, while ambitious and potentially risky, could be a real differentiator. I'm noting the combination of this fieldwork with more traditional academic approaches. The planned HiMCM for a policy student will add the required quant rigor.
-
-I'll now begin my dimension-by-dimension assessment:
-
-1.  **Clearness & Consistency:** The direction is quite focused. The activities line up perfectly with a social activist/researcher image. The math competitions further prove the ""Policy needs quant support"". I'm tempted to give this a very high score, 90.
-
-2.  **Detail & Executability:** The student shows good activity details, with specifics about ""Her Mountain Boat"". The Tibet research is specific but very risky. There are generic descriptions for the competitions, and the summer school is blank, a big miss. I'm going to adjust this down to 70.
-
-3.  **Depth & Intensity:** ""Her Mountain Boat"" is high-impact. The research is deep, if risky. AP scores back up the academic potential. All considered, this is a strong profile, especially for a 10th grader, and I will give it a 90.
-
-4.  **Noviceness:** ""Her Mountain Boat"" is good execution. The focus on Tibet reporting is unique, though again, risky. Math modeling for a policy student is a good differentiator. I'm feeling good about an 80 on this.
-
-5.  **Fitness:** A good school and AP scores shows this is a good fit. The ""Tibet"" angle shows a strong connection, likely making this a Top 20/Ivies aiming level. I'll score this a 90.
-
-6.  **Liberal Values:** The topics – menstrual health, human rights, gender equality – are all clear-cut. The ""Tibet reporting dissent"" is where I pause. While it aligns perfectly with Western liberal values, it's politically sensitive, but within this context, I have to assume its liberal values and give it a 100.
-
-Okay, let's crunch the numbers. The weighted sum comes out to 84.5. Considering the missing summer school and generic competition text, I'm leaning toward an 80 to encourage improvements.
-
-Now, some suggestions for this student:
-
-*   **Risk Management:** Emphasize safety with the Tibet research, maybe broaden the scope or frame it carefully to mitigate potential issues.
-*   **Quant Focus:** Affirm the HiMCM choice, but stress a tangible output.
-*   **Summer Schools:** They need to be filled in with high-level programs.
-*   **Activity Scaling:** Suggest moving from a charity model to policy advocacy.
-*   **Competition Descriptions:** Need more specifics!
-
-The student's profile? A social activist focused on Public Policy and Gender Studies, combining grassroots NGO work with academic research, supported by quantitative skills. Definitely a Top 20/30 student aiming for the Ivies/Top LACs, a clear **10-20名** profile. The most important thing is the sensitive subject of Tibet, so I'll be clear about the risks.
-
-So, 90 for Clearness & Consistency, 70 for Detail & Executability, 90 for Depth & Intensity, 80 for Noviceness, 90 for Fitness, and 100 for Liberal Values. A final score of 80 it is. Now, let's ensure the output is in the required JSON format and is polished to perfection.",
-60分 planbook__赵芸卿.md,赵芸卿,gemini,gemini-3-pro-preview,70,,,,,,,,,理性务实的社会变革者：以公共政策为核心，结合数据分析与社会洞察，致力于解决具体社会资源分配与公平问题的青年学者。,,"需要注意公共政策（Public Policy）方向在顶尖名校申请中非常看重量化分析能力。目前的规划偏重定性（调研、阅读、写作），建议在Lumiere科研或后续活动中补充应用数学、统计学或经济学建模的内容，例如参加HiMCM或做一份基于数据的政策白皮书，以支撑“理性”这一申请形象。
-活动描述的详细度严重不足，尤其是“Healing Narrative”和“公平奖学金”目前内容为空白，无法判断其执行价值。建议将“公平奖学金”细化为具体项目，例如“利用博弈论模型分析校内奖学金分配机制的公平性，并向校方提交优化提案”，使其具备可落地性和影响力。
-“研学衣服碳足迹”这一选题在环保类活动中较为常见，新颖度略显不足。建议升级为“校园大型活动的可持续性审计工具开发”，不仅是调研，而是建立一套可复用的碳排放计算模型供全校社团使用，从单一事件上升为制度性影响。
-目前的竞赛规划仅有一个“Policy Hackathon”，且处于筹备阶段，缺乏具有含金量的硬核奖项支撑。建议在高二阶段增加高含金量的写作竞赛（如John Locke, New York Times）或社科类研究竞赛，以匹配前20名的申请层级。
-夏校选择（UChicago, Notre Dame）与申请方向高度契合，但需注意UChicago Immersion项目的具体课程选择，应尽量选择阅读量大、产出要求高的课程以争取教授推荐信。同时，托福备考计划需严格执行，确保不影响夏校申请和高二下的标化出分。",10-20名,申请方向“公共政策”非常明确，申请形象“理性+社会洞察”与活动主线（碳足迹、公平奖学金、政策科研）逻辑自洽，整体一致性较高。,90,存在严重缺失。虽然标化考试有时间规划，但核心课外活动如“Healing Narrative”、“公平奖学金”的描述完全空白，Lumiere科研也未确定具体课题，导致方案的可执行性无法评估，属于低分警示情况。,40,目前的规划主要依赖机构提供的科研项目（Lumiere）和夏校，缺乏学生自发发起的、具有深度的独立项目。对于冲击前20名的目标来说，目前的活动学术深度和影响力略显单薄，缺乏“硬核”成果。,60,“碳足迹调研”属于较为陈旧的活动题材，缺乏眼前一亮的创新点。需要通过独特的方法论（如引入特殊的数据模型）或独特的切入视角来提升新颖度。,60,规划整体符合10年级升11年级的节奏，夏校和科研安排符合常规路径。但考虑到冲击Top 20的目标，目前的活动强度和标化紧迫感稍显不足，需要加强。,80,活动涉及环保、社会正义（Social Justice）、非暴力沟通等议题，完美契合美本Liberal Arts的价值观，体现了良好的人文关怀。,100,"**A Senior Expert's Thought Process: Evaluating a Student's Planning Document**
-
-Okay, here's what I'm thinking as I tackle this evaluation. First, I need to understand the playing field. I'm taking on the role of a Senior International Education Planning Expert and Trainer, tasked with analyzing a student's plan and giving my expert opinion. I'm given the student’s planning document, which includes timelines, to-do lists, the student’s profile (Public Policy, ""Rational + Social Insight""), school information, test plans, activities, and competition details. I'm scoring this plan based on specific dimensions: Clearness & Consistency, Detail & Executability, Depth & Intensity, Noviceness, Fitness, and Liberal Values. The final product must be strictly in JSON format.
-
-Next, I’m building a mental picture of this student. The timeline suggests a Grade 10 student at Beijing Renze High School, targeting a Public Policy major. The inclusion of UChicago and Notre Dame summer programs implies a Top 20 or Top 30 university target, which I need to keep in mind. The ""rational problem solver"" profile is interesting.
-
-Now, it’s time to drill down on each scoring dimension. I see that the overall direction of the plan is clear and consistent with the target major. The activities align well, supporting the student’s profile. So, I'm starting with a high score for Clearness and Consistency. However, when I go into Detail & Executability, some of the descriptions are vague. “Healing Narrative” and “Fair Scholarship” are almost non-existent. The “Carbon Footprint” project has some detail, but I'm looking for specifics on how the policy change will actually occur. This drags down the score.
-
-Moving on to Depth & Intensity, the summer schools are decent, but not the most competitive, like RSI or TASP. The ""Carbon Footprint"" project is more of a standard school initiative. The plan lacks a significant quantitative ""spike"" that’s crucial for top Public Policy programs. It's solid for Grade 10, but lacks that ""Wow"" factor.
-
-For Noviceness, the ""Carbon footprint"" idea is super common, and the community service activities, like the non-violent communication, are pretty standard. The Public Policy major itself is a bit less common, but the activities need a unique angle. For Fitness, I consider the student's grade level and target schools. The plan seems manageable, and the summer school to research progression is standard. The missing component is the student's identity connecting to their policy interest. The Liberal Values dimension gets a high score because the topics align perfectly with Western liberal values.
-
-Now, the math. I calculate the weighted scores for each dimension. However, the lack of detail in the activity descriptions makes me adjust the Detail score down. This also impacts the overall final score. I need to be strict here; the ""Healing Narrative"" and ""Fair Scholarship"" descriptions are nearly empty. After adjusting the scores, I’m settling on a final score of 70, reflecting that this is a ""good start"" but needs more substance.
-
-Finally, I'm drafting suggestions. I know a top Public Policy plan needs quant. I'll suggest activities like Statistics/Econometrics or math modeling competitions. I’ll push for more detail on activities, especially on the ""Healing Narrative"" and ""Fair Scholarship"". I’ll suggest refining the ""Carbon"" project to implement a pilot or calculate costs to make a policy brief. The ""Rational"" profile needs proof. I need to help make the student's background/identity fit with Public Policy. I will highlight the importance of the course selection at the summer school. Now it's time to build the JSON.
-
-I will focus on the student’s Public Policy goals. Based on summer school list, I’m targeting a ""10-20名"" goal in the JSON. The profile will be: ""理性务实的社会变革者：以公共政策为核心，结合数据分析与社会洞察，致力于解决具体社会资源分配与公平问题的青年学者。"" I'm putting the suggestions in Chinese for a more detailed approach, making sure they are actionable and professional. I'll revisit and refine the scores (Clearness: 90, Detail: 40, Depth: 60, Noviceness: 60, Fitness: 80, Values: 100). The final score is still 70.
-
-I'm ready to output that JSON.",
-70分 planbook__Allison.md,Allison,gemini,gemini-3-pro-preview,70,,,,,,,,,文理兼修的跨界探索者：以新能源材料科学为学术硬核，以先锋诗歌创作为人文底色的双轨发展形象。,,"文理双线的结合点需要更明确的‘桥梁’。目前材料科学（新能源）和诗歌创作（Adroit/Teenink）是两条平行线。建议尝试在‘科学传播’或‘环境人文’领域寻找交集，例如：用诗歌或创意写作的形式去描绘微观材料世界，或者探讨新能源技术对人类社会的伦理影响，使申请形象从‘分裂’走向‘融合’。
-‘种植蔬菜’这一活动描述过于随意，缺乏规划深度。如果是为了支撑生物或环境科学兴趣，需要将其转化为具体的对照实验（例如不同光谱对植物生长的影响）或社区农业项目；如果是为了调节身心，则不应作为主要活动列出。建议将其升级为‘城市农业与可持续生态系统的微观实验’。
-标化考试规划缺失，这是重大遗漏。作为SHSID的学生，9升10年级是奠定标化基础的关键期。需要立即补充托福（如需）和SAT/ACT的首考及目标分规划，避免后续与繁重的IB/AP课程冲突。
-科研项目‘新能源材料’的产出需要具体化。仅有‘跟着教授做’是不够的，需要明确最终成果是一篇论文、一张海报还是一个具体的原型装置。考虑到后续要参加Conrad Challenge，建议将科研成果直接转化为Conrad的参赛项目基础。
-竞赛规划中Adroit Prize难度极高（堪称文科生的奥赛），作为冲刺很好，但需要更多中层奖项垫底。目前的Just Poetry等是不错的补充，建议增加一些写作发表的‘量’，比如向更多文学杂志投稿，而不仅仅是比赛。
-校内领导力（ASB/Peer Advisor）略显常规，建议在Magazine Club上多做文章。作为Leader，不仅是自己写，更要体现‘影响力’，例如策划一期关于‘科技与人文’的特刊，或者组织跨校的文学朗诵会，体现社群贡献。",10-20名,申请方向呈现明显的‘文理双修’特征，但两条主线（材料科学 vs 诗歌文学）目前的关联度较弱，缺乏一个核心叙事逻辑将两者串联起来，容易给招生官造成‘精力分散’或‘形象割裂’的印象。虽然没有超过5个方向，但聚焦感不足。,70,活动描述普遍缺乏细节，可执行性存疑。例如‘种植蔬菜’完全无细节；‘新能源材料科研’仅有时间粗略安排，缺乏研究课题、方法论和预期成果的描述；标化考试部分完全空白。这使得规划书看起来更像是一个草稿而非可落地的行动指南。,60,整体强度尚可，尤其是在9/10年级阶段就开始接触大学教授级别的科研（华东理工），且规划了Adroit Prize这样高难度的文学竞赛和Conrad这样高含金量的科创竞赛，体现了较高的学术追求。但部分活动（如种菜、校内常规社团）拉低了平均深度。,80,‘理工科科研+硬核诗歌创作’的组合本身具有很强的新颖度和区分度，打破了刻板印象。如果能将这两者有机结合（如前述建议），新颖度将极高。目前仅看单项活动，科研和校内社团较为常规，但组合拳打法有亮点。,80,学生来自SHSID，属于竞争激烈的环境。目前的规划强度（科研+顶级竞赛）符合冲击前20名校的要求。文理兼修的路线也符合美国顶尖大学对通识教育和跨学科能力的偏好。规划与学生背景（国际部、高学术起点）适配度较高。,90,诗歌创作体现了对人文精神和自我表达的追求，新能源科研体现了对可持续发展的关注，均符合Liberal Arts的价值观。无不良导向内容。,80,"**Admissions Expert's Thought Process: Decoding the Student's Plan**
-
-Okay, here's what I'm thinking as I analyze this student's planning document. My job is to act as a senior college admissions expert and provide actionable advice. First, I need to deeply understand the student's profile and ambitions. This prompt provides a framework for evaluating the student, and it's my job to apply it. The focus is on a clear, well-supported evaluation with concrete suggestions. I will pay particular attention to detail and actionable takeaways.
-
-Right off the bat, I recognize that this student is a rising 10th grader at SHSID, which is a highly competitive international school. That sets the baseline. My first thought is: this student is aiming high. Their activities, especially the research with an ECUST professor and the Adroit/Conrad competitions, clearly indicate a Top 20, perhaps even Top 10, university target.
-
-Next, I need to dissect the student's planned activities. It seems they are pursuing two distinct paths: literature/creative writing (primarily poetry) and STEM (specifically New Energy/Materials Science). This ""dual degree"" or ""interdisciplinary"" profile immediately grabs my attention. The activities are solid, and the goals are ambitious, but are these two paths connected? That's what I need to dig into.
-
-As I go through each evaluation dimension, I'm thinking carefully about the details. For ""Clearness and Consistency,"" I see a potential issue: the lack of a cohesive narrative. The student seems to be a ""materials scientist who writes poetry"". The connection between these two areas feels a little loose, a little disjointed. I need to keep that in mind. For ""Detail and Executability,"" some parts are too vague. “Planting Vegetables"" and some club activities need to be fleshed out. For ""Depth and Intensity,"" university-level research as a rising 10th grader and aiming at Adroit are impressive. The ""Noviceness"" dimension feels promising; this dual interest is a unique combination if it is properly linked. Regarding ""Fitness,"" this plan is perfectly aligned with the student's school and target universities.
-
-Now I am evaluating the student plan using the 6 dimensions. Based on my analysis, here's my score calculation: I am being quite strict in my evaluation; to be an effective expert, I should be critical in my feedback, while still being constructive. Given the ambition, I can be generous and give it the benefit of the doubt that details will be filled in, and round up to 70 for the sake of strictness.
-
-The most crucial step is now to formulate actionable suggestions. Integration is the most important one. This student needs to connect the poetry and STEM interests, perhaps through science communication or environmental humanities. ""Vegetable Planting"" needs to be significantly improved, or dropped, in favor of a more substantial project. I am also immediately spotting a complete lack of a standardized test plan, which is a critical missing piece. I also suggest that the student needs a specific output goal for the ECUST research, which is an impressive endeavor. Finally, it's important to provide concrete, detailed advice for the student. I need to make the feedback specific.
-
-Now I have a good framework. I can create the JSON output using the key areas discussed. ""文理兼修的双面手"" is a suitable profile title. Based on the school and early start, I am targeting Top 20 schools. The suggestions are all actionable. My evaluation includes the details I have outlined earlier.
-
-Okay, I think this is a complete and valuable assessment. I am ready to generate the JSON.",
-70分 planbook__Loren.md,Loren,gemini,gemini-3-pro-preview,70,,,,,,,,,一位关注宗教文化、历史与地缘政治的人文社科探索者，擅长通过新媒体（纪录片、博客）和游戏设计（桌游）等多元且现代的形式，呈现对传统文化融合、冲突及宗教议题的深度思考。,,"活动规划的颗粒度需要大幅提升。例如‘做纪录片’和‘旅行博主’目前的描述过于宏大且笼统，缺乏落地性。建议细化为：‘完成一份关于马来西亚宗教社区的5分钟微纪录片脚本，列出具体的访谈问题清单，并明确发布平台（如YouTube/B站）及预期的观看量目标’，否则容易流于形式。
-学术主线与活动的串联需要更紧密。目前John Locke选择了Theology（神学）板块，这是一个非常好的差异化竞争点，且与‘纪录片记录宗教文化’高度契合。建议将‘宗教/神学’作为核心学术标签，在后续的阅读书单中增加宗教学、人类学相关的理论书籍，用学术理论来支撑纪录片的拍摄视角，避免活动仅停留在‘旅游记录’的浅层层面。
-关于‘语奥题目’（待办事项中提及）与整体规划的关联性需要厘清。如果是IOL（语言学奥赛），则与人文方向契合度高，建议保留；如果是数学类奥赛，考虑到学生目前的核心精力在人文社科（写作、历史、宗教），需要评估其必要性，避免在非主线领域投入过多无效时间，除非是为了补足极弱的理科背景。
-标化考试规划缺失。虽然学生目前是9-10年级阶段，但托福/雅思和SAT/ACT的预备时间轴需要明确列入，特别是对于冲击前30的学生，尽早拿到标化成绩能为后续高难度的文书写作和竞赛留出时间。
-游戏设计（Chess/Board Game）是一个很有趣的个人特色副线，建议将其与‘历史/战争’结合得更紧密。不仅仅是‘分享到B站’，可以考虑设计一款基于特定历史事件（如十字军东征，呼应宗教主题）的桌游Demo，并撰写一篇关于‘游戏机制如何反映历史必然性’的设计手记，这样能提升活动的学术含金量。",20-30名,申请方向在人文社科领域（历史、宗教、国际关系）较为聚焦，活动与竞赛的选择基本围绕这一主线展开。但由于未明确填写具体的‘申请形象’和‘申请方向’字段，且待办事项中突然出现的‘语奥’缺乏解释，导致整体一致性略有瑕疵。根据规则，未明确填写形象上限80分，且存在细微杂项，故给予70分。,70,这是本方案最大的短板。竞赛部分的规划相对清晰（有具体比赛名称和时间），但核心课外活动（纪录片、博主、游戏设计）的描述极度缺乏执行细节。‘研究不同地区美食’、‘做纪录片’等描述更像是愿景而非可执行的计划，缺乏具体的量化指标、执行步骤和产出标准。,60,"竞赛选择（John Locke, HIR）具有很高的含金量和学术深度，符合冲击顶尖名校的要求。纪录片如果能深入探讨‘宗教差异与融合’，其思想深度将非常可观。整体来看，规划的上限很高，题材具有复合性和深度。",80,切入点非常新颖。将‘神学/宗教’作为学术切口，结合‘游戏设计’和‘纪录片’这种现代媒介，在人文社科申请者中具有极强的区分度。相比于传统的模拟联合国或单纯的历史论文，这个组合让人眼前一亮。,80,方案整体强度较高，适合学术能力较强且有明确人文兴趣的学生。考虑到学生处于9-10年级阶段，目前的探索性安排是合理的。但需要注意学生是否有足够的时间和技能（如视频剪辑、游戏机制设计）来落地这些高难度的活动。,80,规划中体现了对不同宗教文化的尊重、对文化融合的关注以及对国际事务的思考，完全符合Liberal Arts Education所推崇的多元、包容和全球视野价值观。,90,"**Analysis of a College Counseling Plan**
-
-Alright, let's break this down. My task is to evaluate this student's college counseling plan, and as a senior expert, I need to provide a thoughtful and well-reasoned assessment. I start by understanding the goal: provide a JSON report based on the provided data and score it based on specific criteria. I'm seeing a mix of activities here – to-do lists, activity logs, competition plans – all of which I need to digest.
-
-First, I need to get a handle on the student's context. Rising 10th grader, it seems, with interests leaning heavily towards Humanities and Social Sciences: History, Politics, Religion, Culinary Arts, and even a bit of Chess and Writing thrown in. I see a decent spread of activities, but I need to understand the *quality* and *connection* between them. The competitions are ambitious, names like NYT Summer Reading, Harvard International Review, and John Locke jump out at me. These suggest a higher-tier target school level. While it's not explicitly stated, I infer a Top 20-30 school ambition based on the nature of these activities and the implied high level of proficiency required. There's a clear ""Application Direction"" (the major), even if not explicitly stated, leaning towards Humanities, History, Sociology, or IR.
-
-Now, let's dive into the dimensions. First, Clearness and Consistency. The activities generally cluster well around a Humanities/Social Sciences track – a clear thread of ""Culture/Religion/History"" is apparent. The student's ""Application Image"" isn't explicitly defined, which limits the score per the prompt rules. The Chess is a slight outlier unless connected to history. The ""Math Olympiad"" is puzzling if the student is a pure humanities candidate and needs further clarification. I'm giving a score of 70 – good consistency, but the lack of an explicit direction limits the top score.
-
-Next up, Detail and Executability. Some specific items stand out (NYT dates, HIR deadlines), but the actual execution plans are vague, especially for bigger projects like the documentary and blog. ""How"" is missing. For example, the travel blogger post needs a platform, the documentary needs a production plan, and the board game needs a defined target. It's more of a brainstorming list rather than a solid execution plan, so I'm scoring it a 60.
-
-Moving on to Depth and Intensity. John Locke and HIR are high-caliber competitions, which is good. A documentary on religious differences is ambitious, high intensity if executed well. For a rising 10th grader, this shows potential, and a 1700 Chess rating is decent. The combination of Theology (John Locke) + Documentary (Religion) shows potential for great depth. I'm giving it an 80 – strong potential.
-
-Noviceness is up next. ""Documentary on religious differences"" is fairly unique. ""Designing a history-based board game"" is another point. The specific focus on Theology/Religion is also less common than general History/Pol-Sci, so I'm giving it an 80 – fresh angle!
-
-Fitness – hard to judge without the student's background. Assuming the student is competent enough to handle HIR/John Locke, the plan seems appropriate for a 9th/10th grader, so it's a score of 80.
-
-Lastly, Liberal Values. Focus is aligned with liberal arts values, understanding diverse cultures, tolerance. No red flags, so I'm giving it a 90 – strong alignment.
-
-Now, let's calculate the total score: the weighted average comes to approximately 73.5, and the closest valid score is 70.
-
-Let's look at the content. I need to synthesize the raw data into a clear profile. The student can be described as: ""Humanities-focused student with a niche interest in Theology, History, and Cultural Anthropology, utilizing media (documentary/blog) and game design to explore these themes.""
-
-Given the student's goals, I'm estimating the target level to be ""20-30名"" to keep things realistic, although the ambition seems higher.
-
-For suggestions, the documentary needs a storyboard and distribution plan. The ""Math Olympiad"" needs a reason. The plan needs a deeper connection to History via Chess. The student also needs a concrete standardized test timeline.
-
-Finally, I'm generating the JSON output.
-
-Based on the above, I need to make some tweaks to the suggestions. First, the documentary and travel blog details are missing. How to operationalize? Second, ""Math Olympiad"" - What is the function in the context of the larger application? Third, need to clarify the ""Application Image."" I suggest something like ""a youth scholar who explores religion and geopolitics through the use of",
-70分 planbook__Tianning Zhao.md,Tianning Zhao,gemini,gemini-3-pro-preview,70,,,,,,,,,该学生具备较强的标化考试基础（SAT 1500），但在学术兴趣与过往活动经历之间存在明显的断层。目前的活动履历高度集中在工程、机器人（Robotics）和网络安全（Cybersecurity）领域，属于典型的工科/硬件背景，但申请方向却转向了“统计与数据科学”。此外，AP CSA仅获3分对于申请CS/DS相关专业是一个显著的短板。目前的申请形象试图建立“热衷于数据教学与传播”的人设，但缺乏实质性的过往经历支撑，且未来的规划活动（如办讲座、建社团）目前仍停留在较为初级和笼统的构想阶段，尚未形成有说服力的证据链。,,"**紧急修复学术短板**：AP CSA的3分对于申请Data Science/Statistics方向是明显的减分项。建议在规划中明确如何弥补这一劣势，例如通过制作一个高复杂度的Python/R语言数据分析项目来证明编程能力，或者在后续的解释文书中准备好合理的归因。
-**深化活动与专业的关联（Old to New）**：不要完全割裂过往的Robotics和Cybersecurity经历。建议在现有活动中挖掘数据元素，例如：'分析CyberPatriot比赛中的系统日志数据以优化防御策略'或'利用统计学方法优化无人机的飞行路径算法'。这样既能利用现有深度，又能体现向Data Science的转型。
-**细化“影响力”活动的执行方案**：目前的“找导师讲课”、“成立社团”过于笼统且同质化严重。建议改为更具落地性的“数据扫盲（Data Literacy）”项目，例如：制作一系列短视频或可视化图表，用数据解读校园生活（如食堂排队规律）或社区问题（如交通拥堵），这比单纯的“讲课”更具新颖度和可执行性。
-**增强竞赛规划的针对性**：目前的澳洲AMC数学竞赛含金量对于Top 30申请略显不足。建议增加更贴合统计学的竞赛或活动，如HiMCM（高中生数学建模竞赛）或Kaggle上的入门级数据科学竞赛，以体现专业硬实力。
-**夏校与备选方案**：Pioneer竞争激烈，必须准备Plan B。如果未被录取，建议规划一个由学生主导的独立研究项目（Independent Research），利用公开数据集（如政府公开数据）进行社会科学量化研究，这比单纯参加付费科研项目更能体现主动性。",20-30名,申请方向明确为统计/数据科学，但过往活动（机器人、JROTC、网络安全）与此方向的关联度较弱，且AP CSA成绩与专业兴趣存在矛盾。申请形象中的“教学/传播”属性目前仅停留在计划层面，缺乏过往经历的有力支撑，导致形象与活动主线的一致性一般。,70,已完成的活动描述尚可，但关于未来的规划（待办事项、计划中活动）极度缺乏细节。例如“找一些speaker”、“成立相关学术社团”等描述过于宽泛，缺乏具体的主题、执行步骤、预期规模和资源渠道，落地执行性存疑。,60,SAT 1500分展现了良好的学术潜质，CyberPatriot半决赛也有一定含金量。然而，在核心申请方向（数据科学）上，目前缺乏深度的学术研究或项目成果。AP CSA的低分削弱了学术强度。夏校规划了Pioneer是高强度的选择，但需看最终录取结果。,70,目前的活动组合（机器人+网络安全+支教/捐赠）在亚裔理工科男生中非常常见，缺乏独特的记忆点。计划中的“数据科学社团”如果没有独特的切入点（如结合特定社会议题），也很难在同类申请者中脱颖而出。,60,SAT成绩符合Top 30学校的要求，但AP CSA成绩和专业匹配度是隐患。对于Top 20-30的学校，目前的规划在专业聚焦度上还不够，需要更强的专业项目来弥补背景与目标的差距。,70,涉及帮助老兵、自闭症儿童等公益活动，符合主流价值观，体现了基本的社会责任感，但未体现出更深层次的社会思考或独特的人文关怀视角。,80,"**Evaluation Report: Thought Process**
-
-Alright, let's break this down. First, I need to wear the hat of a senior college counselor, so I need to understand the goal. I've got to evaluate this student's plan – essentially, their application strategy – and provide targeted feedback. The criteria are set: six dimensions to assess, a weighted score to calculate, and it all needs to be presented as a JSON object. Okay, I've got it.
-
-Now, into the data. I'm going to carefully analyze the student's profile. From the timeline, it looks like this student is a rising senior, applying in the fall. The SAT is solid (1500), but those AP scores – the CSA score of 3 is a bit concerning, given the target major of Statistics & Data Science. I need to keep that in mind. The JROTC and Robotics are nice, and I should factor them in.
-
-I'm moving on to evaluating each dimension. Clearness and Consistency – the direction is there (Data Science), but the activities don’t fully support the direction. The ""image"" they are trying to create is a little generic. I have to be more critical. Detail & Executable: the existing activities are okay, but the planned ones are vague. ""Find speakers"" isn't a plan; it's a hope. Depth & Intensity – great SAT, but that weak AP CSA score hurts. The student is solid in tech but needs depth in data. Noviceness – nothing unique is shining through yet. Fitness – the SAT puts the student in a good position, but the AP score creates a mismatch with the target major. The overall values are very good.
-
-Okay, let's start the iterative scoring. I need to be objective, balancing the positives with the areas for growth. I’m thinking 70 for Clearness and Consistency because the general direction is right but the activities aren't a great fit. 60 for Detail & Executable, because I want to see a tangible plan. 70 for Depth & Intensity, because the student has a base with the SAT but lacks data-specific depth. 60 for Noviceness—it’s a very standard profile. 70 for Fitness, because the plan shows they're working to address the needs of data, but the weak CS score makes a top 20 reach difficult. 80 for Liberal Values – it’s safe and positive.
-
-I'll calculate the weighted score. It comes out to be 67. Close to 70, so I will round to 70.
-
-Now, refining the output and providing helpful suggestions. I need to formulate a concise profile and recommendations. I'm thinking: strong standardized testing, but a disconnect between the profile and the target major. The student leans towards Engineering and needs to pivot to data without neglecting the hardware background. The scores show that a top 20 school is hard but they're in a good position.
-
-Here are the suggestions: Address the AP CSA score (it’s a major red flag). Create concrete data projects. Strengthen the “Speaker Series.” Connect the Cyber/Robotics activities. Make the summer plan more strategic.
-
-Finally, I'll polish the language and make sure I'm keeping a professional tone and following all the instructions. Then, I'll generate the JSON. Let's make sure everything is perfect and detailed. Done.",
-70分 planbook__应噹噹.md,应噹噹,gemini,gemini-3-pro-preview,90,,,,,,,,,中非文化交流的桥梁与社会变革者。利用家庭在非洲的独特资源，聚焦于尼日利亚与中国的双向文化传播（AIEA基金会、杭州展览）及可持续发展（可可豆种植、公平贸易）。辅以对弱势群体的教育关怀（支教、白血病儿童陪伴），打造具有全球视野和社会责任感的人文社科申请形象。,,"深化学术产出：目前的非洲项目偏向体验和策展，建议增加学术厚度。除了HIR比赛，建议在尼日利亚考察期间完成一份关于“中国企业在非社会责任”或“尼日利亚可可种植中的童工与公平贸易”的深度调研报告或纪录片，展现批判性思维，避免活动仅停留在“参观”层面。
-整合教育类活动：目前的BBBS和Tangible支教活动较为常规，与核心的“非洲/文化传播”主线割裂。建议将其与主线结合，例如开发一套“给中国孩子的非洲文化通识课”并在支教中应用，或者制作关于非洲文化的绘本给支教对象，这样能将“教育”与“文化传播”两条线完美融合，提升活动的一致性。
-警惕“资源感”过重：AIEA基金会明显是家庭资源，文书中必须强调学生个人的具体贡献（如具体的策展思路、遇到的困难及解决过程、手册的具体设计理念），避免给招生官留下“坐享其成”的印象。手册制作是一个很好的切入点，要确保其专业度和影响力。
-活动取舍建议：香港AIA实习在整个人文社科/文化传播的规划中显得非常突兀且同质化严重（典型的“水”实习）。除非能从“发展经济学”或“社会保障体系”的角度去深度解读，否则建议在活动列表中弱化甚至不放，将篇幅留给更独特的非洲项目。
-标化目标调整：TOEFL目标106对于申请Top 30尚可，但考虑到学生有冲击Top 20的潜力（基于独特的非洲背景），建议将托福目标提升至110+，以确保语言成绩不成为短板。",20-30名,申请形象非常鲜明，“中非文化桥梁”这一人设在高中生中极具辨识度。主线活动（AIEA、展览、尼日利亚行）与申请方向高度一致。美中不足的是支教类活动与主线略有脱节，若能打通则更佳。,90,非洲之行的规划有具体的时间和内容（可可豆、展览手册），可执行性较强。待办事项清单非常详细，涵盖了文书、标化和活动的时间节点。但部分常规活动（如AIA实习、Tangible）描述略显笼统。,80,利用家庭资源深入非洲实地考察具有很高的活动强度，HIR写作比赛补充了学术深度。但目前缺乏独立的、长周期的学术研究项目（Research Project）来支撑社会学/人类学的学术底蕴，仅靠比赛和体验略显单薄。,80,极高。中国学生深入非洲做文化传播和农业可持续发展调研，在申请池中非常罕见，具有极强的差异化竞争优势。,90,方案充分利用了学生的家庭背景资源，将独特的身份认同转化为申请优势。目标层级与学生目前的标化预期（托福106）和活动背景基本匹配，属于冲刺Top 20、稳扎Top 30的合理规划。,90,完美契合。关注跨文化理解、弱势群体、公平贸易、全球南方（Global South）议题，完全符合美国顶尖大学推崇的Liberal Arts价值观。,100,"**Here's how I'm approaching this evaluation, step by step, as a seasoned international education planning expert.**
-
-First, I'm diving into the core of the request. I need to act as an evaluator, utilizing a specific framework to assess this student's college planning document. My job is to provide both a quantitative score and insightful improvement suggestions. The input is a collection of messy text, but I'll focus on extracting key information from the Gantt chart (implied), To-Do list, Student Profile, School Grades, standardized test plans, and extracurricular activities. The evaluation hinges on six key dimensions: Clearness and Consistency, Detail and Executability, Depth and Intensity, Noviceness, Fitness, and Liberal Values, which I will weight according to the provided percentages. The output MUST be in JSON format.
-
-Next, it’s all about the student data. I begin by constructing a profile. The student's direction points toward Humanities/Social Sciences, with an emphasis on ""Cultural Connector and Social Bridge."" They seem very invested in cross-cultural understanding and sustainable development, especially relating to Africa. I identify this as the central theme. I quickly analyze their academic information. They’re a rising Grade 12 student at the Shanghai Shangde Experimental School, an IB school. Given that the To-Do list says ""Jul 当前 Aug 2025"", the student has just finished Grade 11 and is beginning the application season. It looks like they’re targeting a TOEFL score of 106 and have planned mock SAT exams.
-
-I then dig into the activities, seeing how everything fits together. The ""AIEA Foundation"" and ""Hangzhou African Culture Exhibition"" reveal the family's strong ties to Africa. The internship in Nigeria focused on cocoa farming and fair trade is a key area. There is also volunteer experience with children, and the student engages in dance and Guzheng, which may play a role in their application, depending on how it's framed. I also examine the student's competitions, such as the Harvard International Review, which will highlight their research skills. They have an NYU Precollege program from the past which will be interesting.
-
-After that, I break down my evaluation into each of the six dimensions. Under **Clearness and Consistency**, the ""Cultural Connector"" image and the student's activities create a coherent narrative, so this scores high. When considering **Detail and Executability**, the Africa-related activities show potential, but there's room to improve by specifying concrete outputs like a report or documentary. I focus on **Depth and Intensity**, finding that the Africa connection is both unique and demanding, but the academic research must extend beyond extracurricular competitions. Given that the student has a focus on China-Africa relationships, I consider that the **Noviceness** score should be very high, which is an important strength. The **Fitness** dimension considers their family resources and their TOEFL target, which indicates that their goals are aligned with schools in the Top 30-40, though they might be in the Top 20 if the Africa story is told right. Finally, the student’s focus on social impact and sustainability demonstrates a strong alignment with **Liberal Values**.
-
-I calculate a total score by weighting each dimension, ultimately arriving at a total score of 90.
-
-This is followed by drafting key suggestions. I’m thinking about strengthening the academic rigor by adding research and connecting ""doing"" activities to the Africa-focused research. I also want to make it clear that the student’s effort is the key to their achievements. I need to make sure the student emphasizes their contributions. Additionally, I’m advising the student to improve their TOEFL score and make connections between all of the student’s activities, such as teaching children about Africa. I am also planning on downplaying the finance internship if it does not fit the student’s profile.
-
-Finally, I review all constraints to ensure the output is in JSON format, contains specific variables, uses scores from the provided list, and doesn’t use markdown. I construct the JSON output, including a profile statement, target schools, and specific suggestions as outlined above, before polishing and finalizing the scores.",
-70分 planbook__李易萱.md,李易萱,gemini,gemini-3-pro-preview,60,,,,,,,,,关注医学人文与科学技术社会学（STS）的生物学申请者，具备女性STEM领导力意识，试图将手工技艺与科学探索相结合。,,"申请形象中的‘手工’目前与‘生物学’主线完全割裂，仅仅是兴趣爱好。建议将手工（拼豆、钩织）转化为‘生物艺术’或‘医学模型构建’，例如通过钩织制作人体器官模型用于科普，或者进行显微镜下的微观艺术创作，甚至将其升华为‘外科医生的灵巧双手’（Surgical Dexterity）训练，从而支撑医学方向。
-目前的学术探索活动（阅读、讲座、纪录片）过于被动，缺乏产出。针对Public Health/History of Medicine/STS这样偏人文的生物方向，必须要有写作或调研类的产出。建议在观看《外科医生手记》等素材后，撰写关于‘现代医学伦理演变’或‘疾病与人类社会关系’的综述文章或拍摄解说视频。
-‘高研实验：生物实验’这一项描述完全空白，这是规划书的大忌。必须明确具体的课题名称、研究方法和预期成果。例如：‘探究不同pH值环境对某特定酶活性的影响’，否则该活动在招生官眼中等同于无效。
-标化成绩方面，G10托福80分对于想要申请STS/医学史这种对阅读写作要求极高的跨学科专业来说是明显的短板。需要明确告知学生，如果托福不能尽快突破100，申请方向可能需要向纯理科生物调整，或者降低申请层级预期。
-竞赛规划中，写作类竞赛（Write the world, Quill and Scroll）非常适合你的STS方向，建议重点投入，争取产出与生物/医学相关的社会评论文章，以此作为‘生物+人文’的有力佐证。
-She Stem Club是一个很好的点，但目前仅标记为Member。建议争取Leadership职位，或者在社团内发起一个具体的‘女性与生物伦理’或‘女性科学家历史’的专题项目，以增强影响力。",20-30名,申请方向选择了较为独特的STS/医学史方向，这一点非常清晰且有差异化。但是，申请形象中的‘手工’与主线缺乏逻辑关联，显得突兀。目前的活动列表（主要是被动阅读和常规竞赛）未能很好地支撑起‘医学人文’这一独特的申请形象，导致人设略显单薄。,60,这一维度得分较低。核心的科研活动‘高研实验’没有任何细节描述，完全无法判断可执行性。‘生物相关专业阅读’列出了一堆链接，但没有具体的执行计划（如每周读多少页、输出什么笔记）。‘做手工’仅写了‘拼豆、钩织’，缺乏项目制的规划。标化考试部分规划得当，有具体时间节点。,40,目前的活动多为入门级（观看讲座、纪录片）或校内社团成员。竞赛规划了USABO/BBO等高难度比赛，夏校规划了UCSB SRA和芝加哥大学Immersion，这些具有一定深度，但目前尚未执行或处于计划阶段。现有的已完成活动缺乏体现深度的学术成果或影响力项目。,60,申请方向（STS/医学史）本身具有很好的新颖度，避开了纯生物的红海竞争。但是，目前的活动规划（数学竞赛、生物奥赛、HOSA）非常传统，缺乏能够体现STS跨学科特色的创新活动。如果能把‘手工’和‘医学史’结合起来做项目，新颖度会大幅提升。,60,"学生G10托福80分，校内成绩尚可。规划的夏校（UCSB SRA, UChicago）和竞赛（USABO）对于该阶段学生有一定挑战性，符合冲击前30学校的要求。但考虑到学生的语言成绩现状，申请偏人文的STS方向存在一定风险，规划强度略高于当前语言能力所能支撑的水平，需要加强语言训练以匹配规划。",70,She Stem Club体现了对女性在STEM领域发展的关注，Public Health和医学史方向也天然带有强烈的人文关怀和社会责任感，符合Liberal Values。,80,"**Evaluation Report Generation: A Deep Dive**
-
-Okay, so I'm putting on my college counseling hat here. The task is clear: I'm acting as a senior college counseling expert. I need to dissect this student's college application plan – specifically their ""planning book"" – based on these very strict criteria. This means six dimensions, each with a specific weight and precise rules for evaluation. The final output has to be a nicely formatted JSON object. 
-
-First, I need to *really* understand the student's situation. I'm seeing a Grade 10 student (indicated by the ""G10"" in the text). Biology is the target major, and more interestingly, they're showing an interest in the interdisciplinary areas of Public Health, History of Medicine, Medical Anthropology, and STS (Science, Technology, and Society). This is a good sign; the niche interests are already there. From the text, it seems a US-based target (implied by US News rankings, competitions, and summer schools listed). The ""profile keywords"" are interesting: ""Female, Sports, Handicraft.""
-
-I dive deeper into the applicant's stats: Strong curriculum with AP Calculus BC, AP Biology, IGCSE Chemistry, etc. Good. TOEFL is currently 80, with a target of 100, and SAT target is 1450. AP targets are Calc BC (5), Bio (5).
-
-Now, the activities are crucial. Sports (basketball, tennis) are pretty standard stuff. Academic activities need more attention. ""High Research Experiment: Biology"" – Hmm. Very vague. ""Biology Reading & Exploration"" – again, passive. Hobbies include ""Handicrafts"" (beads, crochet) – which sparks a thought, this could be good, but it's not connected *yet*. Planned activities include Mindset Math and She Stem Club.
-
-Next, competitions and planned summer schools are listed. Math League (top 25%) and ASDAN Scholar Cup (Advanced) are good to see. The writing competitions seem promising, especially Write the World and Immerse Education. In Biology: USABO, BBO, and HOSA. Summer Schools: UCSB SRA and UChicago Immersion, which are excellent indicators of motivation.
-
-Now the real work begins. I've got to apply the six evaluation dimensions.
-
-*   **Clearness and Consistency (25%):** The goal is pretty clear: Biology, with these niche interests. The image is a bit scattered, though. ""Handicraft"" doesn't immediately connect to Biology. It needs to. ""Sports"" is generic. ""Female"" is fine, but it becomes stronger if connected to She Stem. I need to focus on this disconnect. The academic activities are a bit too passive, so I am going with a 60 here. The direction is good, but the image and activities don't yet strongly support the angle.
-
-*   **Detail and Executable (25%):** This is where it gets tricky. The activity descriptions are incredibly vague. ""High Research Experiment"" gives me nothing to work with. ""Biology Reading"" is just links. ""Handicraft"" is just ""Beads/Crochet."" Major red flag. The lack of detail is penalizing the plan significantly, I am marking this a 40. I need to be harsh here: the plan lists ""doing experiments"" without saying *what* experiment. That's a classic planning error.
-
-*   **Depth and Intensity (15%):** Watching videos? That's low-depth stuff. The ""High Research"" *could* be great, but again, *no details*. USABO/BBO are tough, but they are *planned*, not *done*. UChicago/UCSB are great, though. It's a 60, but with a lot of *potential*.
-
-*   **Noviceness (15%):** ""Biology + History/STS"" is genuinely interesting. However, the *activities* are pretty generic, so that brings this score down a little. ""Handicraft"" is the hidden gem, this needs to be developed. I'm marking this a 60.
-
-*   **Fitness (10%):** G10 with a TOEFL of 80. The plan is ambitious, and ambitious is good, but the language is a concern. The targets are good but, the TOEFL needs a huge boost. So, this gets a 70.
-
-*   **Liberal Values (10%):** ""She Stem Club"" is great. Public Health/Medical Anthropology are generally socially responsible fields. Safe bet here. 80.
-
-So, now, the scores have to be calculated and the total score has to be calculated. (60 * 0.25) + (40 * 0.2",
-80分 planbook__Melinda.md,Melinda,gemini,gemini-3-pro-preview,80,,,,,,,,,关注女性议题与传统文化的生物化学方向申请者，打造“科学思维x艺术表达”的复合人设，通过美妆博主、纪录片和非遗社团将化学成分分析、审美自主与社会责任感有机结合。,,"关于竞赛策略的修正：对于生物/化学这种硬核理科方向，完全放弃竞赛在申请前30名校时会显得学术竞争力（Academic Vitality）不足。虽然不必追求奥赛金牌，但建议参加如HOSA（生物与健康未来领袖挑战）或Brain Bee等体现学科热情的比赛，作为学术兴趣的佐证。
-学术科研的深化与串联：目前的“美白精华液制备”略显基础，像是一个标准化的课程作业。建议将“传统文化保护社团”中的“古法颜料/植物染料化学分析”与科研项目深度绑定。例如：“用现代色谱分析技术研究中国传统胭脂/黛粉的成分及其安全性，并尝试复刻改良”。这样既有化学深度，又完美扣合“科学x艺术”的主线，比单纯做美白精华更有区分度。
-自媒体内容的差异化：美妆博主赛道拥挤，为了体现“科学思维”，建议账号定位从普通的“美妆教学”调整为“硬核成分分析+文化考据”。例如从生物化学角度测评化妆品成分的真实功效，或从进化心理学角度分析审美变迁，这样更能体现申请形象中的理性分析能力。
-标化与GPA的绝对优先级：学生目前TOEFL 91分且GPA是短板，这是申请前30最大的硬伤。11年级必须将80%的精力放在GPA和标化上。如果活动（如高难度的纪录片拍摄）占用了过多学习时间，必须果断削减规模，例如将长纪录片改为系列短视频访谈。
-公共政策/社会学视角的补充：既然涉及“整容”、“性别偏见”等社会议题，建议在书单或扩展阅读中增加相关的社会学或心理学理论支撑（如“凝视理论”等），让纪录片和文书的立意不仅仅停留在现象描述，而上升到理论反思的高度。",20-30名,申请方向（生物化学）与申请形象（科学x艺术、女性议题）高度一致。活动规划中的国画与生物结合、美妆博主与化学成分分析结合，逻辑闭环设计得非常精妙，主线清晰。,90,标化考试规划非常详细。活动规划中，关于国画结合生物的具体执行点（如细胞水墨画）很有画面感。但“美妆博主”和“纪录片”属于高耗时且结果不可控的项目，目前的规划缺乏具体的运营增长策略和拍摄执行细节，落地难度较大。,80,这是本方案最大的短板。对于申请前30的理工科学生，完全放弃竞赛是一个巨大的冒险，导致硬核学术证明缺失。目前的科研项目（制备精华液）偏向体验式，缺乏独立的探究深度。虽然社会议题挖掘较深，但学科本身的学术强度不足以支撑Top 30的竞争。,60,非常出色。将生物化学与美妆、国画、女性主义结合，打破了传统理工科申请者的刻板印象。“用科学视角做美妆博主”和“生物细胞水墨画”具有很强的记忆点和区分度。,90,方案设计非常契合学生的兴趣点（美妆、生物），但可能高估了学生的时间管理能力。学生目前GPA和托福（91分）压力巨大，而规划了纪录片、自媒体、社团发起等高耗时活动，可能导致标化无法达标，从而错失前30的门槛。方案强度与学生目前的硬性背景存在一定错位。,70,完美契合。女性身体自主、反消费主义、非遗保护等议题完全符合美国顶尖大学推崇的价值观，体现了极强的社会责任感和人文关怀。,100,"**Evaluation Report: Melinda's College Application Roadmap**
-
-Alright, let's dive into this. I've got a student named Melinda, aiming for a US Top 30 college, potentially higher given her ambitions, and I'm acting as a senior college counseling expert. I need to assess her ""planning book,"" which is her roadmap for college applications, using six specific dimensions: Clearness/Consistency, Detail/Executable, Depth/Intensity, Noviceness, Fitness, and Liberal Values. The output absolutely needs to be a strict JSON format.
-
-First, I need to get a firm grasp on the big picture. Melinda is a rising 11th grader at BASIS International School in Guangzhou, known for its academic rigor. Her sights are set on a Biology/Chemistry major, specifically Biochemistry or Cosmetic Science, with a target GPA of 3.8+ for a shot at Top 30. The application image she's cultivated is a potent blend of ""Scientific Thinking x Artistic Expression,"" combined with a ""Female Issue Advocate"" angle. That's good, a well-defined persona is half the battle.
-
-Her academic stats paint a mixed picture. GPA needs serious work – it's the current weakest link. TOEFL is stuck at 91, and the goal is 110. AP courses are solid but no SAT prep yet, and she's aiming for a 1530 which is a very high score and needs very strong preparation.
-
-Her extracurriculars are where things get interesting. Past activities were a bit low impact, and she's quitting the Rare Disease Assoc. Ongoing activities include Tennis and Chinese Painting, which I can see a way to integrate with her Bio/Chem focus. The planned activities are where she is going to shine, and she needs to execute these properly: a Traditional Culture Protection Club (where I suggested adding chemical analysis of dyes, fermentation, eco-friendly festivals), a Beauty Blogger (with ingredient analysis, makeup tutorials, anti-consumerism themes), LadyUp (where she will be editor/interviewer for female athletes), and a documentary on plastic surgery (This will be very difficult), and Student Researcher in Collagen peptide/Whitening essence prep & efficacy verification.
-
-Here's the tricky part - she's specifically advised *against* competitions. That's a red flag. For a STEM major aiming at this level, I need to look into this more deeply.
-
-Summer plans involve MMSS or Brown Pre-college.
-
-Now, let's break this down dimension by dimension.
-
-1.  **Clearness and Consistency (25%):** I'm seeing a strong alignment between her chosen major and the persona she's built. Biochemistry/Cosmetic Science is well defined, as is her ""Science x Art"" and ""Female Advocate"" focus. The activities, such as Beauty Blogger, Research, and Plastic Surgery Documentary, really support the persona. I'm giving this a solid 90.
-
-2.  **Detail and Executable (25%):** Some details are strong in her plan. The chemical analysis of ancient dyes, the documentary on plastic surgery etc. However, the ""Beauty Blogger"" plan is a little generic and will need work and concrete growth strategies to succeed. The documentary's execution seems ambitious, relying heavily on just using her phone. Her detailed timeline and goals for standardized tests are good. I am giving this an 80.
-
-3.  **Depth and Intensity (15%):** BASIS is tough; GPA is an issue and needs quick attention. ""Cosmetic Chemistry"" is interesting but at an early stage. The documentary has potential depth, but I'm concerned about the lack of any competitions. For a Top 30 STEM applicant, no competitions are a huge risk. The research project is the main concern here, especially if it's a paid program and lacks true independent depth. Cutting out competitions is a strategic risk, so a 60 here.
-
-4.  **Noviceness (15%):** Combining Biochemistry with Chinese Painting and a feminist critique of beauty standards is very unusual. The ""Plastic Surgery Documentary"" is also a novel hook. It’s certainly not the usual pre-med shadowing or lab-rat routine. Strong differentiation earns this a 90.
-
-5.  **Fitness (10%):** The plan is appropriate for someone interested in beauty/fashion with a STEM angle. However, she needs to address the low TOEFL and GPA. Aiming for Top 30 with these stats is a reach. It seems like the plan might be too focused on activities while her core stats are lagging. The ""no competition"" advice is fine if the GPA is a significant weakness, but the STEM profile will suffer. I’m rating this a 70.
-
-6.  **Liberal Values (10%):** Her commitment to feminism, body autonomy, anti-consumerism, and cultural preservation aligns",
-80分 planbook__荣天健.md,荣天健,gemini,gemini-3-pro-preview,80,,,,,,,,,昆虫学与生态保护深耕者，结合实地科考（印尼/中科院）与创意科普（卡牌设计/视频制作）的复合型申请形象,,"标化成绩与高端项目存在错位风险：学生目前TOEFL 81分，但规划中包含了Pioneer、Cornell RABS、英文论文发表等对学术英语要求极高的项目。建议在9-10年级大幅增加学术英语写作的训练，或者适当推后高难度全英科研的时间节点，否则学生极易在这些高强度项目中沦为旁观者，无法产出实质成果。
-竞赛规划内容需实质性落地：目前竞赛部分（如Lumiere, Pioneer）仅写有'题目需要细分，尽可能和昆虫相关'的占位符，缺乏具体执行方案。建议结合印尼科考或中科院实验室的独家数据，现在就确定一个具体的昆虫行为学或生态学研究问题（例如特定环境下的昆虫种群密度变化），避免通用型选题。
-卡牌社团（KAP）需深化教育价值与影响力：仅仅是'设计卡牌'和'开社团'在同质化竞争中略显单薄。建议引入'游戏化学习（Gamification）'的概念，设计一套评估体系来验证这套卡牌对同龄人生物分类学知识习得的有效性，将单纯的社团活动上升为具有社会科学属性的教育探究项目。
-影像素材的整合与二次利用：规划中提到了'全国青少年科学影像节'和'B站频道'，这是一个很好的亮点。建议明确要求学生将印尼科考、中科院野外工作的原始素材进行专业剪辑，制作成系列科普短片或纪录片。这不仅能支撑影像节比赛，更能作为补充材料直观展示学生对野外工作的热情和吃苦耐劳的品质。
-高尔夫活动的时间投入需评估：作为一项耗时巨大的运动，如果高尔夫不能达到NCAA校队招募水平或极高排位，建议在10年级后严格控制其时间占比，将更多精力转移到托福攻坚和生物科研主线上。",20-30名,申请方向非常明确聚焦于生物学下的细分领域——昆虫学与生态学。从童年兴趣到中科院科研、印尼科考、再到校内社团（昆虫卡牌），所有主线活动都紧密围绕'昆虫'这一核心关键词展开，逻辑闭环非常完整，形象鲜明。,90,时间规划（甘特图）非常详细，具体到了具体的考试日期和活动起止时间。但是，在竞赛和夏校的描述部分存在明显的'偷懒'现象，大量直接复制粘贴官网介绍，且出现了'题目需要细分'这类未完成的规划师备注，未转化为具体可执行的学生行动指南，扣分较多。,70,依托中科院进行的长期科研和印尼科考具有很高的含金量和学术深度，远超一般高中生的'体验式'科研。Cornell RABS和Pioneer等规划也显示了极高的学术野心。卡牌设计结合了生物学知识，具有一定的复合性。,80,,80,"申请形象与学生从小热爱昆虫的背景完美契合，故事线真实动人。然而，Fitness方面存在一个隐忧：学生目前的TOEFL成绩（81分）与规划中高强度的全英文科研项目（如RABS, Pioneer）之间存在能力断层。目前的语言能力可能不足以支撑如此高强度的学术产出，导致规划有'过高'之嫌。",70,整体规划强调生态保护、生物多样性维护、湿地保护以及自然教育，完全符合Liberal Arts Education推崇的社会责任感和人文关怀，价值观正向且积极。,90,"**Evaluation Report: Insect Enthusiast**
-
-Okay, so the task at hand is to put on my admissions hat and dissect this student's planning document. Right off the bat, I need to understand what the user wants: a thorough evaluation based on specific criteria. I'm essentially acting as a senior college admissions advisor and trainer here. I need to output the analysis in JSON format, which isn't a problem. Let's dig in.
-
-The profile screams ""Biology/Entomology/Ecology."" The student is currently in Grade 9 at the Beijing Keystone Academy. The TOEFL score of 81 is a data point, and I need to determine the student's *actual* level in the application process. I need to make a judgment here. The planning includes prestigious stuff like Cornell RABS, Pioneer, and CAS research. Given this level of activities, plus a high-resource school environment, the *realistic* target is probably Top 20-30 schools, maybe Top 10 if we get super optimistic about rapid improvement of English. I need to assess this by focusing on the *content* of the plan, while taking into account the TOEFL score. Keystone students usually aim high, let's keep that in mind. Okay, I'm going to set a target of Top 20-30 for now, but I might adjust this as I go through the plan. The high-end activities imply the student is ambitious, but I need to make sure the plan is realistic, given the TOEFL score.
-
-The plan itself is focused. It's all about insects. The activities revolve around this central theme: CAS research, Indonesia expedition, insect card game, wetland protection, and summer schools. Clear and consistent. That's a solid start. The ""Detail and Executable"" part... well, that's where things get interesting. The timeline is detailed, with specific dates and organizations. However, some of the descriptions are generic, copied-and-pasted filler. That's a knock. It shows a lack of focused effort in some areas. But then again, the ""Card Game"" idea has a pretty concrete plan, so it's not all bad. There is a ""Topic Needs to Be Subdivided"" placeholder. The overall impression is good, but that lazy content planning will affect the score.
-
-Now, Depth and Intensity. The CAS research is good. The Indonesia expedition is good. Cornell RABS is a *huge* reach. Pioneer/Lumiere are standard, although not top-tier unless the student gets a paper published in a top-tier journal. The card game is a bit playful, but the overall composite is a good angle. If aiming for Top 30, it's strong; for Top 20, it's decent.
-
-Noviceness is there. Insects are a niche area of biology. The card game is a novel way to reach people and do outreach. The Indonesia trip is a cool add. I like that.
-
-Fitness... This is where the rubber meets the road. The kid has loved insects since childhood. Great narrative. But here's the problem: The activities are ambitious, but the TOEFL score doesn't match the plan. There's a gap. The plan's got him aiming for international-level research, but the language skills aren't quite there yet. The student's plans are ambitious, which is a good thing, but it does show an opportunity for improvement.
-
-Finally, Liberal Values are present. The student is concerned about the environment, wetlands, and biodiversity. No red flags here.
-
-Okay, let's calculate the scores. The total is 80. A well-rounded profile.
-
-Now, let's draft some actual feedback. We have an ""Insect Man"" with a field research background, a creative outreach plan, and a target level of 20-30, maybe more.
-
-The major suggestion is the TOEFL gap and making sure the student is prepared for this level of academia. Next is that the competition specifics need to get filled in. The card game also needs to go deeper than just ""playing."" It needs to be a verified research output. The student's video and media projects need to get a coherent plan. And finally, if he is not serious about his golf game, he needs to get rid of it.
-
-I'm now going to format all this information into a clear JSON output.
-
-Okay, now let's generate the JSON string.",昆虫学本身在生物申请方向中属于相对小众且有趣的细分领域，容易做出差异化。将'昆虫科普'与'集换式卡牌游戏（TCG）'结合是一个非常有新意的点，比传统的生物社团或环保宣讲更有趣，能让人眼前一亮。
-80分 planbook__董源彦.md,董源彦,gemini,gemini-3-pro-preview,60,,,,,,,,,传媒与市场营销方向探索者（基于活动推测），目前标化基础较弱（托福84），活动侧重于校内社团与自媒体尝试，缺乏深度学术产出和明确的主线串联。,,"标化成绩预警：托福84分对于上海平和10年级学生来说属于偏低水平，严重制约选校层级。建议当前阶段大幅压缩非核心活动（如无主题的Vlog拍摄）的时间，将战略重心强制转移到托福备考上，务必在11年级开学前达到100+。
-明确申请方向与形象：规划书中申请方向空白，虽然活动集中在传媒/商科，但缺乏定性。建议明确为'数字媒体与文化传播'或'市场营销'，并围绕此方向构建形象。
-深化活动内容（自媒体）：Douyin账号目前粉丝量和点赞量过低，缺乏作为'特长'的说服力。建议将'商业分析社团'中提到的'Kpop营销套路分析'与自媒体结合，专门制作'流行文化背后的商业逻辑'系列视频，提升内容的智力密度和垂直度。
-提升活动学术性：目前的社团和电影分析活动偏向兴趣体验。建议将'Through our eyes'的东亚电影分析和商业社团的营销分析转化为书面的研究论文或深度文章，甚至可以考虑投递媒体发表，以增加学术深度。
-补充竞赛规划：目前竞赛栏完全空白。如果是传媒方向，建议规划NYT写作竞赛、Scholastic艺术与写作奖；如果是商科方向，建议规划FBLA或DECA，急需奖项来支撑软实力。
-夏校策略调整：NYT Summer Academy作为11年级升12年级的暑期规划，含金量和选拔性相对一般。如果标化能提升上来，建议冲击更有学术挑战性的夏校，或者利用暑假进行一项完整的、有社会影响力的独立田野调查或纪录片拍摄项目。",40-50名,申请方向和形象未填写，虽然活动主要集中在传媒和社科领域，但缺乏明确的主线串联，整体显得较为松散。,60,活动描述较为笼统，例如'做一下系列视频'、'教小朋友数学'缺乏具体的主题、大纲或执行标准。标化考试有具体时间规划，但整体活动的可执行细节不足。,60,整体强度偏低。托福成绩未达标，活动多为校内社团或初级尝试，缺乏高含金量的竞赛奖项，夏校规划也属于入门级，缺乏体现领导力或学术深度的成果。,40,自媒体和支教属于常见活动。但'Kpop营销背后的套路'和'东亚电影分析'这两个切入点具有一定的新颖度，如果能深入挖掘会有不错的区分度。,60,方案目前的强度与学生现有的低标化成绩（托福84）是匹配的（都偏弱），但与学生所在学校（平和）的常规目标层级（前30）严重不匹配。利用家庭资源（妈妈的产品广告）进行设计是一个亮点，符合背景。,60,关注边缘群体（Beyond Margins）、支教（ORP）以及文化视角（Through our eyes），体现了较好的人文关怀和社会责任感，符合Liberal Values。,80,"**Analysis and Evaluation: A Senior Perspective**
-
-Alright, let's break this down. As a Senior International Education Planning Expert, my initial thought process is to take a deep dive. First, I have to clarify the core objective here: I'm dissecting a student's ""Planning Book"" to evaluate and pinpoint areas for improvement, using a predefined rubric. My initial assessment is the raw data presented as plain text, a somewhat cluttered snapshot of their academic and extracurricular landscape. I am using my expertise here and focusing on the underlying patterns.
-
-My immediate focus falls on the student's profile. Grade 10 at Shanghai Pinghe is the starting point. It's a top-tier institution in Shanghai, and the dates suggest this student is heading into Grade 11. Now, looking at the quantitative markers, the TOEFL score of 84 is a significant issue. This is *low* for a Pinghe student, especially considering their presumed aspirations for top US universities. The next area is the ""Application Direction"" section, which is unfortunately empty. A glaring omission; it leaves a big question mark. However, I can infer a potential path based on their activities: Media, Communications, Film, and Marketing. The Douyin account, PTV involvement, film analysis, and the business club focusing on Kpop marketing all seem to point in this direction.
-
-Now, let's evaluate each piece. Regarding *Clearness and Consistency*, I see a disconnect between the stated ""direction"" and the observed activities. While the activities are somewhat aligned, a strong central ""image"" is missing. Next, *Detail and Executability*, the activities and plans often lack specifics. Phrases like ""Make a series"" or ""Teach math"" need concrete plans and goals. We need quantifiable metrics and well-defined outcomes.
-
-Moving to *Depth and Intensity*. The TOEFL score immediately raises a red flag. Compared to the caliber of a Pinghe student, the current level feels low. The Douyin presence also needs a boost. School activities are standard, but the profile has no competitions or high-impact research. The NYT Summer Academy, while good for exploration, lacks the high-level academic depth and selectivity seen in other programs.
-
-In terms of *Noviceness*, the ""Kpop marketing"" interest and East Asian film analysis show some potential originality. Yet, these sparks aren't well-developed enough to be considered novel. These are ideas, but not yet a ""specialty."" Regarding *Fitness*, the plan, as it stands, seems a bit ""chill"" for a student with an 84 TOEFL who needs to catch up. The activities, while valid for exploration, don't scream ""prepared for college application"" at a high level. They need to address the weakness of the TOEFL. Finally, *Liberal Values* align well with the student's activities, such as ""Beyond Margins"" and ""Through Our Eyes"".
-
-Based on these dimensions, I'm calculating a weighted score of 59, which I'll round to 60.
-
-Now, I'm formulating concrete recommendations. Firstly, the ""Application Direction"" *must* be defined. The student needs to determine if they are on a path that is Media Studies, Marketing, or Film, among other ideas. Secondly, the TOEFL score of 84 must be the *top priority*. This needs immediate focus, even above filming vlogs.
-
-I see a few things we can do about the activities: The Douyin account must have a theme. A more well defined path would work. For the business club, they need to leverage the ""Kpop marketing"" angle into something more concrete, like a blog series. The summer school should be enhanced to increase it's value to the application. If they can get a higher output, it will be better. The major thing here is to get them into competitions. Writing competitions are an example for them, but there are others.
-
-In short, there's work to be done. A holistic re-evaluation and redirection are needed, with urgent action required on the standardized testing front.",
-90分 planbook__Yvonne Chen.md,Yvonne Chen,gemini,gemini-3-pro-preview,90,,,,,,,,,一位具有深厚人文关怀和社会学视角的建筑学者预备役。该生不局限于建筑的物理形态，而是深入探索建筑空间（如墓地、宗教场所、治疗中心）与人类精神信仰、社会记忆、身份认同及社会公平之间的深层联系。形象关键词：建筑人类学、空间正义、生死观与记忆。,,"申请形象的文字描述目前在规划书中是缺失的（仅保留了模板说明文字），需要尽快将‘建筑与生死/信仰/社会’这一核心主线落实为具体的Profile文案，明确向招生官展示你的独特视角。
-目前的‘Racism Lectures’和‘EDI Committee’活动虽然体现了社会责任感，但与‘建筑/人类学’主线的联系略显割裂。建议尝试将这两个方向融合，例如研究‘种族隔离与城市规划’、‘Hostile Architecture（敌对建筑）对弱势群体的影响’或‘公共空间设计的包容性’，使社会正义线与学术主线形成合力。
-UPenn教授的科研项目‘Cemetery Architecture’选题非常出色且独特，具有极高的新颖度。建议在产出上除了论文，考虑增加可视化的成果，如制作一个‘不同文化下的生死空间’对比摄影集或建筑素描集，作为Art Portfolio提交，这对于申请建筑或人类学方向都极具加分作用。
-Art Magazine的描述较为常规，建议作为主编引导一期关于‘空间与情感’或‘被遗忘的城市角落’的专题，呼应你的学术主线。
-Carleton SLAI夏校含金量很高，务必认真准备申请文书。同时，John Locke竞赛的选题建议选择哲学或社会学方向中与‘空间、权力、自由’相关的题目，以侧面印证你的学术思考深度。",20-30名,申请主线逻辑在活动安排中体现得非常清晰，‘建筑+人类学/宗教’的跨学科组合具有很高的辨识度。但扣分点在于规划书中未明确填写具体的申请方向和形象描述文字，仅保留了模板说明，导致这一维度无法拿满分。,80,待办事项（To-Do List）部分非常出色，时间节点精确到日（如6月20日、6月24日），且责任人明确，执行力极强。活动描述部分（如Racism Lectures）略显笼统，缺乏具体的讲座主题和受众反馈细节，但整体可执行性较高。,80,学术深度是该规划的最大亮点。从元培学者的‘数字遗产’到UPenn科研的‘墓地建筑’，再到EPQ的‘神圣建筑’，选题具有极高的学术门槛和思想深度，远超一般高中生的认知范畴。Carleton夏校和John Locke竞赛也保证了足够的强度。,90,新颖度极高。在众多申请建筑或社科的学生中，选择‘墓地建筑’和‘生死观’作为切入点非常罕见且大胆，能够瞬间抓住招生官的眼球，具有极强的区分度。,90,方案整体强度较高，符合冲击Top 30甚至Top 20学校的要求。学生的过往经历（如川西田野调查）与规划高度契合。因缺少具体的GPA和标化成绩数据，暂按学生具备相应学术能力进行评估，打分略有保留。,80,活动内容涉及种族平权（Racism Lectures）、多元包容（EDI）、文化遗产保护等，完美契合美国顶尖大学推崇的Liberal Arts价值观，展现了极佳的人文情怀。,100,"**Initial Assessment: Deep Dive into the College Counseling Plan**
-
-Okay, here’s how I’m approaching this evaluation. My role is that of a seasoned international education expert and counselor trainer. My goal? To dissect this “planning book” based on six key dimensions, and translate it into a structured JSON report. I need to act as though I am an expert in the field and will provide an assessment that reflects this.
-
-First, I need to get a grip on the student's profile. Based on the activities and timeline, it's pretty clear this is a rising senior. The “Zhuhai Oriental Yinghua” connection is key context. The student’s interests? Architecture, but not just any architecture – a sociological and anthropological lens. We're talking Ethnography, Religion, Art, and Social Justice (Racism, EDI). The plan suggests a high ambition, possibly top 20-30 or better colleges. It will be helpful to refine the suggestion with the final output.
-
-I'm now going to evaluate this student's plan.
-
-1.  **Clearness and Consistency:** The student’s activities scream a very strong theme: ""Socially conscious architectural historian/anthropologist."" Everything aligns: the EPQ on Sacred Architecture, the research on Cemetery Architecture, the Buddhist Ethnography, and even the Racism Lectures. The problem is there is no explicitly stated ""Application Direction"" text (the section is just generic boilerplate), and that's technically a point off. But the logic is clear, and the student's intent is visible in the activities, so it gets a strong score. I'll make a note of this.
-
-2.  **Detail and Executability:** The To-Do list is very specific (dates, names, tasks). That’s a good sign. However, some activity descriptions are a little generic. I want to see more meat. For example, ""Racism Lectures"" needs more specifics. The To-Do list will save this section.
-
-3.  **Depth and Intensity:** The academic depth is impressive. Yuanpei Scholar, UPenn Research on Cemetery Architecture, EPQ on Sacred Architecture... it's a deep, specific niche, and a unique view. The summer programs (Carleton SLAI) and competitions (John Locke) are all selective and competitive. That is a solid profile and it earns a high score.
-
-4.  **Noviceness:** This is where things get interesting. Most architecture portfolios focus on designs, but this student emphasizes the *social* meaning of architecture. ""Cemetery Architecture"" is a novel, slightly macabre, but intellectually fascinating angle. The combination of architecture with the exploration of death and religion is a truly unique approach.
-
-5.  **Fitness:** Given the student’s background and the plan, it's very likely they’re targeting top US colleges. The lack of GPA or SAT score data is a downside, but the activities (Carleton, Yuanpei) suggest a high level of capability. Still, I have to be conservative in the score.
-
-6.  **Liberal Values:** Racism Lectures, EDI committee, Therapeutic Architecture, all very much align with liberal arts values. No red flags here.
-
-Now for the final score, it all boils down to whether the final score is an 80 or a 90. Because of the missing profile text, the score could be an 80 or 90. Even though I want to say ""the 90 is better"", the instructions tell me to take into account the instructions, and I should apply the restrictions. Because of the instructions, I am going to have to decide on an 80, but I will give the student and the counselor feedback on what they need to fix.",
-90分 planbook__刘蕙瑜.md,刘蕙瑜,gemini,gemini-3-pro-preview,90,,,,,,,,,一位来自北京顶尖高中（北京一零一中）、拥有极高标化成绩（SAT 1560/TOEFL 118）的学术型申请者。申请形象鲜明地聚焦于“音乐”与“创意写作”的跨学科结合，旨在通过现代化的音乐剧创作和多媒介文学形式（有声书、诗歌平台）来探索艺术表达的新边界，同时具备通过文学关注边缘群体的社会人文情怀。,,"去‘机构化’标签：规划中提到的‘三士渡内部文学杂志’和‘三士渡内部音乐节’带有明显的机构色彩。在申请顶尖名校（藤校/前10）时，这种‘圈养式’活动可能会被招生官视为缺乏独立性。建议将这些项目重构为独立的社团或与外部非营利组织合作的项目，强调学生作为Founder的独立领导力和资源整合能力，而非依赖机构平台。
-强化跨学科产出（Portfolio Synergy）：目前的规划中音乐和写作虽有交集（如音乐剧），但可以更进一步。建议在‘原创有声书’或‘Beyond Margins’项目中，明确结合两者的‘Capstone Project’，例如：为采访到的边缘诗人的作品谱曲并制作成多媒体专辑，或者创作一部基于社会调研的原创微型音乐剧剧本。这样能更直观地展示‘Music + Creative Writing’的化学反应。
-科研成果的转化：CCIR/Pioneer关于‘音乐剧现代化’的科研不应止步于论文。建议将研究结论应用到实际创作中，例如在作品集中附上一篇‘基于研究理论创作的实验性乐章/剧本片段’，形成‘Theory to Practice’的闭环。
-有声书项目的具体化：‘原创有声书’目前的描述略显笼统。建议细化执行方案，例如明确目标受众（如视障人士、留守儿童等），并制定具体的推广数据目标（播放量、订阅数），以增强活动的影响力（Impact）维度。",藤校、前10名,申请方向（音乐+创意写作）极度清晰，所有核心活动（Polyphony、阿卡贝拉、有声书、科研）均紧密围绕这两条主线及其交叉点展开，逻辑闭环非常严密，形象聚焦。,100,待办事项（To-Do List）部分非常出色，有精确的截止日期和量化指标（如HIR字数、提交篇数）。活动描述整体详实，但部分项目（如内部杂志、Beyond Margins）的描述略显模板化，缺乏学生本人具体操作层面的独特性细节。,80,标化成绩（1560/118）已达顶级门槛。规划中包含的BUTI（Tanglewood）是音乐类顶级夏校，Polyphony是文学类高含金量杂志，结合John Locke和高难度科研，整体学术深度和强度非常高，足以支撑藤校申请。,90,将音乐与创意写作结合本身具有一定新意，且通过‘Beyond Margins’（关注边缘群体）和‘有声书’（多媒介融合）赋予了传统艺术组合新的社会意义和表现形式，具有较好的区分度。,90,方案的高强度（顶级夏校、高难度竞赛）与学生极强的学术背景（一零一中、SAT 1560）完美匹配。申请层级定位准确，没有出现能力与规划不匹配的情况。,100,‘Beyond Margins’项目关注底层诗人和边缘群体，体现了深刻的同理心和社会正义感，极好地契合了美国顶尖大学推崇的Liberal Values。,100,"**My Assessment Process for This College Planning Document**
-
-Okay, so here's how I'm approaching this. First, I need to understand the playing field. I see my role is a senior expert, giving advice on a student's college plan. The request is specific: analyze, score, suggest, and output a JSON report. Got it. Now, let's get into the *actual* plan.
-
-I have to start with a deep dive into the student's profile, the timeline, and the activities. The timeline is important – especially given the mix of future dates with deadlines in 2025. It looks like the student is currently rising 11th or 12th grade. I need to make sure I've got the grade level nailed down as that heavily influences my scoring. The TOEFL 118 and SAT 1560 are both *very* impressive, which is the immediate indication that this student is targeting top tier universities. This confirms the rising 11th/12th grade theory. Beijing 101 Middle School? Excellent! The student's focus on music and creative writing is super interesting and is not a common combo.
-
-Now, let's get to the scoring framework. I have to think about Clearness and Consistency, Detail and Executability, Depth and Intensity, Noviceness, Fitness, and Liberal Values. Each is weighted, so I must consider the importance of each. The output has to be a JSON, so I'll need to keep that in mind as I build my evaluation.
-
-I look at the student's profile: high achieving, solid school, impressive test scores, and a focus on Music + Creative Writing. The activities are all over the place, which is good. There is Polyphony, LIT mag founder, musical theater, A Cappella, and research, but how do they all intersect? Then the competitions and summer schools... BUTI is *excellent*. Now, to judge each dimension!
-
-Clearness and Consistency? Music + Creative Writing – that's clear. All of the student's activities support both fields, so I'm thinking a high score here. Detail and Executability. The timeline is strong with specifics, but some descriptions are vague. The descriptions for ""Beyond Margins"" (the volunteering project) and ""Audiobook"" are weak, with a clear lack of detail about implementation. So this is more of a ""good but not great"". Depth and Intensity? I'm seeing Ivy-level achievements with BUTI and Polyphony. The music intersection is smart and the volunteering adds social depth. So, a high intensity level to prepare for that level of school. Noviceness? Combining these two fields is good, but the ""Beyond Margins"" project and the ""Audiobook"" combination is where this gets unique. It's a stand out from the typical applications. Fitness: It's a top school and high stats, so it seems like the profile works for the Top 20/Ivies. Liberal Values? ""Beyond Margins"" is very socially conscious and it feels right.
-
-Now, let's calculate the total score. C&C is 25%, D&E 25%, D&I 15%, Noviceness 15%, Fitness 10%, and Values 10%. After calculating this I get a 92, and the closest option is 90.
-
-So, I need to offer some targeted suggestions: I think the ""internal"" projects feel a bit agency-dependent. I'll need to recommend the student show more independence. The Audiobook is a great idea, but the student needs to build out the distribution plan. With the research, the student needs to show a tangible output that's directly related to the two majors. And the Musical Theater project - leadership needs to be highlighted. Make sure there are specific ""Portfolio Polish"" periods in the timeline.
-
-Finally, the JSON report. I need a clear profile summary, the suggested level, the suggestions, scores for each category, and a total score. I will create this JSON output, ensuring it has correct syntax.
-
-The profile: a top student from Beijing 101, building an impressive interdisciplinary profile using music, writing, and advocacy. High level, going for those top schools.
-Suggestions: De-emphasize the agency stuff, deepen the audiobook, Portfolio Synergy and a final Research Output. The output is ready, and all of the individual components align.
-
-I'm ready to produce the report!",
-90分 planbook__徐振铭.md,徐振铭,gemini,gemini-3-pro-preview,90,,,,,,,,,一位试图将中国古典哲学（易经、儒家伦理）与现代硬核科学（神经科学、天体物理）进行深度结构化整合的跨学科思考者。他不仅具备顶尖的理科解题能力，更致力于探索“世界本质与认知结构”的统一性，形象兼具东方文化底蕴与前沿科学素养。,,"关于丘成桐中学科学奖（物理）的选题：目前规划中提到的‘电学’方向相对传统且拥挤，要想在丘奖中脱颖而出，建议结合学生在天体物理或神经科学方面的跨学科优势，考虑更具新颖性的复杂系统或数据建模类课题，或者确保电学课题在实验设计上有极高的创新度。
-关于申请形象的风险控制：将《易经》与现代天体物理结合是一个极具新颖性但也伴随高风险的尝试。在文书和面试中，必须严格界定在‘认识论’和‘哲学模型’的层面进行比较，避免给招生官留下‘用玄学解释科学’的伪科学印象，需强调这是一种跨文化的思维结构探索。
-关于IB选课调整：建议将英语B调整为英语A是一个展示语言能力的妙招，但需谨慎评估学生对文学批评和文本分析的实际掌控力。IB英语A的难度远高于托福，若因此导致GPA受损得不偿失，建议在暑期先进行试读或评估后再做最终决定。
-关于时间管理与活动优先级：11年级面临IB课业、标化考试（SAT/托福刷分）、高强度竞赛（丘奖、John Locke）和科研（北邮项目）的多重压力。建议制定明确的优先级，若时间冲突，应优先保证丘奖和科研产出，因为这对Top 10申请的学术支撑作用最大，社团类活动可适当放权给他人。",前10名,申请方向（哲学、神经科学、天体物理）虽然跨度极大，但通过‘探索世界本质与认知结构’这一核心逻辑链条完美串联。从活动（易经讲座、脑科学社）到竞赛（John Locke、丘奖）再到文书意向（EE论文），所有安排都紧密围绕这一独特形象展开，逻辑自洽且高度聚焦，满分。,100,规划书极其详尽，不仅有宏观策略，还有具体的执行动作（如‘7.17去曲阜’、‘跟周老师约聊’）。活动描述具体到了产出形式（PPT、论文、公众号文章）。标化考试规划精确到了具体的分数目标和月份。极具可执行性。,100,学术强度极高，目标直指Top 10。IB HL课程组合硬核，竞赛选择了丘成桐和USABO/BPhO等高含金量赛事，夏校瞄准了SSP/YSPA等顶尖项目。科研项目有大学教授指导。整体深度完全匹配申请层级要求。,90,新颖度极高。将‘易经/儒家伦理’与‘神经科学/天体物理’结合的申请形象在高中生中极为罕见，极具区分度。‘疯人映世’公众号的内容策划和EE选题都让人眼前一亮，打破了传统理工男或传统文史哲学生的刻板印象。,100,方案高度适配学生背景。学生来自顶尖高中（十一学校），托福112分，理科基础扎实，有能力消化高强度的规划。曲阜孔子学院的活动安排巧妙利用了地缘文化背景，增强了人设的真实性。,90,规划中体现了对人类认知、伦理道德、跨文化理解的深刻关怀，特别是通过教学反哺社区（蒲公英中学）的安排，很好地体现了社会责任感和人文情怀，符合博雅教育价值观。,90,"**Analyzing Xu Zhenming's College Counseling Plan**
-
-Alright, let's dive into this evaluation. First, I need to thoroughly understand the goal: I'm dissecting this plan for Xu Zhenming (小徐), looking at its effectiveness across six key dimensions. It's about delivering a structured, JSON-formatted assessment with concrete scores and insightful suggestions.
-
-I start by building a comprehensive profile of Xu. This student's a rising 11th grader at BNDS. His academics are stellar, with high GPAs and strong standardized test scores. What's truly intriguing is his interest profile: a blend of Philosophy, Neuroscience, and Astrophysics. I'm taking note of the unique narrative: a thinker bridging Eastern thought and modern science. His target is ambitious: Top 10-20 US universities.
-
-Next, the meat of the matter: the plan itself. The activities are solid, a mix of established commitments and future plans. I like the planned integration of ""I Ching"" with neuroscience and astrophysics; that's something special. The competitions are impressive, including things like USABO and Yau Science. Summer school choices are top-tier, like SSP and YSPA.
-
-Now, let's break it down dimension by dimension. First, **Clearness and Consistency**. This plan is like a perfectly woven tapestry, integrating everything around the central themes. It's a clear, cohesive narrative, so I'm giving it a perfect 100.
-
-Second, **Detail and Executability**. The plan is rich with specifics, including very detailed timelines, test targets, and clear descriptions of activities. The specificity warrants a 90.
-
-Third, **Depth and Intensity**. IB HL Physics/Math/Bio is tough and the summer programs are top-tier. Yau is tough, but the planned combination of ""I Ching"" and Astrophysics creates some exciting possibilities and, therefore, a score of 90.
-
-Fourth, **Noviceness**. Here's where the plan truly shines. The unique combination of Chinese classics and hard science makes it stand out – a textbook example. This earns a solid 100.
-
-Fifth, **Fitness**. Given Xu's strong background and ambition, the plan seems well-suited to his capabilities. It’s ambitious, but believable, so I'm giving it a 90.
-
-Sixth, **Liberal Values**. The focus on universal truth, ethics, and cross-cultural understanding is right in line with liberal values. No red flags here; a 90 is appropriate.
-
-Now, for the numbers. I've crunched them, giving Clearness and Noviceness 100 and a score of 90 for the rest. This gives a weighted total of 94. My initial inclination was to stay conservative and give an even 90. However, the plan included a specific ""To-Do"" list with dates and concrete descriptions of research projects, pushing this to the 100 range. After being very critical, I've decided to hold back on the 100, and keep the final score at 90. It's a *very* strong plan.
-
-I need to provide actionable suggestions, so I need to assess any potential drawbacks. The plan relies heavily on intellectual output, and I need to address the risk of burnout. Regarding the Yau Award topic, it needs to be specific. The ""Electricity"" topic, on its own, seems a bit broad. It needs a novel angle to stand out. And finally, I need to address the switch to English A; I need to ensure it won’t negatively affect the GPA. The student needs to be very strong to make this a good move. Furthermore, I must note that the ""I Ching"" angle is brilliant but also risky. In the essay, it needs to be framed in terms of ""Epistemology"" or ""Structural Philosophy"" to avoid the appearance of pseudoscience.
-
-Finally, I'll craft the final report: a concise, informative profile and a set of targeted recommendations. It's time to generate that JSON output and finish this evaluation.",
+#### 2. 详细度和可执行性 (detail_and_executability) - 权重25%
+- **活动数量**：进行中活动有5个（Edx AP English Lit Storytelling、滑雪、明安图天文摄影、长笛练习、星空导师），计划中活动有6个（Social Justice、Research or Competitions、Sports or Arts、Student Government、Speech and Debate、奇点科幻社）。总共11个活动条目，数量足够。
+- **活动描述细节**：大多数活动描述不够具体。例如，“明安图天文摄影”描述为“在明安图观测站运用设备拍摄各种天文摄影作品...”，有一定细节但不够深入；“星空导师”描述较详细，包括线上备课、当地讲解、内容调整等，这是好的。但计划中活动如“Social Justice”描述为空，只有“校园活动创立初期的备选方案之一”，非常笼统。
+- **竞赛和夏校**：竞赛有International Writing, Photo and Multimedia Contest，描述较具体；夏校有Yale Summer Program in Astrophysics和UChicago Immersion Program，描述有细节。
+- **细则**：活动是重点考察对象。计划中活动描述大多为空或笼统，进行中活动有些有细节。总条目数足够（超过6个），但描述质量参差不齐。
+- **低分警示**：条目数足够，但许多描述过于笼统。
+- **评分**：活动数量足够，但细节不足，尤其计划中活动。给分在60-80分之间。参考高分示例有100分，但这个明显不如。给70分。
+
+#### 3. 深度和强度 (depth_and_intensity) - 权重15%
+- **申请形象深度**：形象描述有深度元素，如“thoughtful policy learner and designer”，但整体不够深入。
+- **课外活动深度**：星空导师项目有一定深度，涉及教学、内容调整、领导力；天文摄影是个人兴趣；科幻社计划有详细发展思考，显示组织和学术结合。但其他活动如滑雪、长笛练习深度有限。
+- **竞赛和夏校**：竞赛是传媒类，有潜力；夏校如YSPA是天体物理研究型，有学术深度。
+- **细则**：评估规划方案是否帮学生拔高深度。星空导师和科幻社显示了一些深度，但整体活动深度不均。
+- **评分**：中等深度，有些活动有强度但不够全面。给70分。
+
+#### 4. 新颖度 (noviceness) - 权重15%
+- **申请形象新意**：形象结合了天文、领导力、政策设计，在同专业方向（如天体物理学）中，加入人文元素（如哲学、媒体）有一定新意。
+- **课外活动新颖度**：星空导师项目将天文与旅游业结合，有独特性；科幻社结合软硬科幻，有趣。但滑雪、长笛练习较常规。
+- **细则**：申请方向中，天体物理学、大气科学等在中国学生中相对小众，应有加分（不超过10分）。形象有辅线（人文社科）与主线（天文）交叉关联，获得更多加分（不超过20分）。
+- **加分计算**：方向小众（天体物理学等）加10分；形象辅线与主线交叉，加20分。但基础新颖度中等。
+- **评分**：基础分60分，加上加分，但上限100。整体新颖度较好，给80分。
+
+#### 5. 适配度 (fitness) - 权重10%
+- **学生背景联系**：规划中没有明确提及学生背景（如民族、国籍等），但从活动如星空导师在甘肃、北京学校，可能隐含中国背景。申请形象和活动与背景联系未明确解释。
+- **学生能力适配**：没有在校成绩或标化成绩记录，只有目标分数（TOEFL 114, SAT 1500）。规划中活动深度较高，如YSPA夏校有难度，可能适配高能力学生。
+- **申请层级**：目标标化分数高，夏校是顶尖项目（Yale, UChicago），表明申请层级可能是前20名或更高。但方案整体深度和强度需要匹配。
+- **细则**：申请层级高时，应重点考察方案与学生背景联系和深度强度。这里背景联系未明确，深度强度中等偏高。
+- **评分**：适配度中等，背景联系不足，但活动深度可能匹配高申请层级。给70分。
+
+#### 6. 理念和价值观 (liberal_values) - 权重10%
+- **社会人文情怀**：星空导师项目帮助当地发展旅游业，有社会关怀；科幻社涉及哲学、社会正义，体现人文思考。
+- **低分警示**：没有出现政治不正确的内容。
+- **评分**：有正面体现，给80分。
+
+### 加权平均分计算：
+- clearness_and_consistency: 60 * 0.25 = 15
+- detail_and_executability: 70 * 0.25 = 17.5
+- depth_and_intensity: 70 * 0.15 = 10.5
+- noviceness: 80 * 0.15 = 12
+- fitness: 70 * 0.10 = 7
+- liberal_values: 80 * 0.10 = 8
+总分 = 15 + 17.5 + 10.5 + 12 + 7 + 8 = 70
+
+总分70分，在[50,60,70,80,90,100]中选择最接近的，即70分。
+
+### 申请形象总结：
+从规划书中提取：一个对天文、物理和人文社科都有浓厚兴趣的energetic female leader，通过天文摄影、星空导师项目和科幻社活动，展现好奇心、领导力，并致力于将科学知识应用于社会福祉（如旅游业发展）。
+
+### 申请层级：
+基于目标标化分数（TOEFL 114, SAT 1500）和规划的夏校（Yale, UChicago），申请学校可能是前20名或更高，但未明确指定。从上下文推断，目标可能是前10-20名。
+
+### 改进建议：
+1. **聚焦申请方向**：目前专业方向太多（超过5个），建议缩减到3-4个，例如聚焦在天体物理学和创意写作，或天体物理学与媒体研究的交叉领域。
+2. **深化活动细节**：计划中活动如Social Justice、Research or Competitions的描述过于笼统，需要具体化。例如，Research活动可以明确为“基于天文数据的气候变化研究”或类似。
+3. **加强学术主线**：虽然天文是主线，但需要更多学术深度活动，如参与科研项目或竞赛（如天文奥赛），而不仅仅是摄影和教学。
+4. **明确背景联系**：在申请形象或方向选择理由中，应更明确地联系学生背景（如中国学生、女性等），以增强独特性。
+5. **整合副线与主线**：科幻社和写作活动可以更紧密地与天文结合，例如创作基于天体物理的科幻小说，形成交叉叙事。
+
+### 输出JSON格式：
+按照要求，输出JSON。"
+张芯茹.md,张芯茹,deepseek,deepseek-reasoner,,,,,,,,,,该规划方案呈现了一位对食物充满热情、致力于从人类学、营养学和媒体研究等多学科视角探索饮食文化与社会关系的年轻探索者。学生的兴趣围绕‘开餐厅’的长期目标展开，但当前申请形象尚未明确塑造，停留在专业探索层面，缺乏个人故事、独特视角或价值观的深度整合。活动规划以‘食物、人文与传播’为核心，但尚未形成清晰的学术主线与个人特色副线。,,"申请形象描述完全空白，是当前方案的最大短板。必须尽快基于学生的个人经历（如家庭饮食传统、在深圳/国际学校的生活观察、意大利之行的期待等）提炼出一个具体、生动、有深度的申请形象，将‘热爱食物’从一个宽泛的兴趣，升华为体现个人思考、价值观或独特视角的故事。例如，是否可以探讨‘食物作为跨文化沟通的媒介’、‘家族食谱传承中的身份认同’、或‘在快餐化时代寻找饮食的在地性与人情味’等具体方向。
+计划中的活动（意大利Vlog、餐厅考察、食谱网站）描述过于笼统，缺乏可执行细节。建议为每项活动设定明确、具体的产出目标和实施步骤。例如，意大利Vlog：提前规划拍摄主题（如‘托斯卡纳的家庭厨房与传统’）、采访对象、叙事结构；食谱网站：明确首发平台（如小红书/B站）、目标受众、初期内容规划（如前5篇图文/视频的主题清单）。这些细节是活动能否真正落地并产生影响力的关键。
+活动规划整体偏重观察、记录和内容创作，学术深度和强度有待加强。在探索基础上，应尽快设计1-2个能体现研究分析能力、问题解决能力或社区影响力的核心项目。例如，在餐厅考察后，可针对‘连锁与独立餐厅的生存策略与社区文化影响’进行小规模的社会学研究（设计问卷、访谈、数据分析），形成一份有洞察力的研究报告。这能显著提升申请材料的竞争力。
+方案未体现活动、竞赛与学生个人背景（如生活在深圳这座移民城市、就读外籍人员子女学校的经历）的深刻联系。建议引导学生思考：她的成长环境如何塑造了她对食物多样性的认知？她观察到的深圳餐饮生态有何独特之处？将这些个人化的洞察融入活动设计和未来文书中，能极大增强申请材料的真实性和独特性。",30-40名,申请方向（人类学、营养学、媒体研究）围绕‘食物’主题，相互关联，聚焦度尚可。但申请形象描述完全缺失，严重影响了整体清晰度。活动规划思路（以‘食物、人文与传播’为核心）在专业探索部分有体现，但计划中的活动与这个核心思路的关联性描述不足。整体而言，方向有框架，但形象模糊，一致性较弱。,60,专业探索活动的描述非常详细，分步骤提供了具体纪录片、书籍、调查任务和输出要求，可执行性很高。这是方案的亮点。然而，其他‘计划中活动’（如意大利Vlog、餐厅考察、食谱网站）的描述极其笼统，只有主题意向，完全没有实施细节、步骤或预期产出，可落地性差。考虑到学生当前10年级，有探索时间，但计划活动的粗糙描述拉低了本项得分。,70,专业探索活动的三步设计（人类学-食物研究-媒体研究）展现了一定的学术探索路径和思考深度，优于单纯的兴趣列举。但整体规划仍处于广泛探索阶段，缺乏能体现深耕、领导力、研究能力或显著成果产出的核心项目。计划中的活动多为观察、记录和内容创作，强度有限。当前深度符合10年级探索期的特点，但需尽快向深度项目过渡。,70,以‘食物’为核心，结合人类学、营养学、媒体研究进行跨学科探索，避开了常见的纯商科或纯理工科路径，有一定的新意。‘饮食人类学’、‘食物研究’对于中国大陆学生申请者而言也属于相对小众的方向。但申请形象的缺失使得这种新颖度停留在专业选择层面，未能与学生独特的个人故事、视角或价值观结合，限制了其整体冲击力。计划中的活动形式（Vlog、网站）也较为常见。,80,申请方向选择（围绕食物兴趣）与学生的热情和长期目标（开餐厅）高度适配，理由充分。规划的活动形式和当前的学术深度，与10年级学生的探索阶段能力基本匹配。申请层级定位（基于当前信息推断为30-40名）也较为合理。主要不足在于方案完全未提及与学生具体背景（如深圳生活、国际学校经历、家庭环境等）的联系，使得‘适配’更多体现在兴趣层面，而非身份认同层面。,80,方案关注饮食文化、社会结构、身份认同、可持续餐饮系统、媒体叙事等议题，体现了对社会人文现象的观察和关怀，符合liberal价值观。没有出现任何政治不正确的内容。价值观的体现融合在探索主题中，但尚未通过明确的申请形象或活动目标进行升华和突出。,90,70,prompt_mayuan_7_1b,prompts/prompt_mayuan_7_1b.txt,"好的，用户是一位深耕国际教育领域的资深升学规划专家和培训师，需要评估一份规划书。从材料看，这位学生的兴趣在食物和餐厅，规划书探索人类学、营养学、媒体研究等方向，但申请形象还不明确。
+
+嗯，当前年级是10年级，申请年份还早，有足够时间探索。申请层级方面，学生就读深美外籍人员子女学校，从在校成绩和规划看，目标应该是美国前30-40名左右的大学。
+
+首先看清晰性和一致性。申请方向有三个专业，都在食物相关领域，相互关联性很强，这很好。但申请形象描述完全缺失，这是个大问题。规划书中提到了“食物、人文与传播”的核心路径，但没有形成明确的申请形象陈述。活动规划思路还算清晰，围绕食物主题展开，专业探索活动分步骤设计得不错。不过整体上，没有申请形象描述严重影响了这个维度的得分。
+
+详细度和可执行性方面，专业探索活动描述得非常具体，有观看的纪录片、阅读的书籍、要做的调查和输出，这很好。但计划中的活动，比如“意大利拍摄美食Vlog”、“考察深圳美食广场”、“构建个人食谱网站”，描述都很笼统，缺乏具体如何做的细节。当前年级是10年级，有足够时间充实这些计划，但现在的描述确实不够详细。活动数量方面，专业探索算一个深度活动，加上三个计划中活动，还有体育和社团活动，数量上勉强够，但计划活动的细节不足。
+
+深度和强度方面，专业探索活动设计得很有学术性，从人类学、食物研究到媒体研究逐步深入，这能体现一定的深度。但其他计划活动目前只是想法，深度还看不出来。学生处于探索阶段，当前规划在深度上还有提升空间。
+
+新颖度方面，以“食物”为核心，结合人类学、营养学、媒体研究进行跨学科探索，这个角度本身有一定新意，避免了单纯商科的俗套。作为美高申请中国学生，关注饮食文化这个话题也相对独特。但如果申请形象能更具体地突出个人故事和视角，新颖度会更高。
+
+适配度方面，学生的兴趣在食物和开餐厅，规划围绕这个兴趣展开，方向选择理由充分，这很适配。学生的执行力似乎不错，规划的活动在学术要求上与她当前能力匹配。申请层级定位在30-40名也比较合理。但规划中没有提到与学生个人背景、家庭、生活经历的具体联系，这是一个缺憾。
+
+理念和价值观方面，规划关注饮食文化、社会结构、可持续餐饮等话题，体现了人文关怀和社会观察，符合liberal价值观。没有出现任何政治不正确的内容。
+
+总结一下，这份规划书在探索阶段有了不错的方向框架，但最大的问题是缺乏明确的申请形象描述，计划中的活动也不够具体。改进建议要重点强调这两个方面。"
+张青未.md,张青未,deepseek,deepseek-reasoner,,,,,,,,,,对生物伦理和公共健康有浓厚兴趣的学生，通过学术阅读、播客科普和社区健康倡导活动关注社会健康议题，展现科学素养与社会关怀的结合。,,"申请形象描述缺失，需补充明确的学术主线和个人特色副线，将公共卫生/生物学兴趣与个人经历（如花粉过敏）或背景联系起来，形成连贯叙事。
+活动描述过于笼统，缺乏可执行细节。例如花粉过敏科普账号应具体说明内容主题（如过敏原数据分析、预防措施科普）、运营平台（小红书）、更新频率、目标受众和预期影响力（如粉丝增长、社区互助案例）。
+增加学术深度和成果产出。建议将花粉过敏科普升级为小型研究项目，设计问卷调查过敏人群需求，与校医室或本地医院合作，产出数据分析报告或科普文章，体现领导力和实际影响。
+提升新颖度。尝试将围棋兴趣与公共卫生交叉，例如分析围棋策略对公共卫生决策建模的启示，或创办“健康策略”社团，用游戏化方式推广健康知识。
+明确申请层级并调整规划强度。如果目标前20名，需强化独立研究（如参与Pioneer Academics）和高级别奖项（如USABO）；如果目标稍低，可聚焦少数核心活动并深化细节。",20-30名,申请方向明确聚焦，但申请形象、学术主线和个人特色副线完全缺失，导致整体一致性不足。活动虽与专业相关，但缺乏形象串联，主次不分明。,80,活动数量达标（7个），但几乎所有活动描述都过于笼统，缺乏具体话题、执行步骤和成果预期，可落地性较差。,70,规划中包含高难度竞赛（如Brain Bee）和夏校（如UChicago Immersion），有学术强度，但课外活动缺乏深耕体现，如bioethics阅读未明确深度研究或产出，领导力和影响力展现不足。,70,活动话题（如公共健康科普、罕见病关注）和形式（播客、阅读）在生物学/公共卫生领域较为常规，缺乏独特交叉或创新标签；围棋社团与主线未关联，新颖度有限。,60,规划未解释申请方向与学生背景或经历的联系，适配度打折扣；但竞赛和夏校难度与来自顶尖高中的学生能力大致匹配，申请层级推断为前20-30名。,70,活动体现对社会健康议题的关怀（如罕见病关注、花粉过敏互助），符合liberal价值观，无政治不正确内容。,90,70,prompt_mayuan_7_1b,prompts/prompt_mayuan_7_1b.txt,"首先，我需要解析给定的规划书内容，并基于六个维度进行评估：清晰性和一致性、详细度和可执行性、深度和强度、新颖度、适配度、理念和价值观。
+
+**学生背景信息：**
+- 当前年级：从甘特图看，现在是2025年11月，学生处于11年级（因为规划覆盖到2026年6月）。
+- 申请方向：公共卫生学/全球健康、生物学（两个专业，符合不超过5个的要求）。
+- 申请地区：美国。
+- 在校成绩：来自北京师范大学附属实验中学，10/11年级成绩已记录。
+- 标化成绩：TOEFL 99分（阅读29，听力24，口语22，写作24），SAT和AP有备考计划。
+- 课外活动：列出了一些进行中和计划中的活动，包括bioethics/med anthropology阅读、STS活动、PH square播客、罕见病关注、校生物社、校围棋社团、花粉过敏科普账号等。
+- 竞赛和夏校：规划了多个竞赛（如BBO、HOSA、Brain Bee等）和夏校（如UChicago Immersion Program、UCSB Research Mentorship Program等）。
+
+**评估各维度：**
+
+1. **清晰性和一致性 (权重25%)**：
+   - 申请方向明确：两个专业（公共卫生学/全球健康、生物学），聚焦。
+   - 申请形象描述：规划书中没有明确填写申请形象描述。从“申请规划概述”部分看，只有申请方向和地区，没有申请形象、学术主线或个人特色副线的描述。根据细则，如果未明确填写，本维度上限90分。
+   - 活动规划：活动似乎围绕生物和公共卫生展开，例如bioethics阅读、STS活动、花粉过敏科普等，但缺乏明确的申请形象来关联。从活动中能推断出对生物伦理和公共健康的兴趣。
+   - 一致性：活动如生物社、花粉过敏科普与申请方向相关，但缺乏整体形象描述，导致一致性不够强。
+   - 评分：由于申请形象未明确，上限90分。活动有相关性，但不够突出。我打80分。
+
+2. **详细度和可执行性 (权重25%)**：
+   - 活动数量：列出进行中活动：bioethics阅读、STS活动、PH square、罕见病关注、校生物社、校围棋社团（6个），计划中活动：花粉过敏科普账号（1个）。总计7个活动，满足最低要求（活动条目数不足4个或总条目数不足6个为低分警示；这里总条目数7个，达标）。
+   - 活动描述：描述不够详细。例如，“读bioethics/med anthropology相关文章、新闻、online course”较笼统；“花粉过敏科普账号、互助组织”没有具体细节；“PH square”描述稍好，有播客和论坛的细节，但整体可执行性描述不足。
+   - 重点：活动描述缺乏具体话题、方式、步骤等细节。例如，没有说明花粉过敏科普的具体内容、目标受众、如何运营等。
+   - 评分：活动数量足够，但描述过于笼统，可执行性不强。我打70分。
+
+3. **深度和强度 (权重15%)**：
+   - 申请形象深度：由于未明确描述，难以评估深度。
+   - 活动深度：活动如bioethics阅读和STS活动显示学术兴趣，但缺乏深耕的体现。例如，没有提到具体的研究项目、领导力或成果产出。PH square有播客和论坛，可能体现影响力，但描述简单。
+   - 竞赛和夏校：规划了多个高难度竞赛（如Brain Bee、HOSA）和夏校（如UChicago Immersion），这些有学术深度和难度。
+   - 评估的是规划方案的拔高程度：规划中包括科研类活动（如神经科学研究在2026年12月启动），但细节不足。整体上，规划试图增加深度，但执行细节缺失。
+   - 评分：活动深度一般，竞赛和夏校有强度。考虑到学生当前11年级，规划有提升空间。我打70分。
+
+4. **新颖度 (权重15%)**：
+   - 申请形象：未明确，无法评估新意。
+   - 课外活动：活动主题如bioethics、花粉过敏科普、罕见病关注，在公共卫生/生物学领域相对常见，但花粉过敏科普可能有一定独特性。形式如播客（PH square）是常见科普方式。
+   - 申请方向：公共卫生学和生物学在大陆学生中属于大众选择（理工科/生物相关），没有小众加分。
+   - 从活动中看，缺乏明显的交叉关联或独特标签。例如，围棋社团与主线未形成交叉。
+   - 评分：活动话题和形式常规，新颖度有限。我打60分。
+
+5. **适配度 (权重10%)**：
+   - 与学生背景联系：规划书中没有解释申请方向与学生背景或经历的联系。例如，没有提到个人经历（如过敏经历）或背景如何关联。
+   - 学生能力：TOEFL 99分，在校成绩未具体给出，但学校是北师大实验中学，可能较强。申请层级未直接提及，但根据活动规划和竞赛，目标可能是前30名或更高。
+   - 深度强度适配：规划包括高难度竞赛和夏校，与学生能力可能适配（假设学生成绩好），但缺乏背景联系。
+   - 申请层级：从规划看，目标是竞争性夏校和竞赛，可能指向前20-30名或更高。但未明确说明。
+   - 评分：缺乏背景联系，但规划深度似乎适配。我打70分。
+
+6. **理念和价值观 (权重10%)**：
+   - 体现liberal价值观：活动如罕见病关注、花粉过敏科普、公共健康播客，显示社会人文关怀和对公共健康的关注，符合liberal价值观。
+   - 没有出现政治不正确的内容。
+   - 评分：体现良好价值观。我打90分。
+
+**总分计算：**
+- 清晰性和一致性: 80分
+- 详细度和可执行性: 70分
+- 深度和强度: 70分
+- 新颖度: 60分
+- 适配度: 70分
+- 理念和价值观: 90分
+
+加权平均分 = (80*0.25) + (70*0.25) + (70*0.15) + (60*0.15) + (70*0.10) + (90*0.10) = 20 + 17.5 + 10.5 + 9 + 7 + 9 = 73
+
+在[50,60,70,80,90,100]中选择最接近的，73接近70，所以总分70分。
+
+**申请形象总结：**
+规划书中没有明确描述，但从活动推断，学生可能是一个对生物伦理和公共健康有浓厚兴趣，通过阅读、播客和科普活动关注社会健康问题的个体。
+
+**申请层级：**
+基于规划中的竞争性夏校和竞赛，以及学生来自北师大实验中学（顶尖高中），目标可能是前20-30名或更高。但未明确，我推断为20-30名。
+
+**改进建议：**
+1. 申请形象需要明确描述。建议补充申请形象、学术主线和个人特色副线，将生物、公共卫生与个人经历或兴趣（如花粉过敏）联系起来，形成连贯故事。
+2. 活动描述需要更具体。例如，花粉过敏科普账号应详细说明内容主题、运营计划、目标受众和预期影响；bioethics阅读应列出具体文献或课程名称。
+3. 增加深度和成果产出。例如，将花粉过敏科普发展为研究项目，收集数据并发表报告，或与本地医疗机构合作。
+4. 加强新颖度。考虑将围棋或其它兴趣与主线交叉，例如探讨策略游戏对公共卫生决策的启示，或利用围棋思维分析健康政策。
+5. 明确申请层级并调整规划强度。如果目标是前20名，需要更突出的领导力和研究项目；如果目标较低，可简化竞赛安排。
+
+**输出JSON格式：**"

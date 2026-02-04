@@ -10,6 +10,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import Protocol
+import re
 
 
 # ============================================================
@@ -527,6 +528,108 @@ def save_results(results: list[dict], output_dir: str = "results") -> str:
 
 
 # ============================================================
+# Resume Functions (断点续传)
+# ============================================================
+
+def generate_run_id() -> str:
+    """Generate a unique run ID based on timestamp."""
+    return datetime.now().strftime("%Y%m%d_%H%M%S")
+
+
+def get_result_file_path(output_dir: str, run_id: str) -> str:
+    """Get the result file path for a given run ID."""
+    return os.path.join(output_dir, f"result_{run_id}.json")
+
+
+def find_latest_incomplete_run(output_dir: str) -> str | None:
+    """Find the latest incomplete run in the output directory.
+
+    An incomplete run is identified by a .incomplete marker file.
+    Returns the run_id if found, None otherwise.
+    """
+    if not os.path.isdir(output_dir):
+        return None
+
+    incomplete_files = []
+    for entry in os.listdir(output_dir):
+        if entry.endswith(".incomplete"):
+            # Extract run_id from filename like "result_20260123_135942.incomplete"
+            match = re.match(r"result_(\d{8}_\d{6})\.incomplete$", entry)
+            if match:
+                incomplete_files.append(match.group(1))
+
+    if not incomplete_files:
+        return None
+
+    # Return the latest one (sorted by timestamp)
+    incomplete_files.sort(reverse=True)
+    return incomplete_files[0]
+
+
+def load_completed_tasks(output_dir: str, run_id: str) -> set[tuple[str, str, str]]:
+    """Load completed tasks from an existing result file.
+
+    Returns a set of (filename, prompt_name, provider) tuples.
+    """
+    result_path = get_result_file_path(output_dir, run_id)
+    completed = set()
+
+    if not os.path.exists(result_path):
+        return completed
+
+    try:
+        with open(result_path, "r", encoding="utf-8") as f:
+            results = json.load(f)
+
+        for r in results:
+            filename = r.get("filename", "")
+            prompt_name = r.get("prompt_name", "")
+            provider = r.get("provider", "")
+            if filename and prompt_name and provider:
+                completed.add((filename, prompt_name, provider))
+    except (json.JSONDecodeError, IOError):
+        pass
+
+    return completed
+
+
+def append_result(output_dir: str, run_id: str, result: dict) -> None:
+    """Append a single result to the result file."""
+    result_path = get_result_file_path(output_dir, run_id)
+
+    # Load existing results
+    existing_results = []
+    if os.path.exists(result_path):
+        try:
+            with open(result_path, "r", encoding="utf-8") as f:
+                existing_results = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            existing_results = []
+
+    # Append new result
+    existing_results.append(result)
+
+    # Write back
+    with open(result_path, "w", encoding="utf-8") as f:
+        json.dump(existing_results, f, ensure_ascii=False, indent=2)
+
+
+def create_incomplete_marker(output_dir: str, run_id: str) -> None:
+    """Create an incomplete marker file for a run."""
+    os.makedirs(output_dir, exist_ok=True)
+    marker_path = os.path.join(output_dir, f"result_{run_id}.incomplete")
+    with open(marker_path, "w") as f:
+        f.write(run_id)
+
+
+def remove_incomplete_marker(output_dir: str, run_id: str) -> None:
+    """Remove the incomplete marker file when run completes."""
+    marker_path = os.path.join(output_dir, f"result_{run_id}.incomplete")
+    if os.path.exists(marker_path):
+        os.remove(marker_path)
+
+
+# ============================================================
 # Main
 # ============================================================
 
@@ -556,6 +659,16 @@ def main() -> None:
         "--output-dir",
         default="results",
         help="Directory to save result JSON files",
+    )
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Resume from the latest incomplete run if available",
+    )
+    parser.add_argument(
+        "--run-id",
+        default=None,
+        help="Specify a run ID to resume from (overrides --resume auto-detection)",
     )
     args = parser.parse_args()
 
@@ -589,28 +702,88 @@ def main() -> None:
         print(f"Prompt loaded ({prompt_path}): {preview}")
 
     md_items = load_markdown_files(args.mds)
-    results: list[dict] = []
 
-    total_tasks = len(md_items) * len(prompts)
+    # Handle resume logic
+    run_id: str
+    completed_tasks: set[tuple[str, str, str]] = set()
+
+    if args.run_id:
+        # Use specified run ID
+        run_id = args.run_id
+        completed_tasks = load_completed_tasks(args.output_dir, run_id)
+        print(f"\nResuming run: {run_id}")
+        print(f"Already completed: {len(completed_tasks)} tasks")
+    elif args.resume:
+        # Try to find latest incomplete run
+        latest_incomplete = find_latest_incomplete_run(args.output_dir)
+        if latest_incomplete:
+            run_id = latest_incomplete
+            completed_tasks = load_completed_tasks(args.output_dir, run_id)
+            print(f"\nResuming incomplete run: {run_id}")
+            print(f"Already completed: {len(completed_tasks)} tasks")
+        else:
+            run_id = generate_run_id()
+            print(f"\nNo incomplete run found. Starting new run: {run_id}")
+    else:
+        # Start a new run
+        run_id = generate_run_id()
+        print(f"\nStarting new run: {run_id}")
+
+    # Create incomplete marker
+    create_incomplete_marker(args.output_dir, run_id)
+
+    total_tasks = len(md_items) * len(prompts) * len(clients)
     task_num = 0
+    skipped_num = 0
 
-    for prompt_path, base_prompt in prompts:
-        prompt_name = os.path.splitext(os.path.basename(prompt_path))[0]
-        print(f"\n=== Using prompt: {prompt_name} ===")
+    try:
+        for prompt_path, base_prompt in prompts:
+            prompt_name = os.path.splitext(os.path.basename(prompt_path))[0]
+            print(f"\n=== Using prompt: {prompt_name} ===")
 
-        for i, (filename, content) in enumerate(md_items, 1):
-            task_num += 1
-            print(f"[{task_num}/{total_tasks}] Processing {filename} with {prompt_name}...")
-            file_results = process_file_with_clients(clients, base_prompt, filename, content, prompt_name, prompt_path)
-            for r in file_results:
-                if "error" in r:
-                    print(f"  -> {r['provider']}: Error - {r['error']}")
-                else:
-                    print(f"  -> {r['provider']}: OK")
-                results.append(r)
+            for i, (filename, content) in enumerate(md_items, 1):
+                # Process each client separately for better resume granularity
+                for client in clients:
+                    task_num += 1
+                    task_key = (filename, prompt_name, client.provider)
 
-    output_path = save_results(results, args.output_dir)
-    print(f"\nResults saved to: {output_path}")
+                    # Skip if already completed
+                    if task_key in completed_tasks:
+                        skipped_num += 1
+                        print(f"[{task_num}/{total_tasks}] Skipping {filename} ({prompt_name}, {client.provider}) - already done")
+                        continue
+
+                    print(f"[{task_num}/{total_tasks}] Processing {filename} ({prompt_name}, {client.provider})...")
+
+                    result = process_single_file(client, base_prompt, filename, content, prompt_name, prompt_path)
+
+                    if "error" in result:
+                        print(f"  -> {result['provider']}: Error - {result['error']}")
+                    else:
+                        print(f"  -> {result['provider']}: OK")
+
+                    # Append result immediately
+                    append_result(args.output_dir, run_id, result)
+
+        # All done, remove incomplete marker
+        remove_incomplete_marker(args.output_dir, run_id)
+        output_path = get_result_file_path(args.output_dir, run_id)
+        print(f"\nRun completed: {run_id}")
+        print(f"Total tasks: {total_tasks}, Skipped: {skipped_num}, Processed: {total_tasks - skipped_num}")
+        print(f"Results saved to: {output_path}")
+
+    except KeyboardInterrupt:
+        output_path = get_result_file_path(args.output_dir, run_id)
+        print(f"\n\nInterrupted! Run ID: {run_id}")
+        print(f"Partial results saved to: {output_path}")
+        print(f"To resume, run with: --resume or --run-id {run_id}")
+        raise
+    except Exception as e:
+        output_path = get_result_file_path(args.output_dir, run_id)
+        print(f"\n\nError occurred! Run ID: {run_id}")
+        print(f"Partial results saved to: {output_path}")
+        print(f"To resume, run with: --resume or --run-id {run_id}")
+        raise
 
 
 if __name__ == "__main__":
